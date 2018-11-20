@@ -1,0 +1,594 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+     min-width:1230px;
+     background-color: #ebebeb;
+     overflow:hidden;
+}
+#content
+{
+
+}
+td,th
+{
+    text-align:center;
+    height:30px;
+    font-size:14px;    
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:16%;
+}
+.titleContent table
+{
+    width:960px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+.reportContent
+{
+    background-color:#EBEBEB;
+}
+.hazeArea
+{
+width: 55%;
+float: left;
+background-color: white;
+margin-top: 10px;
+margin-left: 10px;
+}
+.rightArea
+{
+    width: 43%;
+float: right;
+background-color: #ebebeb;
+margin-top: 10px;
+margin-right: 10px;
+height: 100%;
+}
+.uvArea
+{
+    background-color: white;
+    height: 290px;
+}
+.ozoneArea
+{
+    margin-top:10px;
+    background-color: white;
+}
+.areaTitle
+{
+margin-left: auto;
+margin-right: auto;
+height: 30px;
+line-height: 30px;
+background-color: #f0f8f6;
+font-weight: bold;
+color:#7e8181;
+font-size: 14.5px;
+}
+.report
+{
+    margin-left: auto;
+margin-right: auto;
+}
+.uvProtectContent
+{
+    background-color:#e6efed;
+    border: 0px;
+}
+.uvProductContent
+{
+width: 100%;
+height: 20px;
+background-color: #e6efed;
+border: 0;
+}
+.ozoneArea
+{
+    
+}
+.areaTitle
+{
+    
+}
+.displayTable
+{
+    
+}
+.button
+{
+height: 24px;
+width: 70px;
+text-align: center;
+line-height: 24px;
+border: 1px solid gray;
+margin-right: 5px;
+font-size: 14px;
+}
+.button:hover
+{
+    background-color:#57b325;
+    cursor:pointer;
+}
+.valueArea
+{
+    text-align:center;
+}
+.tdName
+{
+     width: 190px;
+    text-align: right;
+    font-size: 13px;
+}
+.tdName_1
+{
+       width: 230px;
+    text-align: right;
+    font-size: 13px;
+}
+.tdValue
+{
+       width: 140px;
+    text-align: left;
+}
+.submitbutton:hover
+{
+    cursor:pointer;
+}
+.selectArea
+{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+line-height: 45px;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color: #e6efed;
+}
+.leftTitle
+{
+width: 12%;
+height: 100%;
+float: left;
+text-align: center;
+background-color: #42b184;
+color: white;
+}
+.selContent
+{
+    float: left;
+width: 88%;
+text-align: center;
+background-color: #e6efed;
+}
+.singlePeriod
+{
+    float: left;
+width: 33%;
+}
+.singleHazeLevel
+{
+    float: left;
+width: 16%;
+}
+
+.singlePeriod_Selected
+{
+    color:#42b184;
+    border-bottom:5px solid #42b184;
+}
+.singleHazeLevel_Selected
+{
+    color:#42b184;
+    border-bottom:5px solid #42b184;
+}
+
+.singlePeriod:hover,.singleHazeLevel:hover
+{
+    color:#42b184;
+    border-bottom:5px solid #42b184;
+    cursor:pointer;
+}
+
+.visibility
+{
+float: left;
+height: 20px;
+font-size: 14px;
+margin-top: 15px;
+margin-left: 20px;
+}
+.hazeHistory
+{
+float: left;
+margin-top: 10px;
+width: 70px;
+margin-right: 10px;
+
+height: 24px;
+text-align: center;
+line-height: 24px;
+border: 1px solid gray;
+font-size: 14px;
+}
+.hazeHistory:hover
+{
+    cursor:pointer;
+    background-color:#57b325;
+}
+.hazeOp
+{
+      margin-left: auto;
+margin-right: auto;
+width: 95%;
+    height: 50px;
+}
+.btnArea
+{
+   width: 340px;
+height: 40px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+}
+.saveButton
+{
+    float:left;
+}
+.pubButton
+{
+     float:left;
+}
+.checkButton
+{
+     float:left;
+}
+.hazeContent
+{
+width: 100%;
+height: 410px;
+margin-left: auto;
+margin-right: auto;
+background-color: #e6efed;
+}
+
+.txtArea
+{
+    margin-left: auto;
+margin-right: auto;
+width: 95%;
+background-color: #e6efed;
+}
+.txtArea_Haze
+{
+    margin-left: auto;
+margin-right: auto;
+width: 95%;
+background-color: #e6efed;
+text-align:center;
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+
+.textbox
+{
+    width: 140px;
+text-align: left;
+}
+.textboxIndex
+{
+     width: 100px;
+text-align: left;
+}
+.inputText
+{
+    width:80px;
+}
+.btnRight
+{
+    height: 24px;
+width: 80px;
+text-align: center;
+line-height: 24px;
+float:right;
+margin-left: 5px;
+color: #536c6b;
+background-color: #c9e2e1;
+border-radius: 15px;
+font-size: 13px;
+}
+.rightBtnArea
+{
+    margin-left: auto;
+margin-right: auto;
+width: 95%;
+height: 30px;
+margin-bottom: 5px;
+}
+
+
+.uvProtectContent
+{
+width: 100%;
+height: 80px;
+}
+
+.ozoneContent
+{
+    width:100%;
+    background-color:#e6efed;
+    border: 0px;
+}
+.contentTitle
+{
+    width: 20%;
+
+
+float: left;
+}
+.contentWithTitle
+{
+    height: 80px;
+width: 90%;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+.contentWithTitle_Low {
+height: 40px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+.rightContent
+{
+    width: 80%;
+float: left;
+}
+.btnRight:hover,.btnRight_24:hover
+{
+    cursor:pointer;
+    background-color:#57b325;
+    color:White;
+}
+.hazeContentTitle
+{
+   width: 100%;
+height: 30px;
+text-align: center;
+font-size: 22px;
+color: #424949;
+padding-top: 30px; 
+}
+.hazeContentDate
+{
+   width: 50%;
+text-align: right;
+color: #4b5a58;
+margin-left: auto;
+margin-right: auto;
+padding-top: 5px;
+}
+.hazeForecastContent
+{
+     width:30%;
+     
+     text-align: center;
+     margin-left: auto;
+margin-right: auto;
+padding-top: 5px;
+}
+.dataPicker
+{
+    float: right;
+margin-top: 15px;
+width: 163px;
+}
+.textTable
+{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+.contentTable
+{
+    border-spacing: 0px;
+    margin-left: auto;
+margin-right: auto;
+    background-color:#8fbc8f;
+    width:600px;
+    table-layout:fixed;
+}
+.contentTable td
+{
+    border:1px solid White;
+}
+.tdDate
+{
+    background-color:transparent;
+}
+.tdHaze
+{
+        position: relative;
+}
+.tdVis
+{
+   
+}
+td 
+{
+   
+}
+.pubOrganization
+{
+       width: 50%;
+text-align: right;
+color: #4b5a58;
+margin-left: auto;
+margin-right: 20px;
+margin-top: 15px;
+}
+.contentTable td
+{
+    height:40px;
+}
+.pubDateSelLabel
+{
+    float: right;
+margin-top: 15px;
+}
+
+#txtVisibilityMin
+{
+    width:50px;
+}
+.hazeInput
+{
+    border: 0;
+background-color: #8fbc8f;
+width: 90px;
+}
+.hazeDis,.hazeDis24
+{
+    border: 0;
+background-color: #8fbc8f;
+    width:50px;
+}
+.hazeContentTitleLeft
+{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    color: #424949;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 20px;
+}
+.dateDiv,.hazeDiv
+{
+   width:100%;
+   margin-left: auto;
+   margin-right: auto;
+   height:100%;
+   border-radius: 5px;
+   background-color: #8fbc8f;
+   line-height: 24px;
+}
+.hazeLevelText,.firstPolText
+{
+width: 170px;
+height: 100%;
+text-align: center;
+float: left;
+color: Black;
+}
+.selIcon
+{
+margin-top: 10px;
+width: 20px;
+height: 10px;
+background: url(../AQI/img/arrow-d.png) no-repeat;
+float: right;
+margin-right: 2px;
+}
+.hide
+{
+    display:none;
+}
+.display
+{
+    display:block;
+}
+.dateSelect
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.firstPolUl
+{
+    background-color:#dcdcdc;
+    margin-top:2px;
+}
+.selIcon:hover
+{
+    cursor:pointer;
+}
+.firstPolUl li div:hover,.hazeLevelUl li div:hover
+{
+    background-color:#a9a9a9;
+    cursor:pointer;
+}
+.firstPolUl li div
+{
+    height: 20px;
+    line-height: 20px;
+}
+.textTableLeft
+{
+    
+}
+.btnRight_24
+{
+    height: 24px;
+width: 80px;
+text-align: center;
+line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+color: #536c6b;
+background-color: #c9e2e1;
+border-radius: 15px;
+font-size: 13px;
+}
+.contentTable_24
+{
+        border-spacing: 0px;
+    margin-left: auto;
+margin-right: auto;
+    width:600px;
+    table-layout:fixed;
+}
+

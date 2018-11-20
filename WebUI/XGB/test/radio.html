@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="../../EvaluateHtml/JS/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".r").click(function () {
+                if ($(".r").is(":checked")) {
+                    alert($(this).val());
+                }
+            });
+            
+               
+            });
+       
+    </script>
+</head>
+<body>
+    <div><input type="radio" name="name" class="r" value="1" checked="checked" />1</div>
+    <div><input type="radio" name="name" class="r" value="2" />2</div>
+    <div><input type="radio" name="name" class="r" value="3" />3</div>
+    <div><input type="radio"name="name" class="r" value="4" />4</div>
+</body>
+</html>

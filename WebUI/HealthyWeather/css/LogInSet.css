@@ -1,0 +1,23 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+}
+.control-label{padding-right:0;}
+.need{ color:#FF0000; line-height:35px;}
+.center{ text-align:center;}
+.gap{ margin:5px;}
+#floatDiv{ position:absolute; right:20px; top:-1px;margin-top:2px;}
+#btnAddUser strong { font-size: 16px; font-weight: 900;}
+#register_filter,#logTbl_filter,#tblHandle_filter{ float:left;}
+#spanLastTime{ margin-right:20px;}
+.tab-pane table{ width:100%;}
+.tab-pane table td{ border:1px solid #efefef; padding:3px;}
+.tab-pane table h1{ font-size:18px;}
+
+#register_wrapper table.dataTable thead th, table.dataTable thead td{ padding:5px 10px; line-height:20px;}
+#register_wrapper table.dataTable tbody th, #register_wrapper table.dataTable tbody td{ padding:5px 2px;line-height:20px;}

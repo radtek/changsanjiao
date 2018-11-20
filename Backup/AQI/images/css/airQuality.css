@@ -1,0 +1,40 @@
+﻿
+.close_ico{
+	top:0px;
+	margin-left: 5px;
+	cursor:pointer;
+}
+#Add_popup{
+	background-color: #e8ffeb;
+	height: 0px;
+	width: 220px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #098218;
+	border-bottom-color: #098218;
+	border-left-color: #098218;
+	position: absolute;
+	display:none;
+}
+
+.popup_text{
+	height: 34px;
+	width: 110px;
+	float: left;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+}
+.popup_text_disable{
+	height: 34px;
+	width: 110px;
+	float: left;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+	color:#bbbbbb
+}

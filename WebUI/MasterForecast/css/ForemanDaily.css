@@ -1,0 +1,118 @@
+﻿body {
+    font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14px;
+	line-height: 25px;
+	color: #333333;
+	overflow-x: hidden;
+	padding:0px;
+    margin:0;
+    background-color: #ebebeb;
+}
+.attrName {
+    margin-left:5%;
+}
+.forecastTime {
+    margin-left:7%;
+}
+.forecaster {
+    display:inline-block;
+    width:10%;
+}
+.top {
+    width:100%;
+    background-color:#f9f9f9;
+    height:30px;
+}
+._top {
+    width:90%;
+    margin:0px auto;
+}
+.time {
+    width:120px;
+    height:22px;
+    padding-left:5px;
+    background-image:url(../images/datePicker.gif);
+    background-repeat:no-repeat;
+    background-position:center right;
+    background-color:#f2f2f2;
+    border: 1px solid #d6d6d6;
+}
+.save,.query {
+    width:50px;
+    height:22px;
+    border: 1px solid #b0b0b0;
+    margin-top: 3px;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
+.save {
+    margin-left:8%;
+}
+.query {
+    margin-left:8%;
+}
+.font_color {
+    color:#bc8363;
+}
+.titleText {
+    font-weight: bold;
+    color: #7e8181;
+    font-family: "宋体";
+    font-size: 19.5px;
+    line-height: 40px;
+    width:100%;
+    background-color:#f0f8f6;
+    padding-left:5px;
+}
+.titleText span {
+    background:url(../AQI/img/y.png) no-repeat center left;
+    padding-left:10px;
+}
+.content {
+    width:95%;
+    margin:20px auto;
+    background-color: white
+}
+.content .table-content {
+    /*float: left;*/
+    width:65%;
+    /*border:1px solid red;*/
+    /*height:200px;*/
+    margin:30px auto;
+}
+.title {
+    width:150px;
+    background-color:#42B385;
+    border-right:2px solid white;
+    text-align:center;
+    color:white;
+    line-height:35px;
+}
+.t-con {
+    text-align:center;
+    background-color:#F2F2F2;
+    border-right:2px solid white;
+    line-height:35px;
+}
+.aqi {
+    display:none;
+    height:25px;
+    width:90%;
+    margin:0 auto;
+}
+#poll {
+    display:none;
+}
+#poll .btn-group {
+    /*width:100px;*/
+    width:136px;
+}
+#poll .btn {
+    padding: 3px 6px;
+}
+
+
+/*#container {
+    float:left;
+}*/

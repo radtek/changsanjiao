@@ -1,0 +1,300 @@
+﻿
+.navi-area{
+	background-image: url(images/navi_bg.gif);
+	background-repeat: repeat-x;
+	height: 28px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	z-index: -99;
+}
+.navi-area ul{
+	margin-left: 8px;
+}
+.navi-area ul li{
+	float: left;
+	line-height: 28px;
+	font-size: 15px;
+	width: 102px;
+	text-align: left;
+	text-indent: 30px;
+}
+.navi-area ul li a{
+	color:#333;
+	text-decoration:none;
+	display: block;
+}
+.navi-area ul li a:hover{
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	background-image: url(images/navi_btn_h.png);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 102px;
+}
+.navi-line{
+	background-image: url(images/navi_line.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 28px;
+	width: 1px;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.navi-btn-h
+{
+	background-image: url(images/navi_btn_h.png);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 102px;
+	color: #FFF;
+	cursor: pointer;
+}
+.navi{
+	background-image: url(images/navi_btn_h.png);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 102px;
+	color: #FFF;
+}
+.tree
+{
+	background-image:url(images/tree.png);
+}
+.chartsDots
+{
+	background-image:url(images/chartsDots.png);
+}
+.weather
+{
+	background-image:url(images/WeatherCloudyRain.gif);
+}
+.dayReport
+{
+	background-image:url(images/rb.png);
+}
+.dataforcast
+{
+	background-image:url(images/computer.gif);
+}
+.forcast
+{
+	background-image:url(images/Com2LiICO.gif);
+}
+.share
+{
+	background-image:url(images/share.png);
+}
+.world
+{
+	background-image:url(images/world.png);
+}
+.manage
+{
+	background-image:url(images/manage.png);
+}
+.zx
+{
+	background-image:url(images/zx.png);
+}
+.MenuText
+{
+	color: #000000;
+	text-align: center;
+	height:28px;
+	
+	display: block;
+	line-height:28px;
+	float:left;
+}
+.buttonTop
+{
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 28px;
+	width: 102px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 28px;
+	float: left;
+	color: #000000;
+}
+.airQuality
+{
+	background-image:url(images/WeatherCloudyRain.gif);
+}
+
+.shachenW
+{
+	background-image:url(images/shachenW.png);
+}
+
+.user
+{
+	background-image:url(images/user.png);
+}
+
+
+.sysManager
+{
+	background-image:url(images/sysmanager.gif);
+}
+
+.transmit
+{
+	background-image:url(images/transmit.gif);
+}
+
+.satelite
+{
+	background-image:url(images/word.gif);
+}
+.sitemap
+{
+	background-image:url(images/sitemap.png);
+}
+.seaforcast
+{
+	background-image:url(images/statistics.png);
+}
+.bell
+{
+	background-image:url(images/bell.gif);
+}
+.table
+{
+	background-image:url(images/table.gif);
+}
+.message
+{
+	background-image:url(images/message.gif);
+}
+.home
+{
+	background-image:url(images/home.gif);
+}
+.track
+{
+	background-image:url(images/track.gif);
+}
+.line_graph
+{
+	background-image:url(images/line_graph.png);
+}
+
+.ballooning
+{
+	background-image:url(images/ballooning.png);
+}
+.potting
+{
+	 background-image: url(images/potting.png) !important;
+}
+.potting_h
+{
+	 background-image: url(images/potting_h.png) !important;
+}
+.potting_m
+{
+	 background-image: url(images/potting_h.png) !important;
+}
+.paper
+{
+	 background-image: url(images/paper.png) !important;
+}
+.paper_h
+{
+	 background-image: url(images/paper_h.png) !important;
+}
+.paper_m
+{
+	 background-image: url(images/paper_h.png) !important;
+}
+.people
+{
+	 background-image: url(images/people.png) !important;
+}
+.people_h
+{
+	 background-image: url(images/people_h.png) !important;
+}
+.people_m
+{
+	 background-image: url(images/people_h.png) !important;
+}
+.compare
+{
+	 background-image: url(images/compare.png) !important;
+}
+.compare_h
+{
+	 background-image: url(images/compare_h.png) !important;
+}
+.compare_m
+{
+	 background-image: url(images/compare_h.png) !important;
+}
+.comforecast
+{
+	background-image: url(images/zhyb.png) !important;
+}
+.comforecast_h
+{
+	background-image: url(images/zhyb_h.png) !important;
+}
+.comforecast_m
+{
+	background-image: url(images/zhyb_h.png) !important;
+}
+.comforecastModify
+{
+	background-image: url(images/gengzheng.png) !important;
+}
+.comforecastModify_h
+{
+	background-image: url(images/gengzheng_h.png) !important;
+}
+.comforecastModify_m
+{
+	background-image: url(images/gengzheng_h.png) !important;
+}
+.forecast
+{
+	 background-image: url(images/forecast.png) !important;
+}
+.forecast_h
+{
+	 background-image: url(images/forecast_h.png) !important;
+}
+.forecast_m
+{
+	 background-image: url(images/forecast_h.png) !important;
+}
+.PM2
+{
+	 background-image: url(images/PM2.png) !important;
+}
+.PM2_h
+{
+	 background-image: url(images/PM2_h.png) !important;
+}
+.PM2_m
+{
+	 background-image: url(images/PM2_h.png) !important;
+}
+.O3
+{
+	 background-image: url(images/O3.png) !important;
+}
+.O3_h
+{
+	 background-image: url(images/O3_h.png) !important;
+}
+.O3_m
+{
+	 background-image: url(images/O3_h.png) !important;
+}

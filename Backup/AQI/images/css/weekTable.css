@@ -1,0 +1,287 @@
+﻿*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+#title{
+	height: auto;
+	width: 900px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.dataTimeShow
+{
+	float: left;
+	margin-left: 140px;
+}
+.dateShow
+{
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+#title1h
+{
+	height: 36px;
+	width: 100%;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 微软雅黑;
+}
+#titleDate{
+	height: 20px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.content
+{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px 0px 5px 0px;
+}
+.querytool{
+	height: 38px;
+	width: 650px;
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #d7d7d7;
+	margin-top: 20px;
+}
+#tool_text{
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	width: 70px;
+	margin-left: 0px;
+}
+.selectDate{
+	height: 18px;
+	width: 110px;
+	float: left;
+}
+.selectDateFormStyle
+{
+	height: 22px;
+	width: 120px;
+	background-color: #f2f2f2;
+	border: 1px solid #d6d6d6;
+	background-image: url(../datePicker.gif) ;
+	background-position: right center;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+}
+.normal-btn{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #057dc2;
+	-webkit-box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	-moz-box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	border: solid 1px #066999;
+	background-image: -webkit-linear-gradient(bottom, #057dc2, #0988cc 56%, #0d94d6 57%, #0894d6);
+	background-image: -moz-linear-gradient(bottom, #057dc2, #0988cc 56%, #0d94d6 57%, #0894d6);
+	background-image: -o-linear-gradient(bottom, #057dc2, #0988cc 56%, #0d94d6 57%, #0894d6);
+	background-image: linear-gradient(to top, #057dc2, #0988cc 56%, #0d94d6 57%, #0894d6);
+	font-family: "微软雅黑";
+	cursor:pointer;
+}
+.normal-btn-h{
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #2690cb;
+	-webkit-box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	-moz-box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	box-shadow: inset 0 0 3px rgba(58,148,208,.75);
+	border: solid 1px #066999;
+	background-image: -webkit-linear-gradient(bottom, #248eca, #2b94cc 56%, #29a3de 57%, #32aee9);
+	background-image: -moz-linear-gradient(bottom, #248eca, #2b94cc 56%, #29a3de 57%, #32aee9);
+	background-image: -o-linear-gradient(bottom, #248eca, #2b94cc 56%, #29a3de 57%, #32aee9);
+	background-image: linear-gradient(to top, #248eca, #2b94cc 56%, #29a3de 57%, #32aee9);
+	font-family: "微软雅黑";
+	cursor:pointer;
+}
+.input-btn{
+	color: #FFF;
+	height: 35px;
+	width: 120px;
+	font-size: 16px;
+}
+.input-btnQuery{
+	color: #FFF;
+	height: 26px;
+	width: 92px;
+	font-size: 16px;
+
+}
+.select-Query{
+	background-image: url(../cx_ico.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+.select-export{
+	background-image: url(../dc_ico.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+.select-text{
+	text-align: center;
+	float: left;
+	height: 24px;
+	width: 56px;
+	line-height: 24px;
+}
+#content{
+	width: 1046px;
+	border: 2px solid #078015;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+.Litextarea
+{
+	height:40px;
+	float:right;
+}
+.textarea{
+	background-color: #FFF;
+	border: 1px solid #d6d6d6;
+	float:right;
+    width:300px;
+    height:50px;
+    font-size:12px;
+}
+#tool_btn_area{
+	width: 200px;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+}
+.tabletitleOther{
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 26px;
+	height: 26px;
+	width: 30%;
+	text-align: center;
+	font-size: 13px;
+    font-family:"微软雅黑","宋休",Verdana;
+	padding: 2px;
+	
+}
+.tabletitle
+{
+	background-color: #D3EDD7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width: 30%;
+	text-align: center;
+	font-size: 14px;
+	padding: 2px;
+	white-space:nowrap;
+	font-weight: bold;
+}
+.tabletitleL
+{
+	background-color: #D3EDD7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width: 10%;
+	text-align: center;
+	font-size: 14px;
+	padding: 2px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.tablekuang{
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C9C9C9;
+	border-right-color: #C9C9C9;
+	border-bottom-color: #C9C9C9;
+	border-left-color: #C9C9C9;
+}
+.tabletitleOtherLeft
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width: 10%;
+	text-align: center;
+	font-size: 14px;
+	padding: 2px;
+	white-space: nowrap;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #C9C9C9;
+	font-weight: bold;
+}
+td input
+{
+	height:40px;
+    width:80%;
+    float:right;
+    background-color: #FFF;
+	border: 1px solid #d6d6d6;
+    margin-bottom:2px;
+ }
+ .labelCss
+{
+	height: 45px;
+	line-height: 40px;
+	color: #000066;
+}
+ input::-ms-clear {
+    display: none;
+}

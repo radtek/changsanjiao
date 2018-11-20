@@ -1,0 +1,54 @@
+﻿body {
+}
+@charset "utf-8";
+.table1{ margin:15px; background-color:#FFF; border:#bfcde1 solid 1px;}
+.tabs_middle1{ width:100%; margin:10px 10px;}
+/*.tabs_middle1_left{width:410px; float:left; margin:10px 10px;}
+.c_text{ width:403px; margin-left:5px; border:none; height:270px;  margin-bottom:5px; line-height:1.5em;}
+.contenttitle2{ height:280px;}
+.contenttitle2 .table3{ margin:5px; width:380px;}*/
+
+.tabs_middle1_left
+{
+        width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    }
+.tabs_middle1_left_new_pro{width:95%; margin-top:10px; margin-bottom:10px;}
+
+.tabs_middle1_left_new_pro content_margin{margin:5px 2px 0 2px}
+
+/*.tabs_middle1_left{width:97%; float:left; margin:10px 10px;}*/
+.c_text{ width:600px; margin-left:5px; border:none; height:270px;  margin-bottom:5px; line-height:1.5em;}
+.contenttitle2{ height:80%;}
+.contenttitle3
+{
+    overflow-y:visible
+}
+.contenttitle2 .table3{ margin:5px; width:380px;}
+
+.contenttitle2 .table3 td{ padding:5px;}
+.dl{ line-height:20px;}
+.title .weater,.weater1{ margin-left:5px; margin-right:5px; width:395px;}
+.weater1{ margin-top:12px; margin-bottom:12px;}
+.weater th td{ height:24px; line-height:24px;}
+.weater td{ font-size:12px; font-weight:normal;}
+.title{ line-height:24px; text-align:center; padding-top:10px; padding-bottom:10px;}
+.title h1{font-size:12px; font-weight:bold; color:#393939;}
+.title h2{font-size:12px; font-weight:normal; color:#393939;}
+.group{ padding-top:10px;}
+.contenttitle2 p{ padding-left:10px; padding-right:10px; text-indent:2em; line-height:20px;}
+.c_botoom{ margin-bottom:10px; padding-top:100px;}
+.c_botoom b{ padding-left:10px;}
+.button{ border:1px solid #8aaadb; background: url(../images/Content/btn_bg.jpg) repeat-x;font:12px/20px  "宋体"; padding:0 15px; margin-right:10px;}
+.button:hover{ border:1px solid #36C; background: url(../images/Content/btn_bg.jpg) repeat-x;font:12px/20px  "宋体"; cursor:pointer; padding:0 15px}
+.pointTitle
+{
+        background-color: white;
+    color: Green;
+    padding-left: 13px;
+    font-size: 14.5px;
+}
+input,textarea{outline:none} 
+textarea{resize:none} 

@@ -1,0 +1,52 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+	margin:0px;
+	padding:0px;
+}
+.modal-body {
+    padding-left: 40px;
+}
+th {
+    text-align: center;
+}
+.top {
+    width:90%;
+    margin:0 auto;
+    margin-top:10px;
+}
+#orgTab_wrapper thead tr
+{
+    background-color: #0a5c94;
+    color: white;
+    font-weight:normal;
+}
+#orgTab tbody
+{
+    cursor:pointer;
+}
+table thead tr th
+{
+    border-right:1px solid white;
+}
+table thead tr th:last-child
+{
+    border:none;
+}
+.selected
+{
+    background-color:#ccc;
+}
+.move
+{
+    width:100%;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0; 
+}

@@ -1,0 +1,156 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding:0;
+    margin:0;
+}
+input[type="radio"] {
+    cursor:pointer;
+}
+.top {
+    width:100%;
+    background-color:white;
+    height: 57px;
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
+}
+._top {
+    width:95%;
+    margin:0 -2%;
+}
+.right-bar{
+    top:5px;
+}
+.control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+label {
+    font-weight: normal;
+}
+.parent {
+    font-weight:600;
+    font-size: 15.5px;
+}
+.content {
+    padding-bottom:20px;    
+}
+.content .cur {
+    cursor:pointer;
+}
+.content .tab-h  td {
+    width:16%;
+    line-height:40px;
+    text-align:center;
+    border-right:1px solid white;
+}
+.cont tr {
+    border-top:1px solid #ddd;
+}
+.content tr td {
+    width:16%;
+    line-height:40px;
+}
+.content tr .desc {
+    width:45% !important;
+    /*border-right:none;*/
+}
+.content tr td:last-child {
+    width:7%;
+    border-right:none;
+    line-height:40px;
+}
+.content table {
+    width:100%;
+}
+/*.content table  tr:first-child{
+    background: linear-gradient(to bottom, #ccc , #eee);
+}*/
+.tab-h {
+     background: linear-gradient(rgb(57, 120, 163),rgba(20, 130, 206, 0.88),rgb(57, 120, 163));
+     /*background:rgb(57,120,163);*/
+     color:white;
+}
+._box {
+    margin-top: 50px;
+}
+._top input[type="radio"] {
+    margin: 7px 0 0;
+    margin-left: -20px;
+}
+.left-content {
+    margin-top: 57px;
+}
+.content table .info{
+   text-align:center;
+   /*background-color:#ccc;*/
+   /*border:1px solid #808080;*/
+   line-height:40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.clo {
+    background:url(../images/details_open.png) no-repeat left center;
+}
+.open {
+    background:url(../images/details_close.png) no-repeat left center;
+}
+/*.content table .wea {
+    padding-left:30px;
+}*/
+.content table .total {
+    /*background-color:#e8e6e6;*/
+    background-color: #ccc;
+    line-height: 25px !important;
+    font-size:13.5px;
+}
+.img {
+    text-align:center;
+    line-height:40px;
+}
+.disp {
+    width: 30px;
+    height: 40px;
+    float: left;
+    cursor:pointer;
+}
+.info .input-txt {
+    height:30px;
+    width:75%;
+    padding-left:7px;
+    display:none;
+}
+.info .span-txt {
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.cont tr td img {
+    cursor:pointer;
+}
+.feature-tab tr .cl:nth-child(2){
+    width: 23%;
+}
+.feature-tab tr .cl:nth-child(3) {
+    width: 70%;
+}
+.feature-tab td:nth-child(1) {
+    padding-left:8%;
+}
+.feature-tab td {
+    width: 27%;
+}
+.feature-tab tr td:nth-child(2) {
+    width: 68%;
+}
+label
+{
+    font-weight: normal;
+}

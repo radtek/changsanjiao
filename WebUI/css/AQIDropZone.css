@@ -1,0 +1,451 @@
+﻿body 
+{
+    font-size:14px;
+     min-width:1230px;
+     background-color:#ebebeb;
+     overflow:hidden
+}
+
+.all
+{
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    padding: 5px;
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:16%;
+}
+.titleContent table
+{
+    width:960px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+
+.two
+{
+margin-left:10px;
+float:left;
+background-color:White;
+margin-top: 10px;
+}
+
+.table2
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.button_Bottom
+{
+    border: 1px solid #b0b0b0;
+background: url(../images/aqi/btn_bg.jpg) repeat-x;
+font: 14px/20px "宋体";
+padding: 0 15px;
+margin-left: 5px;
+margin-top: 3px;
+color: black;
+height: 24px;
+line-height: 24px;
+width: 45px;
+text-align: center;
+float: left;
+}
+.button
+{
+   border: 1px solid #b0b0b0;
+background: url(../images/aqi/btn_bg.jpg) repeat-x;
+font: 14px/20px "宋体";
+padding: 0 15px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3px;
+color: black;
+height: 24px;
+line-height: 24px;
+width: 60px;
+text-align: center;
+}
+
+.button:hover,.button_Bottom:hover
+{
+    cursor:pointer;
+       background-color:#57b325;
+    color:White;
+}
+.downloadBottom:hover
+{
+     background-color:#57b325;
+     cursor:pointer;
+}
+.buttonup
+{
+    background-image: url('images/up.png');
+    margin-top: -14px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.buttondown
+{
+    background-image: url('images/down.png');
+    margin-top: -14px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.trimg td
+{
+    padding-top:5px;
+    text-align:center;
+}
+
+.tabs
+{
+    margin: 0px;
+    padding-top:10px;
+    background:#FFF;
+}
+
+.tabs-container
+{
+    border: 1px solid #CCC;
+    width:100%;
+}
+
+.tabs-wrap
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs li
+{
+    background:#CCC;
+    float: left;
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0px;
+    position: relative;
+    border: 1px solid #8DB2E3;
+    border-bottom:0px;
+}
+
+.tabs li a
+{
+    display: inline-block;
+    margin: 0px;
+    height: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.tabs li:hover
+{
+    cursor:pointer;
+}
+.tabs li a:hover
+{
+    color:#FFF;
+}
+.showimages
+{
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.submit
+{
+   width:100px;
+   height:300px;
+}
+.disImg
+{
+border: 1px solid #8DB2E3;
+}
+.disImg:hover
+{
+    cursor:pointer;
+}
+.topCheck
+{
+    margin-left: auto;
+margin-right: auto;
+width: 100px;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+.imgArea
+{
+        
+        text-align: center;
+        
+}
+.totalArea
+{
+    margin-left: auto;
+margin-right: auto;
+}
+.guideReport
+{
+    float:right;
+    margin-right:10px;
+    background-color:White;
+    margin-top:10px;
+    position:relative;
+}
+.mapTitle
+{
+width: 100%;
+top: 0;
+height: 30px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14px;
+line-height: 30px;
+background-color: #f0f8f6;
+opacity: 0.63;
+
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.topCheck input
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+.autoArea
+{
+    width: 100%;
+height: 30px;
+
+position: absolute;
+top: 20px;
+}
+.bottomBtns
+{
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    position: fixed;
+    bottom: 40px;
+}
+.btns
+{
+    width: 270px;
+margin-left: auto;
+margin-right: auto;
+height: 100%;
+}
+.allCheck
+{
+    width: 100%;
+text-align: center;
+
+position: absolute;
+bottom: 150px;
+
+top: 120px;
+}
+.allSelText
+{
+    margin-left: 10px;
+}
+.textdownload
+{
+    margin-top:15px;
+    background-color:#E6EFEE;
+    margin-left: auto;
+margin-right: auto;
+position:relative;
+}
+.downloadBottom
+{
+    background-color:#42AF85;
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    color:White;
+    font-family:"微软雅黑";
+    font-size:14px;
+    line-height: 40px;
+}
+.btns_Bottom
+{
+    position: fixed;
+    bottom: 40px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+.innerBtns
+{
+    width: 270px;
+
+margin-left: auto;
+margin-right: auto;
+}
+.rightCorner
+{
+    position: relative;
+    float: left;
+}
+.checkText
+{
+    font-weight:bold;
+    font-family:"微软雅黑";
+    font-size: 14px;
+}
+.downloadIcon
+{
+    width:67px;
+    height:76px;
+    position:absolute;
+    top:120px;
+    
+    right:70px;
+}
+.downloadIcon_Success
+{
+    width:67px;
+    height:76px;
+    position:absolute;
+    top:120px;
+    background:url(../AQI/img/xl.png) no-repeat center;
+    right:70px;
+}
+.downloadIcon_Fail
+{
+    width:67px;
+    height:76px;
+    position:absolute;
+    top:120px;
+    background:url(../AQI/img/kl.png) no-repeat center;
+    right:70px;
+}
+.downloadText
+{
+position: absolute;
+top: 170px;
+left: 50px;
+font-family: "黑体";
+font-size: 20px;
+color: gray;
+height: 90px;
+width: 200px;
+}
+.txtAutoGet
+{
+    width: 80px;
+height: 30px;
+background-color: white;
+border-radius: 15px;
+line-height: 30px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+.txtAutoGet:hover
+{
+    background-color:Gray;
+    cursor:pointer;
+}
+.remindText
+{
+    
+}
+.autoGetOutLine
+{
+    width: 100%;
+position: absolute;
+bottom: 50px;
+}
+.bg{display:none;position:fixed;width:100%;height:100%;background:#000;z-index:2;top:0;left:0;opacity:0.5;}
+.show{position:fixed;top:0;z-index:3;cursor:pointer;width:80%;height:100%;left:10%;}
+.detailViewDiv
+{
+    width: 80%;
+    background-color:White;
+    z-index: 99992;
+    position: fixed;
+    top: 30px;
+    left: 10%;
+    text-align: center;
+    display:none;
+}
+.detailView
+{
+    border: 0;
+    /* padding-top: 10px; */
+    height: 90%;
+    margin-top: 50px;
+    display:none;
+}
+.closeBtn
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:32px;
+    height:32px;
+    background:url(images/imageViewer/x-n.png) no-repeat center;
+    z-index:3;  
+}
+
+.closeBtn:hover
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:32px;
+    height:32px;
+    background:url(images/imageViewer/x-v.png) no-repeat center;
+    z-index:3;  
+}

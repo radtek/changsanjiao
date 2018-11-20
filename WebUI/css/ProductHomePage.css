@@ -1,0 +1,19 @@
+﻿body {
+}
+.disImgBottom
+{
+    width: 30%;
+}
+.disImgTop
+{
+    width: 37%;
+}
+.topTwo,.bottomThree
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

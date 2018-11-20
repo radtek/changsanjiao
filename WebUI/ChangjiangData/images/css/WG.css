@@ -1,0 +1,188 @@
+﻿body 
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+#UserContent{
+	width: 1046px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10px;
+	padding: 5px;
+	overflow: hidden;
+	height:25px;
+}
+.useName
+{
+	border: 1px solid #d6d6d6;
+	width: 100px;
+	padding-left: 8px;
+	margin-left: 5px;
+	height:20px;
+}
+.userImage
+{
+	float:right;
+	margin-right:700px;
+}
+#useName
+{
+	font-size: 20px;
+	line-height: 15px;
+	font-size: 15px;
+}
+.listStytel
+{
+	height: 22px;
+	width: 120px;
+	background-color: #f2f2f2;
+	border: 1px solid #d6d6d6;
+	margin-top: 3px;
+}
+.Logtablerow
+{
+	line-height: 26px;
+	height: 26px;
+	width: 10%;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+}
+.LogtablerowLeft
+{
+	line-height: 26px;
+	height: 26px;
+	width: 10%;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+}
+.tabletitleUser
+{
+	background-color: #D3EDD7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width: 9%;
+	text-align: center;
+	font-size: 14px;
+	padding: 2px;
+	white-space: nowrap;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #C9C9C9;
+}
+.tabletitleUserLeft
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C9C9C9;
+	background-color: #D3EDD7;
+	line-height: 24px;
+	height: 24px;
+	width: 9%;
+	text-align: center;
+	font-size: 14px;
+	padding: 2px;
+	white-space: nowrap;
+}
+.buttonStyle
+{
+	padding: 3px;
+}
+.divEditor
+{
+	border: 1px solid #CCCCCC;
+	width: 400px;
+	height: 18px;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+}
+.editorClass
+{
+	width: 1046px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+	height:25px;
+	margin-top:5px;
+	
+}
+.useNameLabel
+{
+	font-size: 14px;
+	line-height: 18px;
+	float: left;
+	text-align: right;
+	padding: 5px;
+	width: 60px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.editorContent
+{
+	background-color: #FFFFFF;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -280px;
+}
+.queryUser
+{
+	cursor: pointer;
+	border: none;
+	width: 92px;
+	height: 26px;
+	padding-left: 20px;
+}
+.defaultAddButton
+{
+	background:url(../add.png);
+}
+.overAddButton
+{
+	background:url(../add_h.png);
+}
+.defaultDeleteButton
+{
+	background:url(../del.png);
+}
+.overDeleteButton
+{
+	background:url(../del_h.png);
+}
+.border
+{
+	background: url(../border.png);
+	height: 2px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+}
+
+#div_btn
+{
+  padding-left:29px;
+  float:left;
+}

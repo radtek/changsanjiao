@@ -1,0 +1,80 @@
+﻿body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	height: 100%;
+	margin:0px;
+	padding:0px;
+	overflow:scroll;
+	overflow-y:hidden
+}
+.todayFore,.sevenFore {
+    margin-top:10px;
+    border:1px solid black;
+    height:77px;
+    width:95%;
+    position:relative;
+    padding:20px;
+    box-sizing: border-box;
+    margin:20px auto 0;
+}
+.title {
+    position:absolute;
+    top: -1em;
+    left:2%;
+    line-height: 2em;
+    padding: 0 1em;
+    background-color:white;
+    font-weight:600;
+}
+.control-label {
+    font-weight:normal;
+}
+#txt {
+    overflow:auto;
+    resize:none;
+    outline:none;
+}
+.x-masked select{
+    visibility: visible;
+}
+.frame
+{
+    width:230px;
+    position:absolute;
+    right:0;
+    bottom:-90px;
+    display:none;
+}
+.tipSuccess
+{
+   position:relative;
+   width:95%;
+   margin:0 auto;
+}
+.frame .title2
+{
+    background-color:#7ca7de;
+    line-height: 28px;
+    padding-left:8px;
+    color:white;
+    font-weight:600;
+}
+.outer
+{
+    border:7px solid #7ca7de;
+    border-top:none;
+}
+.inner
+{
+    height:80px;
+    border: 1px solid #ccc;
+    background-color:#9fbaf5
+}
+.div-txt
+{
+    width:80%;
+    margin:0 auto;
+    padding-top:8px;
+    color: rgb(0, 128, 0);
+}

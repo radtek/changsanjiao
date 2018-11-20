@@ -1,0 +1,357 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    /*background: #e4eaf5;*/
+     scrollbar-face-color: #DDDDDD;
+        scrollbar-shadow-color: #D2E5F4;
+        scrollbar-highlight-color: #FFFFFF;
+        scrollbar-3dlight-color: #FFFFFF;
+        scrollbar-darkshadow-color: #FFFFFF;
+        scrollbar-track-color: #EEEEEE; 
+        scrollbar-arrow-color:#999999;
+}
+
+html { 
+        scrollbar-face-color: #DDDDDD;
+        scrollbar-shadow-color: #D2E5F4;
+        scrollbar-highlight-color: #FFFFFF;
+        scrollbar-3dlight-color: #FFFFFF;
+        scrollbar-darkshadow-color: #FFFFFF;
+        scrollbar-track-color: #EEEEEE; 
+        scrollbar-arrow-color:#999999 }
+
+/* #region 页面布局*/
+.left
+{
+    margin-right: 170px;
+}
+
+.right
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 155px;
+}
+
+
+.ct_left
+{
+    float: left;
+    height: 28px;
+    width: 5px;
+    background-image: url(../images/aqi/ct_left.png);
+}
+
+.ct_icon
+{
+    float: left;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.ct_mid
+{
+    color: #FFF;
+    background-image: url(../images/aqi/ct_mid.png);
+    margin: 0 5px;
+    height: 28px;
+    text-align: left;
+    font: bold 12px/28px "宋体";
+}
+
+    .ct_mid img
+    {
+        margin-top: 0px;
+    }
+
+.ct_right
+{
+    float: right;
+    height: 28px;
+    margin-top: -28px;
+    width: 5px;
+    background-image: url(../images/aqi/ct_right.png);
+}
+
+
+/*#endregion*/
+
+/*#region 容器*/
+.panelbox
+{
+    padding: 10px 10px 0 10px;
+    background-color: #FFF;
+}
+
+.content
+{
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    padding: 5px 15px 15px 15px;
+}
+
+.box
+{
+    min-height: 30px;
+    border: 1px solid #CCC;
+    /*background-color: #C0D9D9;*/
+}
+
+    .box .label
+    {
+        width: 150px;
+        height: 26px;
+        color: #fff;
+        background-image: url(../images/aqi/tab-yellow.png);
+        margin-top: -9px;
+        margin-left: 5px;
+        font: bold 12px/28px "宋体";
+        position: absolute;
+    }
+
+        .box .label span
+        {
+            margin-left: 15px;
+        }
+
+    .box .oper
+    {
+        width: 40px;
+        height: 26px;
+        color: #fff;
+        margin-top: -9px;
+        position: absolute;
+        right: 35px;
+        cursor: pointer;
+        background-image: url(../images/aqi/down.png);
+    }
+
+        .box .oper.show
+        {
+            background-image: url(../images/aqi/up.png);
+        }
+        
+   
+   
+   
+   .button
+{
+    border: 1px solid #8aaadb;
+    background: url(../images/aqi/btn_bg.jpg) repeat-x;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+}
+
+    .button:hover
+    {
+        border: 1px solid #36C;
+        background: url(../images/aqi/btn_bg.jpg) repeat-x;
+        font: 12px/20px "宋体";
+        cursor: pointer;
+        padding: 0 15px;
+    }
+
+ 
+ .submit
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.submitbutton
+{
+    width: 63px;
+    height: 20px;
+    background-color: Gray;
+    /*float: left;*/
+    border-radius: 10%;
+    line-height: 20px;
+    color: White;
+    margin-left: 5px;
+    text-align: center;
+}
+
+    .submitbutton:hover
+    {
+        border: 1px solid #36C;
+        background: url(../images/aqi/subnav_left.png) -5px -2px repeat-x;
+        font: 12px/18px "宋体";
+        cursor: pointer;
+        padding: 3px 25px;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+ 
+    .tabs99
+{
+    background: url(../images/aqi/3tab.jpg) repeat-x;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    height: 28px;
+    font: bold 12px/28px "宋体";
+    color: #000;
+}
+
+/*-------------------------------------------------------------------分页标签头部样式 start------------------------------*/
+        
+    .tabs
+{
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    border-top: 0px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+}
+
+    .tabs ul
+    {
+        list-style-type: none;
+        width: 1000px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+
+        .tabs ul li
+        {
+            height: 24px;
+            margin: 0 1px;
+            padding: 0 20px;
+            list-style-type: none;
+            border: 1px solid #CCC;
+            border-bottom: 0px;
+            float: left;
+            display: block;
+            font: 12px/24px "宋体";
+            color: #333;
+            cursor: pointer;
+        }
+
+        .tabs ul li:hover
+            {
+                height: 24px;
+                margin: 0 1px;
+                padding: 0 20px;
+                list-style-type: none;
+                border: 1px solid #CCC;
+                border-bottom: 1px solid #FFF;
+                float: left;
+                display: block;
+                background-color: #fff;
+                font: 12px/24px "宋体";
+                cursor: pointer;
+                color: #06F;
+            }
+
+        .tabs ul .lion
+        {
+            height: 24px;
+            margin: 0 1px;
+            padding: 0 20px;
+            list-style-type: none;
+            border-right: 1px solid #CCC;
+            solid;
+            float: left;
+            display: block;
+            background-color: #fff;
+            font: 12px/24px "宋体";
+            cursor: pointer;
+            color: #06F;
+            border-bottom: 1px solid #FFF;
+        }
+/*-------------------------------------------------------------------分页标签头部样式 end------------------------------*/
+        .default_table
+{
+    width: 100%;
+    color: #4c7493;
+    text-align: center;
+    border-collapse: collapse;
+    font: 12px/30px "宋体";
+    border: 1px #CCC solid;
+    table-layout: fixed;
+}
+
+.default_table2
+{
+    width: 100%;
+    color: #4c7493;
+    text-align: center;
+    border-collapse: collapse;
+    font: 12px/30px "宋体";
+    border: 0px #CCC solid;
+    table-layout: fixed;
+}
+
+.default_table3
+{
+    width: 99%;
+    color: #4c7493;
+    text-align: center;
+    border-collapse: collapse;
+    font: 12px/30px "宋体";
+    border: 1px #CCC solid;
+    table-layout: fixed;
+    margin:5px 0px 5px 0px;
+}
+    .default_table3 td
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+    }
+
+    .default_table3 th
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+        background-color:#e4eaf5;
+    }
+    .default_table3 td input
+    {
+         width:95%;
+    }
+    .default_table3 td select
+    {
+         width:95%;
+    }
+    
+    .default_table td
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+    }
+
+    .default_table th
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+    }
+    
+.input_no_border
+{
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+    border-top-width:0px;
+}
+
+ select{color:#4c7493;}
+ input,textarea{color:#4c7493;display:inline;vertical-align:middle;background:#fff;border:1px solid #CACACA;border-radius:4px 4px 4px 4px;font-family:'Microsoft YaHei';}
+ 
+ .attrName
+{
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+    text-align:left;
+    width:16%;
+}

@@ -1,0 +1,23 @@
+﻿*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+.forecast
+{
+	margin-right: 50px;
+}
+.tool
+{
+	height: 30px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: #d7d7d7;
+	padding-top: 10px;
+}

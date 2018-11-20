@@ -1,0 +1,30 @@
+
+
+2014-01-10 10:16:12,041 - PublicData:{微博发送成功}
+
+2014-01-10 10:28:20,943 - PublicData:{微博发送成功}
+
+2014-01-10 10:45:43,692 - PublicData:{微博发送成功}
+2014-01-10 10:46:34,622 - PublicData:{微博发送成功}
+
+2014-01-10 11:14:13,982 - PublicData:{微博发送成功}
+
+2014-01-10 11:44:59,440 - PublicData:{微博发送成功}
+2014-01-10 11:45:41,009 - PublicData:{微博发送成功}
+2014-01-10 11:51:54,520 - PublicData:{微博发送成功}
+2014-01-10 11:52:38,586 - PublicData:{微博发送成功}
+
+
+2014-01-10 13:17:33,061 - PublicData:{新浪微博发送成功}
+2014-01-10 13:19:33,961 - PublicData:{新浪微博发送成功，腾讯微博发送成功}
+2014-01-10 13:37:40,333 - PublicData:{实时发布系统发送成功，新浪微博发送成功，腾讯微博发送成功}
+2014-01-10 13:37:51,431 - PublicData:{实时发布系统发送成功，新浪微博发送失败，原因是NetDimension.Weibo.WeiboException: 不要太贪心哦，发一次就够啦
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\OAuth.cs:行号 249
+   在 NetDimension.Weibo.Client.Http(String command, RequestMethod method, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 121
+   在 NetDimension.Weibo.Client.PostCommand(String command, WeiboParameter[] parameters) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Client.cs:行号 81
+   在 NetDimension.Weibo.Interface.StatusAPI.Update(String status, Single lat, Single log, String annotations) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Interface\StatusAPI.cs:行号 392
+   在 NetDimension.Weibo.Interface.Entity.StatusInterface.Update(String status, Single lat, Single log, String annotations) 位置 e:\Users\Anderson\Documents\Visual Studio 2012\Projects\SinaWeiboSDK_V2\NetDimension.Weibo\Interface\Entity\StatusInterface.cs:行号 333
+   在 WeiBo.SendWeiBo.SendSina(String content) 位置 F:\SEMCShares使用中\WeiBo\SendWeiBo.cs:行号 66，腾讯微博发送成功}
+
+
+2014-01-10 15:37:53,882 - PublicData:{新浪微博发送成功，腾讯微博发送成功}

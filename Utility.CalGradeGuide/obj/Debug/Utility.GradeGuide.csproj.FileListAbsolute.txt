@@ -1,0 +1,29 @@
+F:\EMFCDataBase\ModuleTest\DitingProject\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\ResolveAssemblyReference.cache
+F:\EMFCDataBase\ModuleTest\DitingProject\DealHealthyGuide\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+F:\EMFCDataBase\ModuleTest\DitingProject\DealHealthyGuide\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+F:\EMFCDataBase\ModuleTest\DitingProject\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+F:\EMFCDataBase\ModuleTest\DitingProject\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide1\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide1\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide1\Utility.CalGradeGuide\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\DealHealthyGuide1\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide1\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+F:\程序\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+F:\程序\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb
+C:\Users\ZhangXiaoyi\Desktop\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+C:\Users\ZhangXiaoyi\Desktop\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+C:\Users\ZhangXiaoyi\Desktop\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+C:\Users\ZhangXiaoyi\Desktop\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb
+C:\Users\ZhangXiaoyi\Desktop\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.csprojResolveAssemblyReference.cache
+C:\Users\ZhangXiaoyi\Desktop\健康气象数据\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.dll
+C:\Users\ZhangXiaoyi\Desktop\健康气象数据\DealHealthyGuide - 复制\Utility.CalGradeGuide\bin\Debug\Utility.GradeGuide.pdb
+C:\Users\ZhangXiaoyi\Desktop\健康气象数据\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.dll
+C:\Users\ZhangXiaoyi\Desktop\健康气象数据\DealHealthyGuide - 复制\Utility.CalGradeGuide\obj\Debug\Utility.GradeGuide.pdb

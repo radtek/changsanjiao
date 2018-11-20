@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html PUBLIC "-W3CDTD XHTML 1.0 TransitionalEN" "http:www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>在线文档管理模块</title>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="images/css/WorkGroup.css?v=4" rel="stylesheet" type="text/css" />
+    <link href="images/css/css.css" rel="stylesheet" type="text/css" />
+    <script src="js/Ajax.js" type="text/javascript"></script>
+    <script src="js/Tree.js" type="text/javascript"></script>
+    <script src="js/Dialog.js" type="text/javascript"></script>
+    <script src="js/Common.js" type="text/javascript"></script>
+    <link href="images/dialog/Dialog.css" rel="stylesheet" type="text/css" />
+    <link href="css/WebExplorer.css" rel="stylesheet" type="text/css" />
+    <script src="fckeditor/fckeditor.js" type="text/javascript"></script>
+ <script type="text/javascript" src="../Ext/adapter/ext/ext-base.js"></script>
+ <script type="text/javascript" src="../Ext/ext-all.js"></script>
+ <script type="text/javascript" src="../Ext/ext-lang-zh_CN.js"></script>
+ <script language="javascript" type="text/javascript" src="../DatePicker/WdatePicker.js"></script>
+
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+   <style type="text/css">
+  #toolbar {
+    padding: 4px;
+    width:890px;
+    display: inline-block;
+  }
+  /* support: IE7 */
+  *+html #toolbar {
+    display: inline;
+  }
+  </style>
+    <script type="text/javascript">
+        $(function () {
+            $("#up").button({
+                text: false
+            });
+            $("#down").button({
+                text: false
+            });
+            $("#del").button({
+                text: false
+            });
+            $("#rename").button({
+                text:false
+            });
+        });
+  </script>
+</head>
+<body onclick="checkChange()" style=" margin-top:18px;  overflow:hidden;">
+    <div id="fileExplorer">
+        <div id="tree" style="visibility:hidden">
+        </div>
+        <div id="rightPanel">
+            <div id="zonghe_duibi" style=" margin-left:5px; margin-bottom:20px; padding-bottom:10px; border-bottom-width: 2px;border-bottom-style: solid;border-bottom-color: #d7d7d7;">
+<!--         <div id="name_duibi">查询条件：</div>  
+          <div id="rd5" class="radioChecked" onclick="radioClick('rd5');"><a href="javascript:radioClick('rd3');" title="">全部</a></div>
+          <div id="rd3" class="radioUnChecked" onclick="radioClick('rd3');"><a href="javascript:radioClick('rd3');" title="">上海</a></div>
+         <div id="rd1" class="radioUnChecked" onclick="radioClick('rd1');"><a href="javascript:radioClick('rd1');" title="">江苏</a></div>
+         <div id="rd2" class="radioUnChecked" onclick="radioClick('rd2');"><a href="javascript:radioClick('rd2');" title="">浙江</a></div>
+                  <div id="rd4" class="radioUnChecked" onclick="radioClick('rd4');"><a href="javascript:radioClick('rd4');" title="">安徽</a></div>-->
+                 <div id="tool_textNew" style=" margin-left:20px;">起始日期：</div>
+         <div class="selectNewDate"  style="width:150px;  "><input id="H00" runat="server" type="text" class="selectDateFormStyle" style="width:150px"  onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',onpicked:function() {refesh();}});  "/></div> 
+
+                          <div id="tool_textNew" style=" margin-left:10px;">截止日期：</div>
+         <div class="selectNewDate"  style="width:150px;  "><input id="H01" runat="server" type="text" class="selectDateFormStyle" style="width:150px"  onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',onpicked:function() {refesh();}});  "/></div> 
+          <button type="button" class="normal-btn input-btnQuery" title="文件上传，编辑，删除" style=" padding-left:2px;    margin-top:5px; margin-left:20px;" id="btnQuery"  onclick="queryData()" onmouseover="this.className='normal-btn-h input-btnQuery'" onmouseout="this.className='normal-btn input-btnQuery'" onmousedown="this.className='normal-btn-d input-btnQuery'" onmouseup ="this.className='normal-btn input-btnQuery'">
+            <span class="select-Query"></span>
+            <span class="select-text">查询</span>
+             </button>
+         
+          <!--      <button type="button" class="normal-btn input-btnQuery" title="上传文件" style="width:90px;  font-size:9px;  padding-left:2px;  float:right;  margin-top:5px;" id="btnQuery"  onclick="uploadFile();" onmouseover="this.className='normal-btn-h input-btnQuery'" onmouseout="this.className='normal-btn input-btnQuery'" onmousedown="this.className='normal-btn-d input-btnQuery'" onmouseup ="this.className='normal-btn input-btnQuery'">
+            <span class="select-add"></span>
+            <span class="select-text"  style=" font-size:9px;">下载</span>
+             </button>
+              <button type="button" class="normal-btn input-btnQuery" title="删除选中的文件" style="width:90px; font-size:9px; padding-left:2px;  float:right;  margin-top:5px;" id="Button1"  onclick="del();" onmouseover="this.className='normal-btn-h input-btnQuery'" onmouseout="this.className='normal-btn input-btnQuery'" onmousedown="this.className='normal-btn-d input-btnQuery'" onmouseup ="this.className='normal-btn input-btnQuery'">
+            <span class="select-delete"></span>
+            <span class="select-text"  style=" font-size:9px;">删除</span>
+             </button>
+          <button type="button" class="normal-btn input-btnQuery" title="删除选中的文件" style=" width:90px;  font-size:9px;padding-left:2px;  float:right;  margin-top:5px;" id="Button2"  onclick="del();" onmouseover="this.className='normal-btn-h input-btnQuery'" onmouseout="this.className='normal-btn input-btnQuery'" onmousedown="this.className='normal-btn-d input-btnQuery'" onmouseup ="this.className='normal-btn input-btnQuery'">
+            <span class="select-delete"></span>
+            <span class="select-text" style=" font-size:9px;">重命名</span>
+             </button>-->
+
+         </div>
+           <div id="path" style="visibility:hidden">
+                <span id="pathString"></span>
+            </div>
+           <!-- <hr />-->
+            <!-- 这里是菜单开始 -->
+
+         
+            <div class="content" >
+      
+      <div id="tabbtn" style="width: 900px;">
+           <ul id="tabItem"><li><span id="会商PPT_0" class="tabHighlight"><a style="color:white;" href="javascript:tabClick('会商PPT_0')">会商PPT</a></span></li><li><span id="预报简报_1"><a href="javascript:tabClick('预报简报_1')">预报简报</a></span></li><li><span id="超级站_2"><a href="javascript:tabClick('超级站_2')">超级站</a></span></li></ul>
+           <div class="dataTimeHS" style=" float:right; ">
+         <button type="button" class="normal-btn table-select-btn" id="yesDay" onclick="changeDateSelect(-1)" onmouseover="this.className='normal-btn-h table-select-btn'" onmouseout="this.className='normal-btn table-select-btn'" onmousedown="this.className='normal-btn-d table-select-btn'" onmouseup="this.className='normal-btn table-select-btn'">
+            <span class="select-back"></span>
+            <span class="select-text">上一天</span>
+         </button>
+         <button type="button" class="normal-btn table-select-btn" id="toDay" onclick="today()" onmouseover="this.className='normal-btn-h table-select-btn'" onmouseout="this.className='normal-btn table-select-btn'" onmousedown="this.className='normal-btn-d table-select-btn'" onmouseup="this.className='normal-btn table-select-btn'">
+            <span class="select-now"></span>
+            <span class="select-text">今天</span>
+         </button>
+         <button type="button" class="normal-btn table-select-btn" id="tomoDay" onclick="changeDateSelect(1)" onmouseover="this.className='normal-btn-h table-select-btn'" onmouseout="this.className='normal-btn table-select-btn'" onmousedown="this.className='normal-btn-d table-select-btn'" onmouseup="this.className='normal-btn table-select-btn'">
+            <span class="select-text">下一天</span>
+            <span class="select-next"></span>
+         </button>
+      </div>
+       </div>
+      <div id="content" style="width: 900px;height:400px;  overflow-y:auto;">
+      
+        <div id="Tb0">
+
+        <div id="toolbar" class="ui-widget-header ui-corner-all">
+          <button id="up" class="ui-button-text" style=" width:50px; height:30px;" onclick="uploadFile();">上传</button>
+          <!--<input id="up" class="ui-widget-header" type="submit" value="上传">-->
+          <button class="ui-button-text" style=" width:50px; height:30px;" id="down">下载</button>
+          <button class="ui-button-text" style=" width:50px; height:30px;" id="del">删除</button>
+          <button class="ui-button-text" style=" width:50px; height:30px;" id="rename">重命名</button>
+          <select name="Grouplist" onchange="" id="Grouplist" class="grouplist" style=" float:right; width:150px; margin-top:5px;">
+	                <option selected="selected" value="全部">全部</option>
+                    <option  value="上海">上海</option>
+	                <option value="江苏">江苏</option>
+	                <option value="浙江">浙江</option>
+	                <option value="安徽">安徽</option>
+                   </select>
+        </div>
+
+           <div id="fileListHead">
+                <div class="chkColumn" style="visibility:hidden">
+                    <input type="checkbox" id="checkAll" style="visibility:hidden" onclick="javascript:selectAll();" title="全部选中" /></div>
+                <div class="fileType">
+                    区域</div>
+                <div class="fileType">
+                    类型</div>
+                <div class="fileName">
+                    名称</div>
+                <div class="fileSize">
+                    大小</div>
+                <div class="lastUpdate">
+                    最后更新</div>
+                <div class="lastUpdate" >
+                    上传时间</div>
+                <div class="rename" >
+                    上传人</div>
+                <div style="clear: both;">
+                </div>
+            </div>
+            <div id="fileList"></div>
+         </div>
+
+         <div id="Tb1" class="hidden">
+             <div id="fileListHead">
+                <div class="chkColumn" style="visibility:hidden">
+                    <input type="checkbox" id="checkAll" style="visibility:hidden" onclick="javascript:selectAll();" title="全部选中" /></div>
+                <div class="fileType">
+                    类型</div>
+                <div class="fileName">
+                    名称</div>
+                <div class="fileSize">
+                    大小</div>
+                <div class="lastUpdate">
+                    最后更新</div>
+                <div class="lastUpdate" >
+                    上传时间</div>
+                <div class="rename" >
+                    上传人</div>
+                <div style="clear: both;">
+                </div>
+            </div>
+            <div id="fileList1"></div>
+         </div>
+
+         <div id="Tb2" class="hidden">
+          <div id="fileListHead">
+                <div class="chkColumn" style="visibility:hidden">
+                    <input type="checkbox" id="Checkbox2" style="visibility:hidden" onclick="javascript:selectAll();" title="全部选中" /></div>
+                <div class="fileType">
+                    类型</div>
+                <div class="fileName">
+                    名称</div>
+                <div class="fileSize">
+                    大小</div>
+                <div class="lastUpdate">
+                    最后更新</div>
+                <div class="lastUpdate" >
+                    上传时间</div>
+                <div class="rename" >
+                    上传人</div>
+                <div style="clear: both;">
+                </div>
+            </div>
+            <div id="fileList2"></div>
+         </div>
+      </div>
+   </div>
+
+       
+  <!--    <div class="content" style="width: 906px; margin-top:5px ;">
+      <div id="tabbtn" style="width: 906px">
+           <ul id="tabItem"><li><span id="预报简报II_0" class="tabHighlight" >预报简报(新)</span></li></ul>
+       </div>
+      <div id="Div2" style="border: 1px solid #078015;  width:905px; overflow-y:auto; height:180px;">
+        <div id="Div3">
+            <div id="fileListHeadII"  >
+                <div class="chkColumn" style="visibility:hidden">
+                    <input type="checkbox" id="Checkbox1" style="visibility:hidden" onclick="javascript:selectAll();" title="全部选中" /></div>
+                <div class="fileType">
+                    类型</div>
+                <div class="fileName">
+                    名称</div>
+                <div class="fileSize">
+                    大小</div>
+                <div class="lastUpdate">
+                    最后更新</div>
+                <div class="lastUpdate" >
+                    上传时间</div>
+                <div class="rename" >
+                    上传人</div>
+                <div style="clear: both;">
+                </div>
+            </div>
+             <div id="fileList4" >     </div>
+         </div>
+      </div>
+   </div>-->
+
+
+
+            <div id="menu" style="visibility:hidden; height:0px;">
+                <div class="menuItem" onclick="javascript:gotoParentDirectory();">
+                    <img class="menuItemImg" src="images/up.gif"  />
+                    <div class="tipText">
+                        向上</div>
+                </div>
+                <div class="menuItem" onclick="javascrip:goRoot();">
+                    <img class="menuItemImg" src="images/home.gif"  />
+                    <div class="tipText">
+                        根目录</div>
+                </div>
+                <div class="menuItem" onclick="javascript:refersh()">
+                    <img class="menuItemImg" src="images/refersh.gif"  />
+                    <div class="tipText">
+                        刷新</div>
+                </div>
+                <div class="menuItem" onclick="javascript:newDirectory();">
+                    <img class="menuItemImg" src="images/newfolder.gif"  />
+                    <div class="tipText">
+                        新目录</div>
+                </div>
+                <div class="menuItem" onclick="javascript:newFile();">
+                    <img class="menuItemImg" src="images/newfile.gif"  />
+                    <div class="tipText">
+                        新文件</div>
+                </div>
+                <div class="menuItem" onclick="javascript:del();">
+                    <img class="menuItemImg" src="images/delete.gif"  />
+                    <div class="tipText">
+                        删除</div>
+                </div>
+                <div class="menuItem" onclick="javascript:cut();">
+                    <img class="menuItemImg" src="images/cut.gif"  />
+                    <div class="tipText">
+                        剪切</div>
+                </div>
+                <div class="menuItem" onclick="javascript:copy();">
+                    <img class="menuItemImg" src="images/copy.gif"  />
+                    <div class="tipText">
+                        复制</div>
+                </div>
+                <div class="menuItem" onclick="javascript:paste();">
+                    <img class="menuItemImg" src="images/paste.gif"  />
+                    <div class="tipText">
+                        粘贴</div>
+                </div>
+                <div class="menuItem" onclick="javascript:zipFile();">
+                    <img class="menuItemImg" src="images/zipfile.gif"  />
+                    <div class="tipText">
+                        压缩</div>
+                </div>
+                <div class="menuItem" onclick="javascript:unZipFile();">
+                    <img class="menuItemImg" src="images/unzip.gif"  />
+                    <div class="tipText">
+                        解压</div>
+                </div>
+                <div class="menuItem" onclick="javascript:downLoad();">
+                    <img class="menuItemImg" src="images/download.gif"  />
+                    <div class="tipText">
+                        下载</div>
+                </div>
+                <div class="menuItem" onclick="javascript:uploadFile();">
+                    <img class="menuItemImg" src="images/upload.gif"  />
+                    <div class="tipText">
+                        上传</div>
+                </div>
+                <div style="clear: both">
+                </div>
+            </div>
+<!-- 这里是菜单结束 -->
+<!-- 这里是文件列表开始 -->
+        
+            <!-- 这里是文件列表结束 -->
+
+
+  <div id="BgDiv"></div>
+     <div id="DialogDiv" style="display:none">
+    <h2>文件管理<a href="#" id="btnClose" onclick="closeDiv('DialogDiv')">关闭</a></h2>
+
+  </div>
+
+
+
+        </div>
+    </div>
+
+<script src="js/WebExplorerMain.js" type="text/javascript"></script>
+
+</body>
+</html>

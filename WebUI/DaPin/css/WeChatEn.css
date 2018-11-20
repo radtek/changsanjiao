@@ -1,0 +1,127 @@
+﻿html {font-size: 62.5%;}
+body { 
+	font-family:"NSimSun","宋休",Verdana;
+	color:White;
+	margin:0;
+	padding:0;
+}
+#page
+{
+    width:100vw;
+    height:100vh;
+}
+.top
+{
+    height: 7vh;
+    width: 100vw;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.struct
+{
+    width:48vw;
+    height:25vh;
+    margin:0 1vw;
+    margin-bottom:1vw;
+    background: rgba(0, 0, 0, 0.3);    
+    float:left;
+    overflow:hidden;
+}
+._mid
+{
+    width:48vw;
+    height:15vw;
+    margin-top:1vw;
+    position:relative;
+}
+.img-bg
+{
+    width:12vw;
+    height:10vw;
+    position:absolute;
+    left:2vw;
+    top:2vh;
+     
+}
+.search
+{
+    width:3vw;
+    height:3vw;
+    position:absolute;
+    left:13vw;
+    top:2vh;
+}
+.type
+{
+    width:15vw;
+    height:8vw;
+    position:absolute;
+    left:27vw;
+    top:2vh;
+    font-size: 3vw;
+}
+.date
+{
+    margin-top:3vw;
+    width:48vw;
+    height:7vh;
+}
+.type p
+{
+    margin:0 0 0.8vw;
+     font-size:24px;
+}
+.date label
+{
+    font-size:2.5vw;    
+    font-weight:normal;
+    margin-left:1vw;
+    float:left;
+}
+.grade
+{
+    width:6vw;
+    height:2vh;
+    background-color:#ccc;
+    float:left;
+    margin-left:0.6vw;
+    background: #858FAF;
+    border-radius: 0.6vw;
+}
+.level
+{
+    width: 16vw;
+    height: 5vw;
+    line-height: 5vw;
+    margin-right: 0.6vw;
+    border-radius: 1vw;
+    float: left;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #333333;
+}
+.active1
+{
+    background-color:rgb(57, 176, 110);
+}
+.active2
+{
+    background-color:rgb(26, 161, 230);
+}
+.active3
+{
+    background-color:rgb(254, 239, 53);
+}
+.active4
+{
+    background-color:rgb(241, 151, 37);
+}
+.active5
+{
+    background-color:rgb(252, 13, 27);
+}
+.ml
+{
+    margin-left:37px;
+}

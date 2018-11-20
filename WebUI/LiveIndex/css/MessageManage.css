@@ -1,0 +1,140 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14px;
+	line-height: 25px;
+	height: 100%;
+	padding:0;
+    margin:0;
+}
+._title{
+    text-align:center;
+}
+.tab{
+    width:95%;
+    margin:0 auto;
+    margin-top:15px;
+    margin-left:10px;
+    padding-bottom: 20px;
+}
+#table_filter{
+    margin-bottom:7px;
+}
+
+#table{
+    cursor:pointer;
+}
+.f{
+    float:left;
+ }
+ .dataTables_length{
+     position:absolute;
+     top:0;
+     left:0;
+}
+ .dataTables_length label{
+     font-weight:normal;
+}
+.defineform{
+    /* display: block; */
+    /* width: 100%; */
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.head{
+    position:relative;
+
+}
+.addBtn{
+    position:absolute;
+    z-index:1000;
+}
+
+.add{
+    top:0;
+    right:335px;
+}
+.upload{
+    top:0;
+    right:335px;
+}
+.export{
+    top:0;
+    right:340px;
+    display:none;
+}
+.dataTables_scrollHeadInner tr{
+    /*background-color: rgb(57,120,163);*/
+    background: linear-gradient(rgb(57, 120, 163),rgba(20, 130, 206, 0.88),rgb(57, 120, 163));
+    color: white
+}
+.dataTables_scrollHeadInner tr th{
+    font-weight:normal !important;
+    border-right:1px solid white;
+}
+.dataTables_scrollHeadInner tr th:last-child{
+    border-right:none;
+}
+.dataTables_scrollHeadInner table{
+    border-bottom:none !important;
+}
+.inVisibility{
+    display:none;
+}
+#table_length
+{
+    display:none;
+}
+.move
+{
+    width:100%;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0; 
+}
+label
+{
+    font-weight:normal;
+}
+
+#myModal
+{
+    padding-left:0 !important;
+}
+input[type='radio']
+{
+    cursor:pointer;
+}
+.tab label
+{
+    margin-bottom:0;
+}
+.start
+{
+    padding:0 5px !important;
+}
+.firmdis
+{
+    display:none;
+}
+.phonedis
+{
+    display:none;
+}
+#firm
+{
+    background:#328ecd;
+    border-color: white;
+}

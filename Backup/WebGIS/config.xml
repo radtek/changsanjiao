@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+// Read more about ArcGIS Viewer for Flex - http://links.esri.com/flexviewer
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<configuration>
+    <title>ArcGIS Viewer for Flex</title>
+    <subtitle>a configurable web mapping application</subtitle>
+    <logo>assets/images/logo.png</logo>
+    <style>
+        <colors>0xFFFFFF</colors>
+        <alpha>0.8</alpha>
+    </style>
+    <!-- replace the following url with your own geometryservice -->
+    <geometryservice url="http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer" />
+
+    <!-- UI elements -->
+    <widget left="250"  top="50"    config="widgets/Navigation/NavigationWidget.xml" url="widgets/Navigation/NavigationWidget.swf"/>
+    <widget right="0" bottom="0"   config="widgets/OverviewMap/OverviewMapWidget.xml" url="widgets/OverviewMap/OverviewMapWidget.swf"/>
+    <widget left="245"   top="0"     config="widgets/HeaderController/HeaderControllerWidget.xml" url="widgets/HeaderController/HeaderControllerWidget.swf"/>
+    <widget left="0"   top="0"     config="widgets/LeftForm/LeftFormWidget.xml" url="widgets/LeftForm/LeftFormWidget.swf"/>
+    <widget right="0" top="0" bottom="200"   config="widgets/RightForm/RightFormWidget.xml" url="widgets/RightForm/RightFormWidget.swf"/>
+    <widget left="0" bottom="0"   config="widgets/BottomForm/BottomFormWidget.xml" url="widgets/BottomForm/BottomFormWidget.swf"/>
+
+	<!-- RomoteUrl 192.168.11.152 202.136.217.188:8087-->
+	<RomoteUrl> 202.136.217.188:8087</RomoteUrl>
+	
+    <!-- 显示地图坐标 -->
+    <widget left="1" bottom="1"   config="widgets/Coordinate/CoordinateWidget.xml" url="widgets/Coordinate/CoordinateWidget.swf"/>   
+    <map wraparound180="true" initialextent="4403119 1226877 20037845 8672456" fullextent="4403119 1226877 20037845 8672456" top="0"
+    	scalebarvisible = "false" esrilogovisible="false" openhandcursorvisible ="false" zoomslidervisible = "false" addarcgisbasemaps="false">
+    	<basemaps>
+    			<layer label="地形图" type="tiled" url="http://112.124.12.97:7080/PBS/rest/services/GoogleMapsElevation/MapServer" visible="true" alpha="1" copyright="" icon="assets/images/icon/dixingtu.png"/>	
+				<layer label="行政图" type="tiled" url="http://58.215.175.28:7080/PBS/rest/services/GoogleMapsRoad/MapServer" visible="false" alpha="1" copyright="" icon="assets/images/icon/erweidutu.png"/>
+				<layer label="遥感图" type="tiled" url="http://58.215.175.122:7080/PBS/rest/services/GoogleMapsImagery/MapServer" visible="false" alpha="1" copyright="" icon="assets/images/icon/erweidutu.png"/>
+			</basemaps>
+			<operationallayers>
+			    <layer label="遥感图标注" type="tiled" visible="false"   showinlegend="false" copyright=""
+			    url="http://58.215.175.122:7080/PBS/rest/services/GoogleHybrid/MapServer"/> <!--http://58.215.175.122:7080/PBS/rest/services/GoogleMapsImageryLabel/MapServer-->
+				<layer label="行政区划" type="dynamic" visible="false" showinlegend="false" copyright=""
+                   url="http://202.136.217.188:8087/arcgis/rest/services/Boundary/ChinaProvice/MapServer"/>           
+                <layer label="全国边界" type="dynamic" visible="false" showinlegend="false" copyright=""
+                   url="http://202.136.217.188:8087/arcgis/rest/services/Boundary/ChinaBoundary/MapServer"/>           
+                <layer label="华东边界" type="dynamic" visible="false" showinlegend="false" copyright=""
+                  url="http://202.136.217.188:8087/arcgis/rest/services/Boundary/HuadongBoundary/MapServer"/> 
+                <layer label="上海边界" type="dynamic" visible="false" showinlegend="false" copyright=""
+                  url="http://202.136.217.188:8087/arcgis/rest/services/Boundary/ShanghaiBoundary/MapServer"/> 
+                <layer label="长三角" type="dynamic" visible="false" showinlegend="false" copyright=""
+                  url="http://202.136.217.188:8087/arcgis/rest/services/Boundary/changsanjiaoBoundary/MapServer"/>   
+                  
+			</operationallayers>
+			<lods>
+<!-- 				<lod resolution="19567.8792410029" scale="73957190.9489444"/> -->
+				<lod resolution="9783.93962050147" scale="36978595.4744722"/>
+				<lod resolution="4891.96981025073" scale="18489297.7372361"/>
+				<lod resolution="2445.98490512537" scale="9244648.86861805"/>
+				<lod resolution="1222.99245256268" scale="4622324.43430902"/>
+				<lod resolution="611.496226281342" scale="2311162.21715451"/>
+				<lod resolution="305.748113140671" scale="1155581.10857726"/>
+				<lod resolution="152.874056570335" scale="577790.554288628"/>
+				<lod resolution="76.4370282851677" scale="288895.277144314"/>
+				<lod resolution="38.2185141425838" scale="144447.638572157"/>
+				<lod resolution="19.1092570712919" scale="72223.8192860785"/>
+<!-- 				<lod resolution="9.55462853564596" scale="36111.9096430392"/> -->
+<!-- 				<lod resolution="4.77731426782298" scale="18055.9548215196"/> -->
+<!-- 				<lod resolution="2.38865713391149" scale="9027.97741075981"/> -->
+			</lods>
+    </map>
+
+    <!-- widgets organized into widget containers that manage close/open etc -->
+    <!-- supported layout property options: horizontal(default)|float|vertical|fix-->
+    <widgetcontainer layout="float">
+      
+    </widgetcontainer>
+    
+</configuration>

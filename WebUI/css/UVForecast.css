@@ -1,0 +1,237 @@
+﻿body 
+{
+    font-family: helvetica,tahoma,verdana,sans-serif;
+    font-size: 13px;
+    padding: 5px 2px 0px;
+}
+
+* {
+    font-size: 12px;
+}
+
+/*---------------------------top-----------------------------*/
+
+.top_left
+{
+    float: left;
+    height: 28px;
+    width: 5px;
+    background: url("images/top.png");
+}
+
+.top_mid
+{
+    margin: 0px 5px;
+    height: 28px;
+    text-align: left;
+    font: bold 12px/28px "宋体";
+    background-image: url("images/top.png");
+    color: #FFF;
+}
+
+.top_right
+{
+    
+    float: right;
+    height: 28px;
+    margin-top: -28px;
+    width: 5px;
+    background-image: url("images/top.png");
+}
+
+
+/*--------------------------all------------------------*/
+
+.all
+{
+    background-color: #FFF;
+    border: 3px solid #CCC;
+    padding: 15px;
+}
+
+.table
+{
+    text-align: center;
+    border-collapse: collapse;
+    font: 12px/30px "宋体";
+    border: 1px solid #CCC;
+    table-layout: fixed;
+    color: #4C7493;
+    border: 1px solid #CCC;
+}
+
+.table th
+{
+    border-bottom: 1px solid #CCC;
+}
+
+
+.one
+{
+    position: relative;
+    width: 140px;
+    padding-left: 5px;
+}
+
+.photo
+{
+    width: 150px;
+    height: 26px;
+    /*color: #FFF;
+    background-image: url("images/yellow.png");*/
+    margin-top: -22px;
+    position: absolute;
+}
+
+.style1
+{
+    width: 102px;
+}
+
+.table td
+{
+    border-bottom: 1px dotted #CCC;
+}
+
+.inputgetdata
+{
+    border-width: 0px;
+}
+
+.thbutton
+{
+    height:31px; 
+    width: 110px;
+    position: relative;
+}
+
+
+.tdtable
+{
+    margin: 5px auto;
+    font: 12px/16px "宋体";
+    text-align: center;
+    padding-left: 30px;
+    border: 0px none;
+}
+
+.tdtable th
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    color: #333;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.tdtext
+{
+    border: 0px none;
+}
+
+.report
+{
+    margin: 5px auto;
+    font: 12px/16px "宋体";
+}
+
+.report td
+{
+    color: #333;
+    text-align: center;
+}
+
+.report th
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    color: #333;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.report .textbox {
+    border: 0px none;
+}
+.textbox
+{
+    width:180px;
+}
+.style2
+{
+    width: 26px;
+}
+
+input, textarea
+{
+    color: #4C7493;
+    display: inline;
+    vertical-align: middle;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+}
+
+td.tdtable
+{
+    text-align:center;
+    padding-left: 30px;
+}
+
+.button
+{
+    border: 1px solid #8AAADB;
+    background: transparent url("images/button.png") repeat-x scroll 0% 0%;
+    font: 12px/20px "宋体";
+    padding: 0px 15px;
+}
+
+.button:hover {
+    border: 1px solid #36C;
+    background: transparent url("images/button.png") repeat-x scroll 0% 0%;
+    font: 12px/20px "宋体";
+    cursor: pointer;
+    padding: 0px 15px;
+}
+
+txtarea
+{
+    color: #4C7493;
+    display: inline;
+    vertical-align: middle;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+}
+
+
+
+.submit
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.submitbutton
+{
+    border: 1px solid #8AAADB;
+    /*background: transparent url("images/submitbutton.png") repeat-x scroll -5px -2px;*/
+    background-color:Gray;
+    font: bold 12px/18px "宋体";
+    padding: 3px 25px;
+    color: #FFF;
+}
+
+.submitbutton:hover
+{
+    border: 1px solid #36C;
+    background: transparent url("images/submitbutton.png") repeat-x scroll -5px -2px;
+    font: bold 12px/18px "宋体";
+    cursor: pointer;
+    padding: 3px 25px;
+    color: #FFF;
+}

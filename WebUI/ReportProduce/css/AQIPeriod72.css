@@ -1,0 +1,203 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+    margin:0;
+    padding:0;
+}
+label
+{
+    font-weight:normal;
+}
+.mapTitle {
+    width: 100%;
+    top: 0;
+    height: 40px;
+    color: #7e8181;
+    font-family: "宋体";
+    font-size: 19.5px;
+    line-height: 40px;
+    background-color: #f0f8f6;
+}
+.y-item {
+    margin-left:50px;
+}
+.outLine {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background:white;
+}
+#headerTable {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.tabletitleOut {
+    background-color: #42B385 !important;
+    line-height: 24px;
+    height: 24px;
+    /*width: 7%;*/
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    white-space: nowrap;
+    color: white;
+}
+#headerTable td {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid White;
+}
+.btnArea {
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+    opacity: 0.60;
+}
+.button_Bottom:hover {
+    cursor: pointer;
+    background-color: #57b325;
+    color: White;
+}
+.btns {
+    position:absolute;
+    height:30px;
+    width:300px;
+    left:50%;
+    top:50%;
+    margin-top:-15px;
+    margin-left:-150px;
+
+}
+.button_Bottom {
+    border: 1px solid #b0b0b0;
+    background: url(../images/aqi/btn_bg.jpg) repeat-x;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    width: 60px;
+    text-align: center;
+    float: left;
+}
+.importBtn:hover {
+    cursor: pointer;
+    background-color: Green;
+}
+.titlePoint {
+    width: 20px;
+    height: 30px;
+    height: 100%;
+    background: url(../AQI/img/y.png) no-repeat center;
+    float: left;
+}
+.titleText {
+    width: 300px;
+    float: left;
+}
+.importBtn {
+    width: 60px;
+    height: 20px;
+    float: right;
+    margin-right: 20px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+.f
+{
+    float:left;
+}
+
+.indis
+{
+    display:none;
+}
+#contentTable table
+{
+    margin-top:0;
+    height: 100%;
+    width: 100%;
+}
+#contentTable .grid
+{
+    line-height: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #F2F2F2;
+    border:1px solid white;
+}
+.grideW .grid:first-child
+{
+    /*border-left: none !important;*/
+}
+.grideW {
+width:10% !important;
+}
+.sel
+{
+    width: 80px;
+    height: 24px;
+    padding-left: 5px;
+    background-color: #F2F2F2;
+    border: 1px solid #C0C0C0;
+    vertical-align: middle;
+}
+input
+{
+    background-color:#F2F2F2;
+    border: 1px solid #ccc;
+    width:95%;
+    text-align:center;
+}
+.tab-content textarea {
+   /* border-right:none;*/
+    width:1069px;
+    height:390px;
+    resize:none;
+    background-color: white;
+    font-size:13.5px !important;
+    text-rendering: auto;
+    color: initial;
+    font-family:monospace;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+}
+.tableLeftPart {
+    text-align:center;
+    background:#ccc !important;
+}
+.cellWidth {
+    width:50%;
+}
+.inBorder {
+    border:none;
+}
+.error-border {
+    outline:2px solid #ff0000b8;
+    box-shadow:0 0 5px rgba(247, 0, 0, 0.42);
+}

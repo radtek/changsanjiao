@@ -1,0 +1,159 @@
+﻿body 
+{
+    font-size:14px;
+     min-width:1230px;
+}
+
+.all
+{
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    padding: 5px;
+}
+
+td,th
+{
+    text-align:center;
+    width:20%;
+    height:30px;
+    font-size:14px;
+}
+.table1
+{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    table-layout: fixed;
+}
+
+.table1 th,.table1 td
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.table1 th
+{
+    text-align:right;
+}
+
+.table1 td
+{
+    text-align:left;
+}
+
+.two
+{
+    text-align:center;
+    padding-top: 5px;
+    border: 1px solid #CCC;
+}
+
+.table2
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.button
+{
+    color:#00F;
+    padding: 0px 15px;
+}
+
+.button:hover
+{
+    color:#FFF;
+    background:#CCC;
+    padding: 0px 15px;
+}
+
+.buttonup
+{
+    background-image: url('images/up.png');
+    margin-top: -14px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.buttondown
+{
+    background-image: url('images/down.png');
+    margin-top: -14px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.trimg td
+{
+    padding-top:5px;
+    text-align:center;
+}
+
+.tabs
+{
+    margin: 0px;
+    padding-top:10px;
+    background:#FFF;
+}
+
+.tabs-container
+{
+    border: 1px solid #CCC;
+    width:100%;
+}
+
+.tabs-wrap
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs li
+{
+    background:#CCC;
+    float: left;
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0px;
+    position: relative;
+    border: 1px solid #8DB2E3;
+    border-bottom:0px;
+}
+
+.tabs li a
+{
+    display: inline-block;
+    margin: 0px;
+    height: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.tabs li:hover
+{
+    cursor:pointer;
+}
+.tabs li a:hover
+{
+    color:#FFF;
+}
+
+.showimages
+{
+    clear:both;
+    overflow: hidden;
+    background: #CCC;
+    border: 1px solid #8DB2E3;
+}
+
+.submit
+{
+    padding: 5px;
+    text-align:center;
+}

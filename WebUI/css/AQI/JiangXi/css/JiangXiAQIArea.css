@@ -1,0 +1,315 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+     min-width:1230px;
+     background-color: #ebebeb;
+}
+td,th
+{
+    text-align:center;
+    width:20%;
+    height:30px;
+    font-size:14px;
+}
+select
+{
+    width:95%;
+}
+tr th
+{
+    text-align:center;
+}
+input
+{
+    text-align:center;
+    border:0px;
+}
+.content
+{
+    width:100%;
+    height:100%;
+    margin-top: 10px;
+}
+.tableContent table
+{
+    height:100%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+    text-align:left;
+    width:16%;
+}
+.titleContent table
+{
+    width:960px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+.tableContent
+{
+    width:100%;
+}
+.textContent
+{
+    height:477px;
+    width:100%;
+}
+.tableContent table
+{
+    height:100%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.aqiAreaTable th
+{
+    border-bottom: 1px #CCC dotted;
+    border-right: 1px #CCC dotted;
+    background-color: #e4eaf5;
+}
+.c_RegionName {
+    background-color: #FFC1C1;
+}
+.firstPollutionSel
+{
+    width:95%;
+}
+
+.button
+{
+    padding: 0px 15px;
+    border: gray 1px solid;
+    height:30px;
+    line-height:30px;
+   
+text-align: center;
+font-size: 14px;
+ border-radius: 5px;
+}
+.button:hover
+{
+    cursor:pointer;
+    background-color:#56B223;
+    color:White;
+}
+.editBox
+{
+    width:100%;
+    height:40px;
+    border:1px solid Gray;
+}
+.editBox2
+{
+    width: 100%;
+    height: 60px;
+    border: 1px solid Gray;
+    margin-top: 10px;
+}
+.editBtns
+{
+    width: 400px;
+    margin-right: 10px;
+    height: 50px;
+    float: right; 
+}
+.editBtns2
+{
+    width: 100%;
+
+    height: 50px;
+    float: right; 
+}
+input:hover
+{
+    cursor:pointer;
+}
+.editLabel
+{
+    width: 150px;
+    height: 20px;
+    background-color: Blue;
+    margin-top: -9px;
+    margin-left: 10px;
+    position:absolute;
+    color:White;
+}
+.editLabel2
+{
+    width: 170px;
+    height: 20px;
+    background-color: Blue;
+    margin-top: -29px;
+    margin-left: 10px;
+    position:absolute;
+    color:White;
+}
+.textContent textarea
+{
+    width:95%;
+    height:99%;
+}
+.submitArea
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btnArea
+{
+    height:30px;
+}
+.btns
+{
+    width: 210px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+
+}
+.foreBtn
+{
+    width: 30%;
+    height: 20px;
+    background-color: Gray;
+    float: left;
+    border-radius: 10%;
+    line-height: 20px;
+    color: White;
+    margin-left: 5px;
+    text-align: center; 
+}
+.aqiLevelTd
+{
+    background-color: #FFE1C4;
+}
+.aqiItemTd
+{
+    background-color: #CEFFCE;
+}
+.aqiValueTd,.aqiValue
+{
+        background-color: #FFFFCA;    
+}
+.hazeTd
+{
+    background-color: #D7EBFF;
+}
+.foreBtn:hover,.button:hover
+{
+    cursor:pointer;
+}
+.backgroundColor_orange {
+    background-color: Orange;
+}
+.all
+{
+    background-color: white;
+}
+.all-Left
+{
+    margin-left:10px;
+    float:left;
+}
+.all-Right
+{
+    margin-right:10px;
+    float:right;
+}
+#hazeDropImg
+{
+    height:520px;
+    border: gray 1px solid;
+    margin-left: 40px;
+margin-top: 10px;
+}
+.two
+{
+}
+.button_Bottom
+{
+    margin-left: auto;
+margin-right: auto;
+ width:45px;
+ float: left;
+margin-right: 5px;
+
+}
+.button_Right
+{
+float:right;
+margin-left: 5px;
+width: 60px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.mapTitle
+{
+width: 100%;
+/*position: absolute;*/
+top: 0;
+height: 32px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14.5px;
+line-height: 32px;
+background-color: #f0f8f6;
+
+
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../../../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.titlePoint span
+{
+    float:left;
+}
+.titleText
+{
+    float:left;
+}
+.content:after,.editBtns2:after
+{
+     content:'.';
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both; 
+    }
+    .submit
+    {
+        width:400px;
+    }
+    

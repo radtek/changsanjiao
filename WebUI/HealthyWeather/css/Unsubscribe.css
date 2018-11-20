@@ -1,0 +1,21 @@
+﻿.container-fluid{ 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+}
+
+.control-label{margin:5px auto;padding-right:0px;}
+.form-group{width:100%;margin:10px auto;}
+
+.center { text-align: center;}
+
+.form-inline select.form-control {
+    display: block;
+    width: 100%;
+}
+
+

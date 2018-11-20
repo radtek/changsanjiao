@@ -1,0 +1,163 @@
+﻿using Readearth.Data;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Web;
+using System.Web.Services;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class HealthyWeather_AirEleFore : System.Web.UI.Page
+{
+    public static Database m_Database;
+    public static DataTable shiKDT = new DataTable();
+    public static DataTable foreDT = new DataTable();
+    public static string[] siteidArr;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        m_Database = new Database("EleFore");
+    }
+    [WebMethod]
+    public static string Getdate() {
+        string maxTime = "";
+        string sql = "SELECT MAX(forecastdate) from predicted_data_aqi;";
+        try
+        {
+            DataTable dt = m_Database.GetDataTableMySQL(sql);
+            maxTime = dt.Rows[0][0].ToString();
+            maxTime = DateTime.Parse(maxTime).ToString("yyyy-MM-dd HH:00:00");
+        } catch (Exception e) {
+            maxTime = "error";
+        }
+        return maxTime;
+    }
+    [WebMethod]
+    public static string GetChart(string pollName,string time) {
+        DataTable shiKDT = new DataTable(); 
+         Database huankDB = new Database("HuanKe");
+        string txt = "";
+        string shikSQLTemp = "SELECT {0} FROM [dbo].[China_RT_CNEMC_Data] WHERE Area='上海市' AND PositionName='浦东新区监测站' and Timepoint='{1}'";
+        try
+        {
+            string field = GetPollField(pollName);
+            string sql = "SELECT lst,sitename," + field + " from predicted_data_aqi WHERE forecastdate ='" + time + "';";
+            foreDT = m_Database.GetDataTableMySQL(sql);
+            StringBuilder json = new StringBuilder();
+            StringBuilder shiKjson = new StringBuilder();
+            if (foreDT != null && foreDT.Rows.Count > 0)
+            {
+                string lst = "", val = "";
+                json.Append("[");
+                shiKjson.Append("[");
+                foreach (DataRow row in foreDT.Rows)
+                {
+                    lst =row["lst"].ToString().Split('.')[0];
+                    val = row[field].ToString();
+                    json.Append("["+lst+","+val+"],");
+                    DateTime t = new DateTime(1970, 1, 1, 8, 0, 0);
+                    DateTime timepoint = t.AddMilliseconds(Int64.Parse(lst));
+                    string shikSQL = string.Format(shikSQLTemp, pollName,timepoint.ToString("yyyy-MM-dd HH:00:00"));
+                    shiKDT = huankDB.GetDataTable(shikSQL);
+                    string shiKVal = "null";
+                    if (shiKDT != null && shiKDT.Rows.Count > 0) {
+                        shiKVal = shiKDT.Rows[0][0].ToString();
+                    }
+                    shiKjson.Append("[" + lst + "," + shiKVal + "],");
+                }
+                json = json.Remove(json.Length-1,1);
+                json.Append("]");
+                shiKjson = shiKjson.Remove(shiKjson.Length - 1, 1);
+                shiKjson.Append("]");
+                txt = json.ToString()+"&"+foreDT.Rows[0]["sitename"].ToString()+"#"+shiKjson.ToString();
+            }
+        }
+        catch(Exception e) { txt = "error"; }
+        //txt = json.ToString();
+        return txt;
+    }
+    private static string GetMillSeconds(DateTime lst)
+    {
+        DateTime t = new DateTime(1970, 1, 1, 8, 0, 0);
+        string milliseconds = (lst - t).TotalMilliseconds.ToString();
+        return milliseconds;
+    }
+    public static string GetShiK(string pollName,string time) {
+        return "";
+    }
+    public static string GetPollField(string pollName) {
+        string field = "";
+        switch (pollName) {
+            case "PM25":
+                field = "pm25_predicted";
+                break;
+            case "PM10":
+                field = "pm10_predicted";
+                break;
+            case "SO2":
+                field = "so2_predicted";
+                break;
+            case "03":
+                field = "o3_predicted";
+                break;
+            case "NO2":
+                field = "no2_predicted";
+                break;
+            case "CO":
+                field = "co_predicted";
+                break;
+        }
+        return field;
+    }
+    [WebMethod]
+    public static string GetTable()
+    {
+        StringBuilder sb = new StringBuilder();
+        //表头
+        sb.Append("<table style='width:100%;'><thead><tr>");
+        sb.Append("<td>站点</td><td>平均偏差</td><td>均方根偏差</td><td>相关系数</td>");
+        sb.Append("</tr></thead>");
+        //表内容
+        sb.Append("<tbody>");
+        GetTR(sb);
+        sb.Append("</tbody></table>");
+        return sb.ToString();
+    }
+    public static StringBuilder GetTR(StringBuilder sb)
+    {
+        foreach (string siteid in siteidArr)
+        {
+            sb.Append("<tr>");
+            DataRow[] foreRows = foreDT.Select("siteid='" + siteid + "'");
+            DataRow[] shiKRows = shiKDT.Select("siteid='" + siteid + "'");
+            double RASE = 0, avgPiancha = 0;
+            if (shiKRows.Length > 0)
+            {
+                double temp = 0, sum = 0, avg = 0, piancha = 0;
+                foreach (DataRow foreRow in foreRows)
+                {
+                    sum += float.Parse(foreRow["vis"].ToString());
+                }
+                avg = sum / foreRows.Length;
+                for (int i = 0; i < shiKRows.Length; i++)  //均方根偏差要有实况才能算
+                {
+                    #region 计算均方根偏差
+                    temp += Math.Pow(float.Parse(foreRows[i]["vis"].ToString()) - float.Parse(shiKRows[i]["vis"].ToString()), 2);
+                    #endregion
+                    #region  计算平均偏差
+                    piancha += Math.Abs(float.Parse(foreRows[i]["vis"].ToString()) - avg);
+                    #endregion
+                }
+                RASE = Math.Pow(temp / foreRows.Length, 0.5);
+                avgPiancha = piancha / foreRows.Length;
+                sb.Append("<td>" + siteid + "</td>");
+                sb.Append("<td>" + avgPiancha + "</td>");
+                sb.Append("<td>" + RASE + "</td>");
+                sb.Append("<td>" + RASE + "</td>");
+            }
+            sb.Append("</tr>");
+        }
+        return sb;
+    }
+}

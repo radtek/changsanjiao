@@ -1,0 +1,360 @@
+﻿*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+#HuiS
+{
+	overflow: hidden;
+}
+.dataTimeHS
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	padding-right: 720px;
+}
+.dateShowHS
+{
+	float: left;
+	padding-right: 30px;
+}
+#titleHui{
+	height: auto;
+	width: 500px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contentKuang
+{
+	width: 1050px;
+	border: 2px solid #078015;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+	margin-top: 0px;
+}
+#tool_btn
+{
+	padding: 3px 5px 5px 19px;
+	margin-left: 30px;
+	float:left;
+}
+.itemSelect
+{
+	padding-top: 20px;
+	padding-left: 4px;
+}
+.selectNewDate
+{
+	height: 18px;
+	width: 110px;
+	float: left;
+	padding-right: 40px;
+}
+.tableTitleF
+{
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width: 8.3%;
+	text-align: center;
+	font-size: 14px;
+	padding: 0px;
+}
+.tableTitleH
+{
+	background-color: #D3EDD7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	width:8.3%;
+	text-align: center;
+	font-size: 14px;
+	padding: 0px;
+}
+#tabbtnH{
+	height: 26px;
+	width: 1100px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tabbtnH ul li{
+	line-height: 26px;
+	float: left;
+	height: 26px;
+	width: 122px;
+	text-align: center;
+	font-size: 14px;
+	color: #777777;
+}
+#tabbtnH ul li .tabHighlight{
+	height: 26px;
+	width: 122px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background-image: url(../tab.png);
+	background-repeat: no-repeat;
+	display: block;
+}
+#tabbtnH ul li a{ color:#777777; text-decoration:none;	display: block;}
+#tabbtnH ul li a:hover{ color:#179025; text-decoration:none;	display: block;	background-image: url(../tabo.png);}
+#zonghe_duibi{
+	height: 36px;
+	width: 194px;
+	float: left;
+	margin-left: 6px;
+}
+#name_duibi{
+	line-height: 36px;
+	float: left;
+	height: 36px;
+	width: 70px;
+	text-align: right;
+}
+#tool_duibi{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #d7d7d7;
+	height: 38px;
+	width: 1100px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.tool_text_duibi{
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	width: 40px;
+	margin-left: 10px;
+}
+.tool_text_duibiT
+{
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding-left: 4px;
+}
+.selectDate{
+	height: 36px;
+	width: 110px;
+	float: left;
+}
+.selectDateBG{
+	background-image: url(../selectDateBG.png);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 108px;
+	margin-top: 6px;
+	padding: 1px;
+}
+#tool_text2
+{
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	width: 20px;
+	margin-right: 5px;
+	margin-left: 10px;
+	text-align: center;
+	padding-left: 3px;
+}
+.shortCon{
+	float: left;
+	height: 36px;
+}
+.shortdan{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 80px;
+}
+.shortdan_highlight{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 60px;
+	color: #fff;
+	background-color: #1F982D;
+	border: 1px solid #078015;
+	margin-top: 6px;
+}
+.shortdan_highlight a{ color:#fff; text-decoration:none;}
+.shortdan_highlight a:hover{ color:#fff; text-decoration:none;}
+.shortdan_text{
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 70px;
+	float: left;
+}
+.shortdan_close{
+	width: 10px;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#type_select1row
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #d7d7d7;
+	height: 37px;
+	width:1086px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#type_select2row
+{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #d7d7d7;
+	height: 37px;
+	width:1086px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	float: left;
+}
+#zonghe_duibi{
+	height: 36px;
+	width: 194px;
+	float: left;
+	margin-left: 6px;
+}
+
+#radio{
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	height: 24px;
+	width: 60px;
+	margin-top: 6px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+}
+#radio a{ color:#777777; text-decoration:none;	display: block;}
+#radio a:hover{ color:#179025; text-decoration:none;	display: block;}
+#radio_h{
+	background-color: #1f982d;
+	border: 1px solid #078015;
+	height: 24px;
+	width: 60px;
+	margin-top: 6px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+	color: #fff;
+}
+#radio_h a{ color:#fff; text-decoration:none;	display: block;}
+#radio_h a:hover{ color:#fff; text-decoration:none;	display: block;}
+.checkBox
+{
+	padding-right: 40px;
+}
+.forecast
+{
+	margin-right: 20px;
+}
+
+
+#contents{
+	width: 1036px;
+	border: 2px solid #078015;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+    overflow:hidden;
+}
+
+
+.gvList
+{
+	 BORDER-RIGHT: #CAE1FF 1px solid; 
+	  BORDER-TOP: #CAE1FF 1px solid;
+	  BORDER-LEFT: #CAE1FF 1px solid; 
+	 
+	  BORDER-BOTTOM: #CAE1FF 1px solid;
+	  border-collapse:collapse;
+	  width:1036px;
+}
+.TdWordBreak
+{
+    cursor:hand;
+    font-size:10pt;
+    border-style:none;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:#E7EFFF;
+    
+
+}
+.ListColumnStyle
+{  cursor:hand;
+    font-size:10pt;
+    border-style:none;
+    border-bottom-style:solid;
+    border-width:1px;
+    border-color:#E7EFFF;
+    text-align:center;
+	
+	}
+	
+.GridView-EmptyDataCell
+{
+	BACKGROUND-COLOR:#f5f5f5; 
+	padding:0 3px;
+	height:200px;	
+	color:#000000;
+}
+
+.TdHeaderStyle1
+{
+	BACKGROUND-IMAGE: url(../table_r11_c10.jpg);
+    font-weight:normal;
+    font-size:10pt;
+    font-family:宋体;
+    border-style:solid;
+    border-width:1px;
+    border-color:#E3E4E6;
+    text-align:center;
+    color:#000000;
+    /*font-weight:bold;*/
+    height:20px;
+    white-space:nowrap;
+}
+
+#userSelectOpts
+{
+  padding-top:8px;
+}

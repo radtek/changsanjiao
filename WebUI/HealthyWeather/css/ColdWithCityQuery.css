@@ -1,0 +1,1912 @@
+﻿body 
+{
+    height:500px; 
+    margin:0;
+    padding:0;    
+  
+    background-color: #ebebeb;
+}
+.map
+{    
+background-color: #e2eff0;
+width: 545px;
+height: 360px;
+margin-left: 10px;
+overflow: hidden;
+margin-top: -366px;
+border: white 5px solid;
+  float:right;
+  position:absolute;
+}
+td,th
+{
+    text-align:center;
+    height:30px;
+    font-size:14px;
+}
+select
+{
+    width:95%;
+}
+tr th
+{
+    text-align:center;
+    font-family: "宋体";
+color: #2d3533;
+font-size: 13.5px;
+}
+input
+{
+    text-align:center;
+    border:0px;
+}
+.aqiLevelInput
+{
+    background-color:#eff2f1;
+    width:100px;
+    font-size: 14px;
+}
+.content
+{
+width: 98%;
+/*height: 880;*/
+float: right;
+
+margin-top: 5px;
+margin-right:10px;
+}
+.tableContent table
+{
+    height:100%;
+    /*width:570px;
+    margin-left:auto;
+    margin-right:auto;*/
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+    font-size: 14.5px;
+    text-align:right;
+    width:110px;
+}
+.attrValue
+{
+  color: #bc8363;
+  font-family: "微软雅黑";
+  font-size: 14.5px;
+  text-align:left;
+    
+}
+
+.attrValueII
+{
+    color: #bc8363;
+    font-family: "微软雅黑";
+    font-size: 14.5px;
+    text-align:left;
+  
+}
+
+.titleContent table
+{
+    width:1110px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+.tableContent
+{
+    /*width:100%;*/
+}
+.textContent
+{
+    height:85px;
+    width:523px;
+    border: 0px;
+    margin-left: auto;
+margin-right: auto;
+}
+.hazeLevel
+{
+    border-radius:5px;
+    width:100px;
+}
+
+
+.aqiAreaTable
+{
+     width:67%;
+}
+
+.aqiAreaTableQuery
+{
+     width:66%;
+}
+
+.aqiAreaTable tr
+{
+    height:21px;
+    /*border-bottom: 1px #CCC dotted;
+    border-right: 1px #CCC dotted;
+    background-color: #e4eaf5;*/
+}
+.c_RegionName {
+    background-color: #41b083;
+    color:White;
+    width:100px;
+    
+}
+.firstPollutionSel
+{
+    width:100px;
+    border-radius: 5px;
+    color:#18895b
+}
+
+.button
+{
+    border: 1px solid #b0b0b0;
+   /* background: url(../images/aqi/btn_bg.jpg) repeat-x;*/
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+   float:right;
+    margin-left:5px;
+    margin-top: 3px;
+    color:Black;
+    height: 20px;
+line-height: 20px;
+}
+.editBox
+{
+    width:100%;
+    height:40px;
+    border:1px solid Gray;
+}
+.editBox2
+{
+    width: 100%;
+    height: 60px;
+    border: 1px solid Gray;
+    margin-top: 10px;
+}
+.editBtns
+{
+
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3px;
+float:left;
+}
+.editBtns2
+{
+position: absolute;
+bottom: 0px;
+width: 100%;
+background-color: White;
+opacity: 0.63;
+height: 35px;
+line-height: 35px;
+z-index: 999;
+   
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.partTitle
+{
+    color:#7e8181;
+    font-family:"宋体";
+    font-size:14.5px;
+    float:left;
+}
+input:hover
+{
+    cursor:pointer;
+}
+.editLabel
+{
+    width: 100%;
+    height: 28px;
+    background-color: #f0f8f6;
+    line-height: 28px;
+    /*margin-top: -9px;
+    margin-left: 10px;
+    position:absolute;*/
+    color:#7e8181;
+}
+.editLabel2
+{
+    width: 170px;
+    height: 20px;
+    background-color: Blue;
+    margin-top: -29px;
+    margin-left: 10px;
+    position:absolute;
+    color:White;
+}
+.textContent textarea
+{
+    width:99%;
+    height:98%;
+    border: 0;
+}
+.submitArea
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.totalContent
+{
+margin-left: auto;
+margin-right: auto;
+
+background-color: #ebebeb;
+width: 100%;
+}
+.btnArea
+{
+    height: 40px;
+position: fixed;
+width: 100%;
+bottom: 0px;
+background-color: white;
+    opacity:0.60;
+    z-index: 999;
+}
+.btns
+{
+    width: 210px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.foreBtn
+{
+    width: 30%;
+    height: 20px;
+    background-color: Gray;
+    float: left;
+    border-radius: 10%;
+    line-height: 20px;
+    color: White;
+    margin-left: 5px;
+    text-align: center; 
+}
+.aqiLevelTd
+{
+    background-color: #eff2f1;
+    width:90px;
+}
+.aqiItemTd
+{
+    background-color:#eff2f1;
+    width:110px;
+}
+.aqiValueTd,.aqiValue
+{
+        background-color: #eff2f1;    
+        height: 34px;
+        width:124px;
+        border:0px;
+        text-align:left;
+}
+.aqiValueII
+{
+        background-color: #eff2f1;    
+        height: 29px;
+        width:100%;
+        text-align:left;
+      border: 0px;
+}
+.hazeTd
+{
+    background-color:#eff2f1;
+    width:100%;
+}
+.foreBtn:hover,.button:hover,.button_Bottom:hover
+{
+    cursor:pointer;
+}
+.button:hover,.button_Bottom:hover,.button_Float:hover
+{
+    background-color:#57b325;
+    color:White;
+    cursor:pointer;
+}
+.backgroundColor_orange {
+    background-color: Orange;
+}
+.textPart,.tablePart
+{
+    background-color:White;
+    height:500px;
+    margin-left:10px;
+}
+.textPart
+{
+ margin-top:5px;  
+ position: relative; 
+}
+.outLine
+{
+    width:100%;
+    height:100%;
+    background-color:#ebebeb
+}
+.districtArea
+{
+  width: 500px;
+  height: 526px;
+  background: url("../AQI/img/mapnew.png") no-repeat center center;
+  z-index:333;
+  margin-right:0px;
+  float:right;
+  margin-top:-100px;
+}
+.districtAreaS
+{
+  width: 500px;
+  height: 393px;
+  background: url("../AQI/img/mapnew.png") no-repeat center center;
+  z-index:333;
+  margin-right:0px;
+  float:right;
+  margin-top:0px;
+}
+.display
+{
+    display:block;
+}
+.hide
+{
+    display:none;
+}
+.firstPolUl,.hazeLevelUl
+{
+    width:99px;
+    position:absolute;
+    /*padding-left:20px;*/
+    /*height:200px;*/
+    z-index:3;
+    border:1px solid #c8c8c8;
+    overflow-y:auto;
+    height:120px;
+    background-color:White;
+    margin-left: 0px;
+}
+.firstPolUlII
+{
+    width:99px;
+    position:absolute;
+    /*padding-left:20px;*/
+    /*height:200px;*/
+    z-index:3;
+    border:1px solid #c8c8c8;
+    height:120px;
+    background-color:White;
+    margin-left: 0px;
+}
+.firstPolUl
+{
+    z-index:999;
+     margin-left: -2px;
+}
+.firstPolUl li,.hazeLevelUl li
+{
+    text-align:left;
+}
+.dateDiv,.hazeDiv
+{
+   width:99px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 24px;
+   border-radius: 5px;
+   background-color: white;
+   line-height: 24px;
+}
+.dateSelect,.hazeLevelSelect
+{
+    text-align:center;
+}
+
+.selIcon
+{
+margin-top: 10px;
+width: 20px;
+height: 10px;
+background: url(../AQI/img/arrow-n.png) no-repeat;
+float: right;
+margin-right: 2px;
+}
+.selIcon:hover
+{
+    background: url(../AQI/img/arrow-d.png) no-repeat;
+    cursor:pointer;
+}
+.hazeLevelText,.firstPolText
+{
+width: 58px;
+height: 24px;
+text-align:center;
+float: left;
+margin-left:18px;
+color: #686868;
+}
+.hazeLevelText:hover,.firstPolText:hover
+{
+    color: #198a5a;
+    cursor:pointer;
+}
+.firstPolUl li div,.hazeLevelUl li div
+{
+    height:24px;
+    width:100%;
+    color:#727272;
+    text-align:center;
+    line-height:24px;
+}
+
+.firstPolUl li div:hover,.hazeLevelUl li div:hover
+{
+    background-color:#daf5e9;
+    cursor:pointer;
+}
+
+/*上海各行政区颜色图片*/
+.BaoShanArea
+{    
+    width: 52px;
+    height: 65px;
+margin-top: 97px;
+margin-left: 193px;
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+position:absolute;
+}
+.BaoShanArea_1
+{    
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+}
+.BaoShanArea_2
+{    
+background: url(../AQI/img/baoshan-2.png) no-repeat;
+}
+.BaoShanArea_3
+{    
+background: url(../AQI/img/baoshan-3.png) no-repeat;
+}
+.BaoShanArea_4
+{    
+background: url(../AQI/img/baoshan-4.png) no-repeat;
+}
+.BaoShanArea_5
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+.BaoShanArea_6
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+
+.BaoShanAreaII
+{    
+    width: 52px;
+    height: 65px;
+margin-top: 97px;
+margin-left: 193px;
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+position:absolute;
+}
+.BaoShanAreaII_1
+{    
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+}
+.BaoShanAreaII_2
+{    
+background: url(../AQI/img/baoshan-2.png) no-repeat;
+}
+.BaoShanAreaII_3
+{    
+background: url(../AQI/img/baoshan-3.png) no-repeat;
+}
+.BaoShanAreaII_4
+{    
+background: url(../AQI/img/baoshan-4.png) no-repeat;
+}
+.BaoShanAreaII_5
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+.BaoShanAreaII_6
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+
+.BaoShanAreaIII
+{    
+    width: 52px;
+    height: 65px;
+margin-top: 97px;
+margin-left: 193px;
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+position:absolute;
+}
+.BaoShanAreaIII_1
+{    
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+}
+.BaoShanAreaIII_2
+{    
+background: url(../AQI/img/baoshan-2.png) no-repeat;
+}
+.BaoShanAreaIII_3
+{    
+background: url(../AQI/img/baoshan-3.png) no-repeat;
+}
+.BaoShanAreaIII_4
+{    
+background: url(../AQI/img/baoshan-4.png) no-repeat;
+}
+.BaoShanAreaIII_5
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+.BaoShanAreaIII_6
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+
+.ChongMing
+{
+    display:block;
+    width: 184px;
+    height: 155px;
+    margin-top: 0px;
+    margin-left: 162px;
+    position:absolute;
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMing_1
+{
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMing_2
+{
+    background: url(../AQI/img/chongming-2.png) no-repeat;
+}
+.ChongMing_3
+{
+    background: url(../AQI/img/chongming-3.png) no-repeat;
+}
+.ChongMing_4
+{
+    background: url(../AQI/img/chongming-4.png) no-repeat;
+}
+.ChongMing_5
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+.ChongMing_6
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+
+
+.ChongMingII
+{
+    display:block;
+    width: 184px;
+    height: 155px;
+    margin-top: 0px;
+    margin-left: 162px;
+    position:absolute;
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMingII_1
+{
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMingII_2
+{
+    background: url(../AQI/img/chongming-2.png) no-repeat;
+}
+.ChongMingII_3
+{
+    background: url(../AQI/img/chongming-3.png) no-repeat;
+}
+.ChongMingII_4
+{
+    background: url(../AQI/img/chongming-4.png) no-repeat;
+}
+.ChongMingII_5
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+.ChongMingII_6
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+
+
+.ChongMingIII
+{
+    display:block;
+    width: 184px;
+    height: 155px;
+    margin-top: 0px;
+    margin-left: 162px;
+    position:absolute;
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMingIII_1
+{
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMingIII_2
+{
+    background: url(../AQI/img/chongming-2.png) no-repeat;
+}
+.ChongMingIII_3
+{
+    background: url(../AQI/img/chongming-3.png) no-repeat;
+}
+.ChongMingIII_4
+{
+    background: url(../AQI/img/chongming-4.png) no-repeat;
+}
+.ChongMingIII_5
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+.ChongMingIII_6
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+
+
+
+.FengXian
+{
+   width: 98px;
+   height: 62px;
+   margin-left: 206px;
+   margin-top: 231px;
+   position:absolute;
+   background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXian_1
+{
+    background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXian_2
+{
+    background: url(../AQI/img/fengxian-2.png) no-repeat;
+}
+.FengXian_3
+{
+    background: url(../AQI/img/fengxian-3.png) no-repeat;
+}
+.FengXian_4
+{
+    background: url(../AQI/img/fengxian-4.png) no-repeat;
+}
+.FengXian_5
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+.FengXian_6
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+
+
+
+.FengXianII
+{
+   width: 98px;
+   height: 62px;
+   margin-left: 206px;
+   margin-top: 231px;
+   position:absolute;
+   background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXianII_1
+{
+    background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXianII_2
+{
+    background: url(../AQI/img/fengxian-2.png) no-repeat;
+}
+.FengXianII_3
+{
+    background: url(../AQI/img/fengxian-3.png) no-repeat;
+}
+.FengXianII_4
+{
+    background: url(../AQI/img/fengxian-4.png) no-repeat;
+}
+.FengXianII_5
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+.FengXianII_6
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+
+
+.FengXianIII
+{
+   width: 98px;
+   height: 62px;
+   margin-left: 206px;
+   margin-top: 231px;
+   position:absolute;
+   background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXianIII_1
+{
+    background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXianIII_2
+{
+    background: url(../AQI/img/fengxian-2.png) no-repeat;
+}
+.FengXianIII_3
+{
+    background: url(../AQI/img/fengxian-3.png) no-repeat;
+}
+.FengXianIII_4
+{
+    background: url(../AQI/img/fengxian-4.png) no-repeat;
+}
+.FengXianIII_5
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+.FengXianIII_6
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+
+
+.JiaDing
+{
+    width: 63px;
+    height: 73px;
+    margin-left: 148px;
+    margin-top: 100px;
+    position:absolute;
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDing_1
+{
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDing_2
+{
+    background: url(../AQI/img/jiading-2.png) no-repeat;
+}
+.JiaDing_3
+{
+    background: url(../AQI/img/jiading-3.png) no-repeat;
+}
+.JiaDing_4
+{
+    background: url(../AQI/img/jiading-4.png) no-repeat;
+}
+.JiaDing_5
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+.JiaDing_6
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+
+
+.JiaDingII
+{
+    width: 63px;
+    height: 73px;
+    margin-left: 148px;
+    margin-top: 100px;
+    position:absolute;
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDingII_1
+{
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDingII_2
+{
+    background: url(../AQI/img/jiading-2.png) no-repeat;
+}
+.JiaDingII_3
+{
+    background: url(../AQI/img/jiading-3.png) no-repeat;
+}
+.JiaDingII_4
+{
+    background: url(../AQI/img/jiading-4.png) no-repeat;
+}
+.JiaDingII_5
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+.JiaDingII_6
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+
+
+.JiaDingIII
+{
+    width: 63px;
+    height: 73px;
+    margin-left: 148px;
+    margin-top: 100px;
+    position:absolute;
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDingIII_1
+{
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDingIII_2
+{
+    background: url(../AQI/img/jiading-2.png) no-repeat;
+}
+.JiaDingIII_3
+{
+    background: url(../AQI/img/jiading-3.png) no-repeat;
+}
+.JiaDingIII_4
+{
+    background: url(../AQI/img/jiading-4.png) no-repeat;
+}
+.JiaDingIII_5
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+.JiaDingIII_6
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+
+
+
+.JinShan
+{
+  width: 110px;
+  height: 73px;
+ margin-left : 121px;
+ margin-top: 247px;
+ position:absolute;
+ background: url(../AQI/img/jinshan-1.png) no-repeat;
+}
+.JinShan_1
+{
+   background: url(../AQI/img/jinshan-1.png) no-repeat; 
+}
+.JinShan_2
+{
+   background: url(../AQI/img/jinshan-2.png) no-repeat; 
+}
+.JinShan_3
+{
+   background: url(../AQI/img/jinshan-3.png) no-repeat; 
+}
+.JinShan_4
+{
+   background: url(../AQI/img/jinshan-4.png) no-repeat; 
+}
+.JinShan_5
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+.JinShan_6
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+
+.JinShanII
+{
+  width: 110px;
+  height: 73px;
+ margin-left : 121px;
+ margin-top: 247px;
+ position:absolute;
+ background: url(../AQI/img/jinshan-1.png) no-repeat;
+}
+.JinShanII_1
+{
+   background: url(../AQI/img/jinshan-1.png) no-repeat; 
+}
+.JinShanII_2
+{
+   background: url(../AQI/img/jinshan-2.png) no-repeat; 
+}
+.JinShanII_3
+{
+   background: url(../AQI/img/jinshan-3.png) no-repeat; 
+}
+.JinShanII_4
+{
+   background: url(../AQI/img/jinshan-4.png) no-repeat; 
+}
+.JinShanII_5
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+.JinShanII_6
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+
+
+.JinShanIII
+{
+  width: 110px;
+  height: 73px;
+ margin-left : 121px;
+ margin-top: 247px;
+ position:absolute;
+ background: url(../AQI/img/jinshan-1.png) no-repeat;
+}
+.JinShanIII_1
+{
+   background: url(../AQI/img/jinshan-1.png) no-repeat; 
+}
+.JinShanIII_2
+{
+   background: url(../AQI/img/jinshan-2.png) no-repeat; 
+}
+.JinShanIII_3
+{
+   background: url(../AQI/img/jinshan-3.png) no-repeat; 
+}
+.JinShanIII_4
+{
+   background: url(../AQI/img/jinshan-4.png) no-repeat; 
+}
+.JinShanIII_5
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+.JinShanIII_6
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+
+.MinHang
+{
+   width: 78px;
+   height: 76px;
+   margin-left: 180px;
+   margin-top: 164px;
+   position:absolute;
+   background  : url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHang_1
+{
+    background: url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHang_2
+{
+    background: url(../AQI/img/minhang-2.png) no-repeat;
+}
+.MinHang_3
+{
+    background: url(../AQI/img/minhang-3.png) no-repeat;
+}
+.MinHang_4
+{
+    background: url(../AQI/img/minhang-4.png) no-repeat;
+}
+.MinHang_5
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+.MinHang_6
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+
+.MinHangII
+{
+   width: 78px;
+   height: 76px;
+   margin-left: 180px;
+   margin-top: 164px;
+   position:absolute;
+   background  : url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHangII_1
+{
+    background: url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHangII_2
+{
+    background: url(../AQI/img/minhang-2.png) no-repeat;
+}
+.MinHangII_3
+{
+    background: url(../AQI/img/minhang-3.png) no-repeat;
+}
+.MinHangII_4
+{
+    background: url(../AQI/img/minhang-4.png) no-repeat;
+}
+.MinHangII_5
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+.MinHangII_6
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+
+.MinHangIII
+{
+   width: 78px;
+   height: 76px;
+   margin-left: 180px;
+   margin-top: 164px;
+   position:absolute;
+   background  : url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHangIII_1
+{
+    background: url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHangIII_2
+{
+    background: url(../AQI/img/minhang-2.png) no-repeat;
+}
+.MinHangIII_3
+{
+    background: url(../AQI/img/minhang-3.png) no-repeat;
+}
+.MinHangIII_4
+{
+    background: url(../AQI/img/minhang-4.png) no-repeat;
+}
+.MinHangIII_5
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+.MinHangIII_6
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+
+.PuDong
+{
+     width: 128px;
+    height: 147px;
+margin-left: 229px;
+margin-top: 129px;
+position:absolute;
+background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDong_1
+{
+    background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDong_2
+{
+    background: url(../AQI/img/pudong-2.png) no-repeat;
+}
+.PuDong_3
+{
+    background: url(../AQI/img/pudong-3.png) no-repeat;
+}
+.PuDong_4
+{
+    background: url(../AQI/img/pudong-4.png) no-repeat;
+}
+.PuDong_5
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+.PuDong_6
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+
+.PuDongII
+{
+     width: 128px;
+    height: 147px;
+margin-left: 229px;
+margin-top: 129px;
+position:absolute;
+background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDongII_1
+{
+    background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDongII_2
+{
+    background: url(../AQI/img/pudong-2.png) no-repeat;
+}
+.PuDongII_3
+{
+    background: url(../AQI/img/pudong-3.png) no-repeat;
+}
+.PuDongII_4
+{
+    background: url(../AQI/img/pudong-4.png) no-repeat;
+}
+.PuDongII_5
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+.PuDongII_6
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+
+
+.PuDongIII
+{
+     width: 128px;
+    height: 147px;
+margin-left: 229px;
+margin-top: 129px;
+position:absolute;
+background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDongIII_1
+{
+    background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDongIII_2
+{
+    background: url(../AQI/img/pudong-2.png) no-repeat;
+}
+.PuDongIII_3
+{
+    background: url(../AQI/img/pudong-3.png) no-repeat;
+}
+.PuDongIII_4
+{
+    background: url(../AQI/img/pudong-4.png) no-repeat;
+}
+.PuDongIII_5
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+.PuDongIII_6
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+
+.QingPu
+{
+     width: 107px;
+    height: 94px;
+margin-left: 91px;
+margin-top: 156px;
+position:absolute;
+background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPu_1
+{
+    background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPu_2
+{
+    background: url(../AQI/img/qingpu-2.png) no-repeat;
+}
+.QingPu_3
+{
+    background: url(../AQI/img/qingpu-3.png) no-repeat;
+}
+.QingPu_4
+{
+    background: url(../AQI/img/qingpu-4.png) no-repeat;
+}
+.QingPu_5
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+.QingPu_6
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+
+.QingPuII
+{
+     width: 107px;
+    height: 94px;
+margin-left: 91px;
+margin-top: 156px;
+position:absolute;
+background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPuII_1
+{
+    background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPuII_2
+{
+    background: url(../AQI/img/qingpu-2.png) no-repeat;
+}
+.QingPuII_3
+{
+    background: url(../AQI/img/qingpu-3.png) no-repeat;
+}
+.QingPuII_4
+{
+    background: url(../AQI/img/qingpu-4.png) no-repeat;
+}
+.QingPuII_5
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+.QingPuII_6
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+
+.QingPuIII
+{
+     width: 107px;
+    height: 94px;
+margin-left: 91px;
+margin-top: 156px;
+position:absolute;
+background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPuIII_1
+{
+    background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPuIII_2
+{
+    background: url(../AQI/img/qingpu-2.png) no-repeat;
+}
+.QingPuIII_3
+{
+    background: url(../AQI/img/qingpu-3.png) no-repeat;
+}
+.QingPuIII_4
+{
+    background: url(../AQI/img/qingpu-4.png) no-repeat;
+}
+.QingPuIII_5
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+.QingPuIII_6
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+
+
+.SongJiang
+{
+     width: 80px;
+    height: 71px;
+margin-top: 192px;
+margin-left: 130px;
+position:absolute;
+background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiang_1
+{
+    background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiang_2
+{
+    background: url(../AQI/img/songjiang-2.png) no-repeat;
+}
+.SongJiang_3
+{
+    background: url(../AQI/img/songjiang-3.png) no-repeat;
+}
+.SongJiang_4
+{
+    background: url(../AQI/img/songjiang-4.png) no-repeat;
+}
+.SongJiang_5
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+.SongJiang_6
+{
+    background: url(../AQI/img/songjiang-5.png?v=1) no-repeat;
+}
+
+.SongJiangII
+{
+     width: 80px;
+    height: 71px;
+margin-top: 192px;
+margin-left: 130px;
+position:absolute;
+background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiangII_1
+{
+    background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiangII_2
+{
+    background: url(../AQI/img/songjiang-2.png) no-repeat;
+}
+.SongJiangII_3
+{
+    background: url(../AQI/img/songjiang-3.png) no-repeat;
+}
+.SongJiangII_4
+{
+    background: url(../AQI/img/songjiang-4.png) no-repeat;
+}
+.SongJiangII_5
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+.SongJiangII_6
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+
+.SongJiangIII
+{
+     width: 80px;
+    height: 71px;
+margin-top: 192px;
+margin-left: 130px;
+position:absolute;
+background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiangIII_1
+{
+    background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiangIII_2
+{
+    background: url(../AQI/img/songjiang-2.png) no-repeat;
+}
+.SongJiangIII_3
+{
+    background: url(../AQI/img/songjiang-3.png) no-repeat;
+}
+.SongJiangIII_4
+{
+    background: url(../AQI/img/songjiang-4.png) no-repeat;
+}
+.SongJiangIII_5
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+.SongJiangIII_6
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+
+
+
+.XuHui
+{
+   width: 56px;
+   height: 65px;
+   margin-top: 141px;
+   margin-left:199px;
+   position:absolute;
+   background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHui_1
+{
+    background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHui_2
+{
+    background: url(../AQI/img/xuhui-2.png) no-repeat;
+}
+.XuHui_3
+{
+    background: url(../AQI/img/xuhui-3.png) no-repeat;
+}
+.XuHui_4
+{
+    background: url(../AQI/img/xuhui-4.png) no-repeat;
+}
+.XuHui_5
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+.XuHui_6
+{
+    background: url(../AQI/img/xuhui-5.png?v=1) no-repeat;
+}
+
+
+.XuHuiII
+{
+   width: 56px;
+   height: 65px;
+   margin-top: 141px;
+   margin-left:199px;
+   position:absolute;
+   background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHuiII_1
+{
+    background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHuiII_2
+{
+    background: url(../AQI/img/xuhui-2.png) no-repeat;
+}
+.XuHuiII_3
+{
+    background: url(../AQI/img/xuhui-3.png) no-repeat;
+}
+.XuHuiII_4
+{
+    background: url(../AQI/img/xuhui-4.png) no-repeat;
+}
+.XuHuiII_5
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+.XuHuiII_6
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+
+.XuHuiIII
+{
+   width: 56px;
+   height: 65px;
+   margin-top: 141px;
+   margin-left:199px;
+   position:absolute;
+   background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHuiIII_1
+{
+    background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHuiIII_2
+{
+    background: url(../AQI/img/xuhui-2.png) no-repeat;
+}
+.XuHuiIII_3
+{
+    background: url(../AQI/img/xuhui-3.png) no-repeat;
+}
+.XuHuiIII_4
+{
+    background: url(../AQI/img/xuhui-4.png) no-repeat;
+}
+.XuHuiIII_5
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+.XuHuiIII_6
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+
+.mapTitle
+{
+width: 100%;
+position: absolute;
+top: 0;
+height: 40px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 19.5px;
+line-height: 40px;
+background-color: white;
+opacity: 0.63;
+z-index: 999;
+}
+.levelColor_1
+{
+width: 5px;
+height: 31px;
+background-color: #00E400;
+float: right;
+ margin-top:-28px;
+}
+.levelColor_2
+{
+width: 5px;
+height: 31px;
+background-color: #FFFF00;
+float: right;
+ margin-top:-28px;
+}
+.levelColor_3
+{
+width: 5px;
+height: 31px;
+background-color: #FFA500;
+float: right;
+ margin-top:-28px;
+}
+.levelColor_4
+{
+width: 5px;
+height: 31px;
+background-color: #FF0000;
+float: right;
+ margin-top:-28px;
+}
+.levelColor_5
+{
+width: 5px;
+height: 31px;
+background-color: #800080;
+float: right;
+ margin-top:-28px;
+}
+.levelColor_6
+{
+width: 5px;
+height: 35px;
+background-color: rgb(126,0,35);
+float: right;
+ margin-top:-28px;
+}
+.aqiInput
+{
+width: 99%;
+height: 38px;
+float: left;
+line-height: 31px;
+}
+.areaName
+{
+    width:100px;
+}
+.mapControl
+{
+   width: 545px;
+   height: 345px;
+   z-index:9999;
+   margin-top:500px;
+   position:fixed;
+   margin-left:700px;
+   
+}
+.mapMask
+{
+ width: 268px;
+ height: 322px;
+ background: url("../AQI/img/map-line.png?v=20160507") no-repeat center center;
+ opacity:0.9;
+ z-index:999;
+ margin-left:91px;
+ margin-top:-3px;
+
+}
+.button_Bottom
+{
+    border: 1px solid #b0b0b0;
+background: url(../images/aqi/btn_bg.jpg) repeat-x;
+font: 12px/20px "宋体";
+padding: 0 15px;
+margin-left: 20px;
+margin-top: 3px;
+color: black;
+height: 20px;
+line-height: 20px;
+width: 40px;
+text-align: center;
+float: left;
+cursor:pointer;
+}
+.textPreview
+{
+    height:400px;
+    width:500px;
+    border: 0px;
+}
+.textPreview_WFRChem
+{
+    height: 200px;
+    width: 100%;
+    border-color: White;
+}
+.previewTable th,.previewTable td
+{
+
+    height:30px;
+    border:1px solid Black;
+    color: Black;
+}
+.previewTable
+{
+border-spacing:0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+}
+.areaNamePrev
+{
+    width:90px
+}
+.polLevelPrev
+{
+    width: 90px
+}
+.firstPolPrev
+{
+     width: 90px
+}
+.aqiPrev
+{
+     width: 90px
+}
+.hazeLevelPrev
+{
+     width: 120px
+}
+.textPrewDiv
+{
+    text-align: center;
+}
+.mapTitle span
+{
+   color: #6f8589;
+font-weight:bold;
+}
+.aqiAreaTable th
+{
+ 
+    color: black;
+font-size: 14.5px;
+font-weight: bold;
+}
+.btnTd
+{
+width: 380px;
+float: right;
+}
+.button_Float
+{
+border: 1px solid #b0b0b0;
+font: 12px/20px "宋体";
+padding: 0 15px;
+float: right;
+color: black;
+height: 25px;
+line-height: 25px;
+margin-right: 10px;
+margin-top: 8px;
+}
+.prevTitleContent
+{
+    margin-left: auto;
+margin-right: auto;
+width: 400px;
+color: black;
+height: 20px;
+font-size: 17px;
+font-family: "楷体";
+}
+
+.singleHazeLevel_Selected {
+    color: #42b184;
+    border-bottom: 5px solid #42b184;
+    text-align:center;
+    font-weight:200;
+ 
+}
+
+.singleHazeLevel_UnSelected {
+    text-align:center;
+}
+
+.singleHazeLevel {
+    float: right;
+    width: 88px;
+
+    cursor:pointer;
+}
+
+.radioUnChecked{
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	height: 24px;
+	width: 60px;
+	margin-top: 0px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+}
+.radioUnChecked a{ 	color:#777777; text-decoration:none;	display: block;}
+.radioUnChecked a:hover
+{
+	color: #179025;
+	text-decoration: none;
+	display: block;
+	background-color: #ccff99;
+}
+.radioChecked{
+	background-color: #1f982d;
+	border: 1px solid #078015;
+	height: 24px;
+	width: 60px;
+	margin-top: 0px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+	color: #fff;
+}
+.radioChecked a{ color:#fff; text-decoration:none;	display: block;}
+.radioChecked a:hover{ color:#fff; text-decoration:none;	display: block;}
+
+.mpnew
+{
+    float: right;
+    width: 500px;
+    height: 425px;
+    background-color: white;
+    margin-top: -428px;    
+    margin-right:5px;
+    border:1px solid rgba(0,0,0,0.2); 
+    background-image:url('../AQI/img/map-line new.png?v=20162');
+}
+
+.export
+{
+    width:20px;
+    height:20px;
+    float:right;
+    margin-right:10px;
+    background-image:url('../AQI/img/down.gif');
+    cursor:pointer;
+}
+
+.mpnewII
+{
+    float: right;
+    width: 500px;
+    height: 425px;
+    background-color: white;
+    margin-top: -428px;    
+    margin-right:5px;
+    border:1px solid rgba(0,0,0,0.2); 
+    background-image:url('../AQI/img/map-line new.png?v=2');
+}
+
+.pubTime {
+    right: -45px;
+    bottom: 10px;
+    margin-top:0px;
+    margin-left:10px;
+     font-family:微软雅黑;
+}
+.mapTitleNew
+{
+ width: 100%;
+ height: 25px;
+ z-index: 999;
+ color: #3A5CE6;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:10px;
+    }
+.mapDate 
+{
+    margin-left:10px;
+    width: 100%;
+    top: 30px;
+    height: 40px;
+    color: Black;
+    font-family: "宋体";
+    font-size: 19.5px;
+    font-weight: bold;
+    line-height: 40px;
+    left: 10px;
+    z-index: 999;
+}
+
+.totalContentII
+{
+   margin-left : auto;
+   margin-right : auto;
+   background-color : #ebebeb;
+   width : 100%;
+}
+
+.totalContentIIQuery
+{
+   margin-left : auto;
+   margin-right : auto;
+   background-color : #ebebeb;
+   width : 100%;
+
+}
+
+.totalContentIIIQuery
+{
+   margin-left : auto;
+   margin-right : auto;
+   background-color : #ebebeb;
+   width : 100%;
+
+}
+
+.totalContentIII
+{
+   margin-left : auto;
+   margin-right : auto;
+   background-color : #ebebeb;
+   width : 100%;
+
+}
+
+.editLabelET
+{
+    width: 100%;
+    height: 28px;
+     background-color: #f0f8f6;
+    line-height: 28px;
+    color:#7e8181;
+}
+
+.editLabelCN
+{
+    width: 100%;
+    height: 28px;
+    background-color: #f0f8f6;
+    line-height: 28px;
+    color:#7e8181;
+}
+
+.editLabelLN
+{
+    width: 100%;
+    height: 28px;
+    background-color: #f0f8f6;
+    line-height: 28px;
+    color:#7e8181;
+}
+
+.selectDateFormStyle {
+    height: 22px;
+    width: 130px;
+    background-color: #f2f2f2;
+    border: 1px solid #d6d6d6;
+    background-image: url(../../EvaluateHtml/css/image/datePicker.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+	margin:0px;
+	padding:0px;
+}
+.modal-body {
+    padding-left: 40px;
+}
+th {
+    text-align: center;
+}

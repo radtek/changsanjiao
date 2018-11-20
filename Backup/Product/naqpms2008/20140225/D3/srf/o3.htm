@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE>NAQPMS Forecast Results </TITLE>
+<BODY bgcolor="#aaffdd" text="#3333dd" link="#003322" vlink="#003322">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<script language="javascript">
+<!--
+var TimeSet1 = 500 ;
+var ImageSetA =1 ;
+var imx = 24 ;
+ANIMA1 = new Array() ;
+
+for (i = 1 ; i <= imx ; i++) {
+  ANIMA1[i] = new Image();
+  if ( i < 10 ) { ii = "00"+i} else { ii = "0"+i } ;
+  ANIMA1[i].src = "srfo3-" + (i-1) + ".gif" ;
+}
+
+function anime_1() {
+   document.animation.src = ANIMA1[ImageSetA].src ;
+   ImageSetA++ ;
+        if(ImageSetA > imx ) {
+           ImageSetA = 1 ;
+        }
+   timerID=setTimeout("anime_1()",TimeSet1);
+}
+
+function anime_2(){
+   clearTimeout(timerID);
+}
+
+function anime_3() {
+   document.animation.src = ANIMA1[ImageSetA].src ;
+   ImageSetA-- ;
+        if(ImageSetA < 1 ) {
+           ImageSetA = imx ;
+        }
+}
+
+function anime_4() {
+   document.animation.src = ANIMA1[ImageSetA].src ;
+   ImageSetA++ ;
+        if(ImageSetA > imx ) {
+           ImageSetA = 1 ;
+        }
+}
+
+//-->
+</script>
+</BODY>
+</HEAD>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center>
+<table width="891" height="600" border="0" bordercolor="#ffddaa">
+<th width="800">
+
+<IMG SRC="srfo3-0.gif" name="animation" ALT="Animation" border=0 width="800" height="600"> 
+
+<th width="77">
+
+<INPUT TYPE="button" VALUE="Movie ON" onClick="anime_1()">
+<INPUT TYPE="button" VALUE="Movie Stop" onClick="anime_2()">
+<INPUT TYPE="button" VALUE="Step  Go" onClick="anime_4()">
+<INPUT TYPE="button" VALUE="Step  Back" onClick="anime_3()">
+
+</table>
+</BODY>
+</center>
+
+</HTML>

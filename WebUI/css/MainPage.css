@@ -1,0 +1,201 @@
+﻿body {min-width:1278px; overflow:auto;}
+header
+{
+    height: 85px;
+    background-color: rgb(10,92,148);
+}
+#addMunu{ width:72px; background-color:white;}
+#mainContent{ width:100%; background-color:#DDE5E8;}
+#leftMenu{ width:200px; border:1px solid #c9c9c9;  background-color:rgb(216,215,213);}
+#mainContent,#leftMenu,#addMunu{ height:100%;}
+nav {
+    height: 85px;
+    color: #fff;
+    float:right;
+    margin-right:90px;
+}
+nav ul{ margin:0; height:100%;}
+nav ul li
+{
+    display: inline-block;
+    height: 100%;
+    padding: 0 15px;
+    margin: 1px 50px 0 5px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+.outPdPreview_img
+{
+    background-image:url(../images/cpll-n.png);
+    background-repeat:no-repeat;
+}
+.outPdPreview_img_d
+{
+    background-image:url(../images/cpll-d.png);
+    background-repeat:no-repeat;
+}
+.webGIS_img
+{
+    background-image:url(../images/jhfx-n.png);
+    background-repeat:no-repeat;
+}
+.webGIS_img_d
+{
+    background-image:url(../images/jhfx-d.png);
+    background-repeat:no-repeat;
+}
+.productMake_img
+{
+    background-image:url(../images/zzfb-n.png);
+    background-repeat:no-repeat;
+}
+.productMake_img_d
+{
+    background-image:url(../images/zzfb-d.png);
+    background-repeat:no-repeat;
+}
+.dataService_img
+{
+    background-image:url(../images/sjfw-n.png);
+    background-repeat:no-repeat;
+
+}
+.dataService_img_d
+{
+    background-image:url(../images/sjfw-d.png);
+    background-repeat:no-repeat;
+
+}
+.commin_img
+{
+    width:67px;
+    margin-top:17px;
+    
+}
+.buttons_user
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    width: 100px;
+    height:85px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #999999;
+}
+.user_img
+{
+    background-image: url(../images/geren.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    height: 42px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+    line-height: 42px;
+    text-indent: 20px;
+        cursor:pointer;
+}
+.icon_img_left
+{
+     background-image: url(../images/shezi-n.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    float:left;
+    width:45px;
+    height:43px;
+    cursor:pointer;
+}
+.icon_img_left_d
+{
+     background-image: url(../images/shezi-d.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    float:left;
+    width:45px;
+    height:43px;
+        cursor:pointer;
+}
+.icon_img_right
+{
+    background-image: url(../images/tuichu.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width:44px;
+    height:43px;
+    float:left;
+        cursor:pointer;
+}
+.icon_img_right_d
+{
+    background-image: url(../images/tuichu-d.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width:44px;
+    height:43px;
+    float:left;
+        cursor:pointer;
+}
+.mainMunu_left
+{
+    width: 72px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:rgb(216,215,213);
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family: 微软雅黑;
+    background-color:rgb(57,120,163);
+}
+.focus
+{
+    width: 72px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(55,156,224);
+    background-image: url(../images/jt_26.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main {
+    width: 72px;
+    height: 152px;
+}
+main ul{ margin:0; height:100%; padding-left:0px; width:72px;}
+main ul li
+{
+    height: 100%;
+    cursor: pointer;
+
+}
+
+
+.ishow {
+    background-image: url(images/jt-01.png);
+    width: 6px;
+    height: 13px;
+    display: block;
+    margin: 9px 2px;
+}
+
+.bit {
+    position: absolute;
+    background: url(images/ico-01.png) no-repeat;
+    width: 14px;
+    height: 33px;
+    left: 200px;
+    top: 40%;
+    margin-top: 34px;
+    display: block;
+    cursor: pointer;
+    z-index: 99;
+}

@@ -1,0 +1,2310 @@
+<?xml  version="1.0"?>
+<?mso-application  progid="Excel.Sheet"?>
+<Workbook  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties  xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>ZWF</Author>
+    <Created>2014-17-14T10:03:SSZ</Created>
+    <Company>Readearth<</Company>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <ExcelWorkbook  xmlns="urn:schemas-microsoft-com:office:excel">
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style  ss:ID="Default"  ss:Name="Normal">
+      <Alignment  ss:Vertical="Center"/>
+      <Borders/>
+      <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000" />
+      <Interior/>
+      <Protection/>
+    </Style>
+    <Style  ss:ID="content">
+      <Borders>
+         <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+      </Borders>
+      <Font ss:FontName="宋体" ss:Size="12" x:CharSet="134" ss:Color="#000000"/>
+      <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+    </Style>
+    <Style  ss:ID="header">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+      <Borders>
+         <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+      </Borders>
+      <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+      <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+    </Style>
+    <Style  ss:ID="title">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+      <Borders/>
+      <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+      <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+    </Style>
+  </Styles>
+  <Worksheet  ss:Name="徐家汇气象数据">
+    <Table>
+<Row>
+<Cell ss:StyleID="header"><Data  ss:Type="String">collect_time</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">temperature</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">wind_direction</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">wind_speed</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">air_pressure</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">rain_sum</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">relativehumidity</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 12:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">112.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1025.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 13:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1025.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 14:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">57.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1025.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 15:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 16:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 17:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">294.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 18:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 19:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 20:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 21:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 22:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/24 23:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 0:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 1:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">107.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 2:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 3:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 4:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 5:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">320.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 6:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 7:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 8:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 9:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 10:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 11:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 12:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 13:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 14:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 15:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 16:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">8.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 17:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 18:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1018.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 19:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">325.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1018.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 20:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1018.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 21:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">250.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1018.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 22:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">244.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1019.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/25 23:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">255.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 0:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.60</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 1:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">330.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 2:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">42.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 3:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">334.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 4:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">257.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 5:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">350.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 6:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">335.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 7:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 8:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">336.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1020.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 9:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1021.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 10:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">319.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 11:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.20</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">298.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 12:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">339.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1022.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 13:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">5.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 14:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 15:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">229.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 16:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">239.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1024.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 17:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">300.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.70</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 18:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">238.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 19:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">241.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.80</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 20:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.10</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 21:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.30</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.00</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014/2/26 22:00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">8.90</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">265.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.40</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1023.50</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">-9999.00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.00</Data></Cell>
+</Row>
+    </Table>
+    <WorksheetOptions  xmlns="urn:schemas-microsoft-com:office:excel">
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+  <Worksheet  ss:Name="静安监测站">
+    <Table>
+<Row>
+<Cell ss:StyleID="header"><Data  ss:Type="String">日期</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">PM2.5</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">PM10</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">NO2</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">O3-1h</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">O3-8h</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">SO2</Data></Cell>
+<Cell ss:StyleID="header"><Data  ss:Type="String">CO</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">143.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">225.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">177.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">238.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">158.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">167.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">243.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">158.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">70.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">75.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">167.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">198.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">149.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">107.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">157.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">142.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">93.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">128.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">120.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">114.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">136.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">138.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">60.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">133.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">131.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">108.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">117.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">129.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">73.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">92.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">139.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">133.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">93.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">162.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">131.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">97.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">106.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">43.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">102.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">130.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">90.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">108.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">103.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">90.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">75.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">68.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">107.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">101.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">102.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">105.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">43.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-02 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">83.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">109.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">70.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">93.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">75.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">91.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">78.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">105.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">122.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">100.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">136.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">113.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">151.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">135.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">179.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">130.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">212.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">257.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">136.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">111.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">155.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">239.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">151.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">127.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">198.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">259.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">157.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">143.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">188.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">260.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">165.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">142.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">164.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">199.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">100.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">68.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">127.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">147.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">45.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">103.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">148.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">91.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">122.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">166.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">107.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">137.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">204.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">161.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">175.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">233.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">186.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">58.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">184.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">262.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">189.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">83.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">253.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">357.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">221.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">291.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">188.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">83.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">242.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">354.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">189.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">92.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-03 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">279.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">374.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">182.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">243.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">314.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">135.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">256.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">324.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">149.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">102.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">285.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">362.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">151.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">125.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">281.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">380.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">139.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">104.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">230.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">299.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">212.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">251.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">94.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">165.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">176.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">108.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">117.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">97.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">137.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">120.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">60.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">105.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">166.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">70.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">117.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">101.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">102.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">74.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">112.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">57.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">92.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-04 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">9.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">65.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">87.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">78.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">91.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">90.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">116.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">42.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">161.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">101.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">134.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">196.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">136.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">212.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">128.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">42.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">57.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">151.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">216.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">137.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">102.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">166.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">110.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">126.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">93.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">74.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">78.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">74.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-05 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">4.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">5.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">6.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">6.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">4.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">139.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">204.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">123.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">115.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">153.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">185.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">114.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">96.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">109.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">167.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">90.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">118.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">146.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">131.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">104.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">80.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">150.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">209.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">183.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">96.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">122.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">112.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">60.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">89.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">136.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">99.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">151.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">163.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">74.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">58.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">115.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">171.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">179.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">79.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">63.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">69.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">107.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">192.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">188.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">31.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">129.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">205.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">184.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-01 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">157.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">210.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">183.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">22.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">3.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-06 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">65.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">60.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.6</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">70.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">45.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">60.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 01:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">37.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">41.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 02:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 03:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">67.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">65.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">79.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">70.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">28.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">78.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">72.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">35.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">74.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">73.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">55.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">16.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">39.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">50.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">85.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 13:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">49.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">82.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">34.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">44.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">76.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 11:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">43.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">79.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">30.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">46.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 12:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">47.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 14:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">40.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">56.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">84.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 16:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">43.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">81.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 17:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">91.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 15:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">45.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">88.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">26.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 18:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">51.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">98.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 19:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">45.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">57.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">100.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 20:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">99.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 21:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">61.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">103.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 22:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">66.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">99.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">19.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-07 23:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">77.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">78.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">100.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1.3</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 00:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">86.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">95.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 04:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">103.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">113.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">71.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">11.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">10.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">1</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 06:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">32.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">29.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">58.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">25.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 05:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">68.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">75.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">48.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">17.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">15.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 07:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">24.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">36.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">33.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.5</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 08:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">18.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">20.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">43.9</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">64.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">38.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">12.8</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.7</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 09:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">23.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">54.2</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">59.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">45.1</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">13.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="content"><Data  ss:Type="String">2014-01-08 10:00</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">21.0</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">27.6</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">53.3</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">62.7</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">52.5</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">14.4</Data></Cell>
+<Cell ss:StyleID="content"><Data  ss:Type="String">0.8</Data></Cell>
+</Row>
+    </Table>
+    <WorksheetOptions  xmlns="urn:schemas-microsoft-com:office:excel">
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

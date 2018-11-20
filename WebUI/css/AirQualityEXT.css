@@ -1,0 +1,73 @@
+﻿.introduce {
+    border-bottom: 1px solid #E4E4E4;
+    /*padding:10px 0 10px 20px;*/
+    line-height: 25px;
+    text-align: left;
+    font-size: 12px;
+    color: #3970b1;
+    opacity: 1;
+    box-sizing: content-box;
+    /*transition:all 1s;*/
+    /*transition-duration: 1s;*/
+    /*transition:opacity 1s;*/
+}
+
+    .introduce strong {
+        font-weight: bold;
+    }
+
+.header {
+    text-align: left;
+    font-size: 20px;
+    color: #282828;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.line1 {
+    border-top: 1px solid black;
+    margin-top: 70px;
+}
+
+.month, .day {
+    float: left;
+    width: 60px;
+    background-color: #ccc;
+    line-height: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
+
+.monthOrday {
+    float: left;
+    margin-top: 3px;
+}
+
+.indis {
+    display: none;
+}
+
+.show-title {
+    float: left;
+}
+
+.show-intro {
+    margin-left: 10px;
+    float: left;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+#contentNone div {
+    margin-bottom: 50px !important;
+}
+
+.condition {
+    display: none;
+}

@@ -1,0 +1,106 @@
+﻿body 
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: 13px;
+}
+.contentIframe
+{
+	width:1056px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+.ssfbContent
+{
+	width:1046px;
+	height:390px;
+	border: 2px solid #078015;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+.ContentDiv
+{
+	width:1046px;
+	border: 2px solid #078015;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+	margin-top:20px;
+}
+.ContentNoneDiv
+{
+	height:670px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.splitDiv
+{
+    margin-top:20px;
+	width:680px;
+	height:640px;
+	border: 2px solid #078015;
+	float:left;
+}
+.huanJingOne
+{
+	width: 248px;
+	height: 600px;
+	padding: 5px 5px 5px 30px;
+}
+.huanJingTwo
+{
+	width:250px;
+	height:600px;
+	padding:5px 5px 5px 40px;
+	
+}
+.labelHuanjing
+{
+	font-family: 微软雅黑;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 15px 5px 5px 25px;
+}
+.huanjingReDiv
+{
+	margin-top:20px;
+	width:320px;
+	height:640px;
+	border: 2px solid #078015;
+	float:right;
+}
+.huanJingReX
+{
+	width:310px;
+	height:580px;
+	margin-left:auto;
+	margin-right:auto;
+    padding-left:7px;
+	
+}
+.wBButton
+{
+	width: 25%;
+	height: 30px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	line-height: 13px;
+    padding-left:20px;
+}
+.wBButtonTitle
+{
+	width: 25%;
+	height: 30px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	line-height: 13px;
+    padding-left:20px;
+    font-weight:bold;
+}

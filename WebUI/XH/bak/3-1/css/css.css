@@ -1,0 +1,279 @@
+﻿/* CSS Document */
+*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+
+a{ color:#333333; text-decoration:none;	}
+a:hover{ color:#333333; text-decoration:underline;}
+.checkStyle{
+	height: 36px;
+	width: 296px;
+	float: left;
+	margin-left: 16px;
+}
+.checkLable{
+	line-height: 36px;
+	float: left;
+	height: 36px;
+	width: 70px;
+}
+.selectDateFormStyle
+{
+	height: 22px;
+	width: 120px;
+	background-color: #f2f2f2;
+	border: 1px solid #d6d6d6;
+	background-image: url(../../EvaluateHtml/css/image/datePicker.gif) ;
+	background-position: right center;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+}
+input::-ms-clear {
+    display: none;
+}
+.divTop {
+    background-color: #f8f8f8;
+    height: 30px;
+    width: 100%;
+}
+#comforecastTable td {
+    text-align: center;
+    font-size: 14px;
+    
+}
+.tabletitle {
+    background-color: #42B385;
+    line-height: 24px;
+    height: 24px;
+   
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    white-space: nowrap;
+    color: white;
+}
+.tabletitle1 {
+    background-color: #42B385;
+    line-height: 24px;
+    height: 24px;
+ 
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    white-space: nowrap;
+    color: white;
+}
+.tabletitle2 {
+    background-color: #42B385;
+    line-height: 24px;
+    height: 24px;
+
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    white-space: nowrap;
+    color: white;
+}
+.tableRow {
+    line-height: 26px;
+    height: 26px;
+ 
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #F2F2F2;
+        white-space: nowrap;
+border: 1px solid White;
+}
+.tableRow2
+{
+    line-height: 26px;
+    height: 26px;
+
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #F2F2F2;
+    white-space: nowrap;
+border: 1px solid White;
+}
+.tableRow1 {
+    line-height: 26px;
+    height: 26px;
+ 
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #DFDFDF;
+border: 1px solid White;
+}
+.tableRowName {
+    line-height: 26px;
+    height: 26px;
+ 
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #DFDFDF;
+border: 1px solid White;
+}
+.float
+{
+     float:left;
+}
+.divInputType {
+    border: 1px solid #C0C0C0;
+    cursor: text;
+    width: 100%;
+    vertical-align: middle;
+}
+.tableRow div {
+    height: 25px;
+    width: 45%;
+}
+.divColor {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    margin-left: 5px;
+    float: left;
+    overflow: visible;
+}
+.divAQI {
+    margin-right: 3px;
+    text-align: left;
+}
+.divtext {
+    margin-left: 5px;
+    float: left;
+    text-align: left;
+    width:50%;
+
+}
+.btnArea {
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+    opacity: 0.60;
+}
+.btns {
+    width: 180px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.button_Bottom {
+    border: 1px solid #b0b0b0;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+}
+.button_Bottom:hover
+{
+    background-color:#57b325;
+    color:White;
+    cursor: pointer;
+}
+
+.button_BottomII {
+    border: 1px solid #b0b0b0;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.button_BottomII:hover
+{
+    background-color:#57b325;
+    color:White;
+    cursor: pointer;
+}
+
+.button_Bottom1 {
+    border: 1px solid #b0b0b0;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+}
+
+
+.tableRowX div {
+    height: 25px;
+    width: 45%;
+}
+
+.tableRowX {
+    line-height: 26px;
+    height: 26px;
+    width: 9%;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #F2F2F2;
+    white-space: nowrap;
+      border: 1px solid White;
+    border-bottom:2px solid #48d026;
+}
+.tableRow2X
+{
+    line-height: 26px;
+    height: 26px;
+    width: 12%;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #F2F2F2;
+    white-space: nowrap;
+      border: 1px solid White;
+       border-bottom:2px solid #48d026;
+}
+.tableRow1X {
+    line-height: 26px;
+    height: 26px;
+    width: 8%;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #DFDFDF;
+       border: 1px solid White;
+      border-bottom:2px solid #48d026;
+}
+.tableRowNameX {
+    line-height: 26px;
+    height: 26px;
+    width: 6%;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    background-color: #DFDFDF;
+      border: 1px solid White;
+        border-bottom:2px solid #48d026;
+}

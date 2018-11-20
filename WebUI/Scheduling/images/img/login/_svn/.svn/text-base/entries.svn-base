@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="40"
+   name=""
+   committed-date="2011-04-18T01:58:40.031250Z"
+   url="http://192.168.1.212/svn/SH2010HB007/trunk/src/AQMS/Web/App_Themes/Default/img/login"
+   last-author="zhangliang"
+   kind="dir"
+   uuid="f688a8f5-51a2-da4a-83ae-792793454850"
+   repos="http://192.168.1.212/svn/SH2010HB007"
+   revision="414"/>
+<entry
+   committed-rev="32"
+   name="login_left.jpg"
+   text-time="2011-04-16T08:26:07.218750Z"
+   committed-date="2011-04-16T08:22:15.765625Z"
+   checksum="e5bb38a4b04a2d2a6f085540ecd4fd42"
+   last-author="zhangliang"
+   kind="file"
+   prop-time="2011-04-16T08:26:07.109375Z"/>
+<entry
+   committed-rev="32"
+   name="logo.gif"
+   text-time="2011-04-16T08:26:07.234375Z"
+   committed-date="2011-04-16T08:22:15.765625Z"
+   checksum="4dbe43b3410a07b28410dfb75138ee3a"
+   last-author="zhangliang"
+   kind="file"
+   prop-time="2011-04-16T08:26:07.125000Z"/>
+<entry
+   committed-rev="32"
+   name="login_top_bg.gif"
+   text-time="2011-04-16T08:26:07.296875Z"
+   committed-date="2011-04-16T08:22:15.765625Z"
+   checksum="3eafb3f0d3f1cd79d6fb3993503cf0b4"
+   last-author="zhangliang"
+   kind="file"
+   prop-time="2011-04-16T08:26:07.171875Z"/>
+<entry
+   committed-rev="32"
+   name="login_text.jpg"
+   text-time="2011-04-16T08:26:07.328125Z"
+   committed-date="2011-04-16T08:22:15.765625Z"
+   checksum="a19fd699bb482ea078634a9659d1fdac"
+   last-author="zhangliang"
+   kind="file"
+   prop-time="2011-04-16T08:26:07.187500Z"/>
+</wc-entries>

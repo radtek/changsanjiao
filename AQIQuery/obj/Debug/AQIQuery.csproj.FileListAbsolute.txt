@@ -1,0 +1,156 @@
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.dll.config
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.dll
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.pdb
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\AQIQuery.dll
+C:\Users\Lucas\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.dll
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\AQIQuery.dll
+I:\Users\it_lt\Documents\Visual Studio 2008\Projects\copyCSV\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\bin\Debug\AQIQuery.dll
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\obj\Debug\AQIQuery.dll
+E:\使用中程序\SEMCShares正在使用原来的\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\备份\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\备份\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\备份\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+K:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\2010\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\backup\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\backup\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\backup\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\backup\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\backup\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\backup\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\new\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\new\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+I:\new\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\new\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\new\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+I:\new\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+I:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\new\news\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\new\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+I:\new\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\new\news\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\new\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+F:\new\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\new\news\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+I:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\上海地听信息科技工作目录\SourceCode\无锡\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\项目备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\项目备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\项目备份\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\项目备份\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\项目备份\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\项目备份\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\项目文件\浦东气象局\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+D:\周健\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+D:\周健\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+D:\周健\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+D:\周健\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+D:\周健\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+D:\周健\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\SEMCShares2周健\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\SEMCShares2周健\AQIQuery\bin\Debug\AQIQuery.dll
+E:\SEMCShares2周健\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\SEMCShares2周健\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\SEMCShares2周健\AQIQuery\obj\Debug\AQIQuery.dll
+E:\SEMCShares2周健\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\bin\Debug\AQIQuery.dll
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\obj\Debug\AQIQuery.dll
+E:\项目文件\浦东气象局\SEMCShares浦东\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\obj\Debug\ResolveAssemblyReference.cache
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\浦东项目\浦东最新代码\SEMCShares\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+H:\BaiduYunDownload\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+H:\BaiduYunDownload\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+H:\BaiduYunDownload\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+H:\BaiduYunDownload\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+H:\BaiduYunDownload\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+F:\浦东项目交接\浦东项目交接\代码\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+F:\长三角\健康系统版\SEMCShares180322\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+D:\wangbin\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
+D:\wangbin\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
+D:\wangbin\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
+D:\wangbin\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
+D:\wangbin\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
+D:\wangbin\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb

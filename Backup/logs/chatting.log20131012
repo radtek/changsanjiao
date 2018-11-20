@@ -1,0 +1,60 @@
+
+
+2013-10-12 10:51:24,672 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+
+
+
+
+
+
+2013-10-12 11:27:21,857 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+2013-10-12 11:33:26,725 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+2013-10-12 11:33:51,195 - PublicData:{发送短信失败，原因是连接数据库出错,编号为-1，市环保局发送失败,原因是System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.101.59.20:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 PushAQIOC.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\PushAQIOC.cs:行号 347
+   在 MMShareBLL.DAL.ComForecast.SHBJ(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2016，宣教中心发送失败,原因是System.Net.WebException: 未能解析代理名: 'server3'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 Lucas.importAQI.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\importAQI.cs:行号 241
+   在 MMShareBLL.DAL.ComForecast.XJZX(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2073，实时发布系统发送成功，微博发送成功}
+2013-10-12 13:54:25,372 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+
+2013-10-12 17:01:25,217 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+2013-10-12 17:01:49,508 - PublicData:{发送短信失败，原因是连接数据库出错,编号为-1，市环保局发送失败,原因是System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.101.59.20:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 PushAQIOC.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\PushAQIOC.cs:行号 347
+   在 MMShareBLL.DAL.ComForecast.SHBJ(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2016，宣教中心发送失败,原因是System.Net.WebException: 未能解析代理名: 'server3'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 Lucas.importAQI.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\importAQI.cs:行号 241
+   在 MMShareBLL.DAL.ComForecast.XJZX(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2073，实时发布系统发送成功，微博发送成功}
+2013-10-12 17:05:08,020 - SendSM:发送短信失败，原因是连接数据库出错,编号为-1
+2013-10-12 17:05:31,705 - PublicData:{发送短信失败，原因是连接数据库出错,编号为-1，市环保局发送失败,原因是System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.101.59.20:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 PushAQIOC.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\PushAQIOC.cs:行号 347
+   在 MMShareBLL.DAL.ComForecast.SHBJ(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2016，宣教中心发送失败,原因是System.Net.WebException: 未能解析代理名: 'server3'
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 Lucas.importAQI.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 C:\Users\user\Desktop\SEMCShare20130824\MASlib\importAQI.cs:行号 241
+   在 MMShareBLL.DAL.ComForecast.XJZX(String forecastDate, String userName, Int32 count, String content) 位置 C:\Users\user\Desktop\SEMCShare20130824\BLL\DAL\ComForecast.cs:行号 2073，实时发布系统发送成功，微博发送成功}

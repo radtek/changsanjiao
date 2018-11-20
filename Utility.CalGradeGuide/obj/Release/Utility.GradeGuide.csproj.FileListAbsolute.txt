@@ -1,0 +1,12 @@
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\Utility.GradeGuide.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\Utility.GradeGuide.pdb
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\ChinaAirUtility.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\ChinaAQI.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\DBUtility.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\Newtonsoft.Json.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\Newtonsoft.Json.Net20.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\obj\Release\Utility.GradeGuide.csprojResolveAssemblyReference.cache
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\obj\Release\Utility.GradeGuide.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\obj\Release\Utility.GradeGuide.pdb
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\MySql.Data.dll
+E:\薛辉\上海气象局\是天\美v2\SEMCShares\Utility.CalGradeGuide\bin\Release\DBUtility.pdb

@@ -1,0 +1,202 @@
+﻿*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+#contentShare
+{
+	width: 1046px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+#tabbtnShare{
+	height: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tabbtnShare ul li{
+	line-height: 26px;
+	height: 26px;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width: 122px;
+	text-align: center;
+	font-size: 14px;
+	color: #777777;
+}
+#tabbtnShare ul li .tabHighlight{
+	height: 26px;
+	width: 122px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background-image: url(../tab.png);
+	background-repeat: no-repeat;
+	display: block;
+}
+#tabbtnShare ul li a{ color:#777777; text-decoration:none;	display: block;}
+#tabbtnShare ul li a:hover{ color:#179025; text-decoration:none;	display: block;	background-image: url(../tabo.png);}
+.liTab
+{
+	float:left;
+	display:block;
+}
+#type_select1row
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #d7d7d7;
+	height: 37px;
+	width:1086px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.shortdan{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 60px;
+}
+.shortdan_highlight{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 60px;
+	color: #fff;
+	background-color: #1F982D;
+	border: 1px solid #078015;
+	margin-top: 6px;
+}
+.shortdan_highlight a{ color:#fff; text-decoration:none;}
+.shortdan_highlight a:hover{ color:#fff; text-decoration:none;}
+.shortdanH{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 90px;
+}
+.shortdan_highlightH{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 90px;
+	color: #FFF;
+	background-color: #1F982D;
+	border: 1px solid #078015;
+	margin-top: 6px;
+}
+.shortdan_highlightH a{ color:#fff; text-decoration:none;}
+.shortdan_highlightH a:hover{ color:#fff; text-decoration:none;}
+.checkStyleShare{
+	height: 36px;
+	width: 236px;
+	float: left;
+	margin-left: 16px;
+}
+.zdian
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #d7d7d7;
+	height: 37px;
+	width:1086px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tableButton
+{
+	cursor: pointer;
+	border: none;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+}
+.defaulttableButton
+{
+	background:url(../table.png);
+}
+.overtableButton
+{
+	background:url(../table.png);
+}
+.defaultQuxianButton
+{
+	background: url(../chart.png);
+}
+.overQuxianButton
+{
+	background:url(../chart.png);
+}
+.buttonStyle
+{
+	width: 60px;
+	height: 24px;
+	margin-top: 6px;
+	float: right;
+	margin-right: 5px;
+}
+.exportCls
+{
+  padding-top:5px;
+  font-size:13px;
+  font-family:"微软雅黑","宋休",Verdana;
+	line-height: 15px;
+}
+.button_defaultExport
+{
+    height:19px;
+    border-color:#4a95c9;
+    border-width:1px;
+    padding:1px 4px 1px 4px; 
+    margin:0px; 
+}
+.menu
+{
+	border: 1px solid #ccc;
+	position: absolute;
+	padding: 1px;
+	background-color: #FFFFFF;
+}
+.menu  ul li
+{
+	line-height: 26px;
+	height: 26px;
+	width: 116px;
+	text-align: center;
+	font-size: 14px;
+	
+}
+.menuSelect
+{
+	padding: 3px;
+	font-family: 微软雅黑;
+	background-color: #badbff;
+	cursor:pointer;
+	
+}
+.menuNormal
+{
+	padding: 3px;
+	font-family: 微软雅黑;
+	cursor:pointer;
+}

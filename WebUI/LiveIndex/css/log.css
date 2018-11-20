@@ -1,0 +1,55 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding:0;
+    margin:0;
+}
+label
+{
+    margin-top: 6px;
+    text-align:right;
+}
+.f
+{
+    float:left;
+}
+.header
+{
+    margin:17px auto;
+    width:100%;
+}
+.center
+{
+    text-align:center;
+}
+.ml
+{
+    margin-left:4%;
+}
+td.details-control
+{
+    background: url(../images/details_open.png) no-repeat center center;
+}
+.left
+{
+    text-align:left !important;
+}
+#item1,#item2
+{
+    float:left;
+    width:140px;
+}
+.txt
+{
+    width:95%;
+    margin:0 auto;
+    height:450px;
+    display:none;
+}
+.visible
+{
+    display:block !important;
+}

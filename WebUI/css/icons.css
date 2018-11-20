@@ -1,0 +1,837 @@
+﻿.time
+{
+    background-image: url(images/menu-1.png);
+    background-repeat: repeat-x;
+    width: 199px;
+    height: 35px;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    line-height: 35px;
+    text-align: center;
+    color: #b40909;
+}
+.spaceK
+{
+    width:20px;
+    height:35px;
+
+}
+.navi-area{
+	background-image: url(images/menu-2.png);
+	background-repeat: repeat-x;
+	height: 35px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: -99;
+}
+.navi-area ul{
+	margin-left: 8px;
+}
+.navi-area ul li{
+	float: left;
+	line-height: 35px;
+	font-size: 15px;
+	width: 112px;
+	text-align: left;
+	text-indent: 30px;
+}
+.navi-area ul li a{
+	color:#333;
+	text-decoration:none;
+	display: block;
+}
+.navi-area ul li a:hover{
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	background-color:#42b449;
+	height: 35px;
+	width: 112px;
+}
+.navi-line{
+	background-image: url(images/navi_line.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 35px;
+	width: 1px;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.navi-btn-h
+{
+    background-color: #42b449;
+    height: 35px;
+    width: 112px;
+    color: #FFF;
+    cursor: pointer;
+    text-align:center;
+}
+.navi{
+	background-color:#42b449;
+	height: 35px;
+	width: 112px;
+	color: #FFF;
+}
+.tree
+{
+	background-image:url(images/tree.png);
+}
+.chartsDots
+{
+	background-image:url(images/chartsDots.png);
+}
+.weather
+{
+	background-image:url(images/WeatherCloudyRain.gif);
+}
+.dayReport
+{
+	background-image:url(images/rb.png);
+}
+.dataforcast
+{
+	background-image:url(images/computer.gif);
+}
+.forcast
+{
+	background-image:url(images/Com2LiICO.gif);
+}
+.share
+{
+	background-image:url(images/share.png);
+}
+.world
+{
+	background-image:url(images/world.png);
+}
+.manage_h
+{
+	background-image:url(images/sz-v.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+
+	position:absolute;
+	right:50px;
+	margin-top:4px;
+	cursor:pointer;
+
+}
+.manage
+{
+	background-image:url(images/sz-n.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+
+	position:absolute;
+	right:50px;
+	margin-top:4px;
+	cursor:pointer;
+
+}
+.zx
+{
+	background-image:url(images/tc-n.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:100px;
+	margin-top:4px;
+	cursor:pointer;
+
+}
+.zx_h
+{
+	background-image:url(images/tc-v.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:100px;
+	margin-top:4px;
+	cursor:pointer;
+}
+.MenuText
+{
+	color: #000000;
+	text-align: center;
+	height:35px;
+	
+	display: block;
+	line-height:35px;
+	float:left;
+}
+.buttonTop
+{
+    text-align:center;
+	background-repeat: repeat-x;
+	display: block;
+	height: 35px;
+	width: 112px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 35px;
+	float: left;
+
+	cursor:pointer;
+	
+}
+
+.buttonTop_Wide
+{
+    text-align:center;
+	background-repeat: repeat-x;
+	display: block;
+	height: 35px;
+	width: 162px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 35px;
+	float: left;
+	cursor:pointer;	
+}
+.buttonTop_Wider
+{
+    text-align:center;
+	background-repeat: repeat-x;
+	display: block;
+	height: 35px;
+	width: 182px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 35px;
+	float: left;
+	cursor:pointer;	
+}
+
+.airQuality
+{
+	background-image:url(images/WeatherCloudyRain.gif);
+}
+
+.shachenW
+{
+	background-image:url(images/shachenW.png);
+}
+
+.user
+{
+	background-image:url(images/user.png);
+}
+
+
+.sysManager
+{
+	background-image:url(images/sysmanager.gif);
+}
+
+.transmit
+{
+	background-image:url(images/transmit.gif);
+}
+
+.satelite
+{
+	background-image:url(images/word.gif);
+}
+.sitemap
+{
+	background-image:url(images/sitemap.png);
+}
+.seaforcast
+{
+	background-image:url(images/statistics.png);
+}
+.bell
+{
+	background-image:url(images/bell.gif);
+}
+.table
+{
+	background-image:url(images/table.gif);
+}
+.message
+{
+	background-image:url(images/message.gif);
+}
+.home
+{
+	background-image:url(images/home.gif);
+}
+.track
+{
+	background-image:url(images/track.gif);
+}
+.line_graph
+{
+	background-image:url(images/line_graph.png);
+}
+
+.ballooning
+{
+	background-image:url(images/ballooning.png);
+}
+.potting
+{
+	 background-image: url(images/potting.png) !important;
+}
+.potting_h
+{
+	 background-image: url(images/potting_h.png) !important;
+}
+.potting_m
+{
+	 background-image: url(images/potting_h.png) !important;
+}
+.paper
+{
+	 background-image: url(images/paper.png) !important;
+}
+.paper_h
+{
+	 background-image: url(images/paper_h.png) !important;
+}
+.paper_m
+{
+	 background-image: url(images/paper_h.png) !important;
+}
+.people
+{
+	 background-image: url(images/people.png) !important;
+}
+.people_h
+{
+	 background-image: url(images/people_h.png) !important;
+}
+.people_m
+{
+	 background-image: url(images/people_h.png) !important;
+}
+.compare
+{
+	 background-image: url(images/compare.png) !important;
+}
+.compare_h
+{
+	 background-image: url(images/compare_h.png) !important;
+}
+.compare_m
+{
+	 background-image: url(images/compare_h.png) !important;
+}
+.comforecast
+{
+	background-image: url(images/zhyb.png) !important;
+}
+.comforecast_h
+{
+	background-image: url(images/zhyb_h.png) !important;
+}
+.comforecast_m
+{
+	background-image: url(images/zhyb_h.png) !important;
+}
+.comforecastModify
+{
+	background-image: url(images/gengzheng.png) !important;
+}
+.comforecastModify_h
+{
+	background-image: url(images/gengzheng_h.png) !important;
+}
+.comforecastModify_m
+{
+	background-image: url(images/gengzheng_h.png) !important;
+}
+.forecast
+{
+	 background-image: url(images/forecast.png) !important;
+}
+.forecast_h
+{
+	 background-image: url(images/forecast_h.png) !important;
+}
+.forecast_m
+{
+	 background-image: url(images/forecast_h.png) !important;
+}
+.PM2
+{
+	 background-image: url(images/PM2.png) !important;
+}
+.PM2_h
+{
+	 background-image: url(images/PM2_h.png) !important;
+}
+.PM2_m
+{
+	 background-image: url(images/PM2_h.png) !important;
+}
+.O3
+{
+	 background-image: url(images/O3.png) !important;
+}
+.O3_h
+{
+	 background-image: url(images/O3_h.png) !important;
+}
+.O3_m
+{
+	 background-image: url(images/O3_h.png) !important;
+	 
+}
+
+
+.menu .no {display:none;}
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+ .ulSlect
+{
+    background: #87c439;
+    padding: 5px 5px 5px 5px;
+    color: #FFF;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    cursor:pointer;
+}
+.ulSlectOver
+{
+    background: #92DC14;
+    background-repeat: no-repeat;
+    background-position: 23px;
+    padding: 5px 5px 5px 5px;
+    color: #FFF;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    cursor: pointer;
+}
+  .ulUnSlect
+{
+    padding: 5px;
+    color: #555555;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+    cursor:pointer;
+}
+ ul.sslist li:hover
+ {
+    background: #87c439;
+    background-repeat:no-repeat;
+    background-position: 23px;
+    padding: 5px 5px 5px 5px;
+ 	color: #FFF;
+ }
+body{font:12px/180% Arial, Helvetica, sans-serif, "宋体";}
+.menuTop
+{
+    background:#F4F4EC;
+}
+.firstMenu  	
+{
+    height:32px;
+	cursor: pointer;
+    background-repeat:repeat-x;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom:5px;
+    background-image:url(images/bg1.png);
+}
+.slist
+{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width:163px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.secondMenu
+{
+    font-size: 13px;
+    cursor: pointer;
+    height: 27px;
+    margin-top:8px;
+}
+.leftCommom
+{
+        height:27px;
+        width:5px;
+        float:left;
+}
+.leftCss
+{
+        background-image:url(images/bg2top.png);
+}
+.leftCssv
+{
+        background-image:url(images/bg2topv.png);
+}
+.leftCssClick
+{
+        background-image:url(images/bg2topClick.png);
+}
+.middleCssClick
+{
+    background-image: url(images/bgMiddleClick.png);
+
+}
+.rightCssClick
+{
+        background-image:url(images/bgrightClick.png);
+}
+.OnlyLable
+{
+    font-size: 13.5px;
+    font-size: 13.5px;
+    color: #1b1b1a; /*text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);*/
+    font-weight: inherit;
+    font-family: 微软雅黑;
+    position:relative;
+    top:-5px;
+    left:5px;
+    cursor:pointer;
+}
+.secondLable
+{
+    font-size: 13.5px;
+    font-size: 13.5px;
+    color: #1b1b1a; /*text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);*/
+    font-weight: inherit;
+    font-family: 微软雅黑;
+    position:relative;
+    top:-5px;
+    left:5px;
+    cursor:pointer;
+}
+.secondLableGreen
+{
+    display:inline;
+    font-size: 13.5px;
+    background-position: right;
+    padding-right:20px;
+    font-size: 13.5px;
+    color: #1b1b1a; /*text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);*/
+    font-weight: inherit;
+    font-family: 微软雅黑;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    cursor: pointer;
+    background-image: url(images/arrowDirectgree.png);
+    background-repeat: no-repeat;
+}
+.secondLableOrange
+{
+    display:inline;
+    font-size: 13.5px;
+    background-position: right;
+    padding-right:20px;
+    font-size: 13.5px;
+    color: #1b1b1a; /*text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);*/
+    font-weight: inherit;
+    font-family: 微软雅黑;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    cursor: pointer;
+    background-image: url(images/arrowDirectorange.png);
+    background-repeat: no-repeat;
+}
+
+
+.middleCommom
+{
+    height: 27px;
+    background-repeat: repeat-x;
+    float: left;
+    width: 152px;
+}
+.middleCss
+{
+    background-image: url(images/bgMiddle.png);
+
+}
+.middleCssv
+{
+    background-image: url(images/bgMiddlev.png);
+
+}
+.rightCommom
+{
+        height:27px;
+        width:6px;
+        float:left;
+}
+.rightCss
+{
+        background-image:url(images/bgright.png);
+}
+.rightCssv
+{
+        background-image:url(images/bgrightv.png);
+}
+.menuarrow
+{
+    width:11px;
+    height:8px;
+}
+.menuarrowUp
+{
+    background-image:url(images/arrowup.png);
+    width:11px;
+    height:8px;
+}
+.menuarrowDown
+{
+    background-image:url(images/arrowdown.png);
+    width:11px;
+    height:8px;
+}
+.menuarrow1
+{
+     position:relative;
+     top:35%;
+     left:90%;
+}
+.sslist
+{
+    background: #f5f5f5;
+    width: 161px;
+    overflow: hidden;
+    display: block;
+    border-right-color: #bababa;
+    border-bottom-color: #bababa;
+    border-left-color: #bababa;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+.thirdMenuUnselect
+{
+    background-color: #f4f2ee;
+    padding: 5px;
+    color: #555555;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    padding: 5px 5px 5px 43px;
+    cursor:pointer;
+}
+/* expmenu */
+ul.expmenu li div.headerTree
+{
+    border-bottom: 1px #fff solid;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f4f2ee;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 21px;
+    padding-bottom:5px;
+
+}
+.label
+{
+    background: no-repeat;
+    color: #1b1b1a; /*text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);*/
+    font-weight: inherit;
+    font-family: 微软雅黑;
+    font-size: 14.6px;
+    padding-left:0px;
+}
+ul.expmenu li:last-child div.headerTree{border-bottom:none;}
+ul.expmenu div.headerTree{
+	color:#203f61;
+	cursor:pointer;
+
+}
+
+
+.arrow{width:16px;height:16px;background:no-repeat center;float:right; margin-top:-15px; padding-right:12px;}
+.arrow.up{background-image:url(images/arrow_d.png);
+          background-repeat:no-repeat;margin-top:-15px; }
+.arrow.down{background-image:url(images/arrow_u.png); background-repeat:no-repeat;margin-top:-15px;}
+ul.expmenu li .menu{display:none;}	
+ul.expmenu li ul li:not(.selected):hover{
+	cursor:pointer;
+}
+ul.expmenu li ul li:not(.selected):active{
+	cursor:pointer;
+}
+.manButton
+{
+    background-image:url(images/sj-1-v.png);
+    width:36px;
+    height:22px;
+    float:left;
+    margin-left:10px;
+    cursor:pointer;
+   
+}
+.manButton_o
+{
+    background-image:url(images/sj-01-n.png);
+    width:36px;
+    height:22px;
+    float:left;
+    margin-left:10px;
+    cursor:pointer;
+}
+.kuaiButton
+{
+    background-image:url(images/sj-3-v.png);
+    width:33px;
+    height:22px;
+    float:left;
+    margin-left:2px;
+    cursor:pointer;
+}
+.kuaiButton_o
+{
+    background-image:url(images/sj-03-n.png);
+    width:33px;
+    height:22px;
+    float:left;
+    margin-left:2px;
+    cursor:pointer;
+}
+.dhButton
+{
+    background-image:url(images/sj-2-v.png);
+    width:51px;
+    height:22px;
+    float:left;
+     margin-left:2px;
+     cursor:pointer;
+}
+.tzButton
+{
+    background-image:url(images/sj-02-n.png);
+    width:51px;
+    height:22px;
+    float:left;
+    margin-left:2px;
+    cursor:pointer;
+}
+.stopButton
+{
+    background-image:url(images/tz-n.png);
+    width:51px;
+    height:22px;
+    float:left;
+    margin-left:2px;
+    cursor:pointer;
+}
+.stopButtonOver
+{
+    background-image:url(images/tz-v.png);
+    width:51px;
+    height:22px;
+    float:left;
+    margin-left:2px;
+    cursor:pointer;
+}
+.titleStyle
+{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    height: 22px;
+    line-height: 22px;
+    text-align:center;
+    vertical-align: middle;
+    background-color: #CCCCCC;
+    padding-left: 10px;
+    padding-right:180px;
+}
+.btnBoxCls
+{
+    margin-right:5px;
+}
+.collapseCls
+{
+    background-image:url(images/yzClose.png);
+    position:absolute;
+    top:10px;
+    left:0px;
+    z-index:100;
+    width:42px;
+    height:28px;
+    cursor:pointer;
+    }
+  .collapseClsClose{
+    background-image:url(images/yzOpen.png);
+    position:absolute;
+    top:10px;
+    left:0px;
+    z-index:100;
+    width:42px;
+    height:28px;
+    cursor:pointer;
+    }
+.selectDateFormStyle
+{
+	height: 22px;
+	width: 120px;
+	background-color: #F4F2EE;
+	border: 1px solid #d6d6d6;
+	background-image: url(images/time.png) ;
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+.selectDateFormStyleEnd
+{
+	height: 22px;
+	width: 120px;
+	background-color: #B7E8F7;
+	border: 1px solid #d6d6d6;
+	background-image: url(images/time.png) ;
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+.zj
+{
+	background-image:url(images/tc-n.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:100px;
+	margin-top:4px;
+	cursor:pointer;
+}
+.INBack
+{
+	background-image:url(images/back-c.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:150px;
+	margin-top:4px;
+	cursor:pointer;
+
+}
+.OUTBack
+{
+	background-image:url(images/back-d.png);
+	height:35px;
+	width:40px;
+	background-repeat:no-repeat;
+	position:absolute;
+	right:150px;
+	margin-top:4px;
+	cursor:pointer;
+
+}

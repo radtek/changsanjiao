@@ -1,0 +1,128 @@
+﻿body,html,#content{ margin:0;padding:0;height:100%;}
+body{ min-width:860px; overflow:auto;}
+#content{ background-image:url(../img/bg.png);}
+#title img{height:91px;}
+#title{ text-align:center;}
+#defaultBOdy{ background-repeat:repeat-x; background-position:center bottom;background-size:contain; background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAMwCAIAAABuuZ1LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmODVhYWNiOC00YWVhLTdiNDctYWJlMC00YmVhNWZiMDkwMTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0Q2N0U3QzQ0NzEyMTFFNkE3QkFCRjNGMDc5OTkyOTgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0Q2N0U3QzM0NzEyMTFFNkE3QkFCRjNGMDc5OTkyOTgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OWEyZDEyYmEtM2M1YS1hZDQyLWFlZDUtZDk4NTkyYTIzZDk2IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZDA0YjRhZWMtNDQyNy0xMWU2LWIyNzQtZDdiZWJkMGY5N2Y3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+9w5BdAAAAUhJREFUeNqslkGOwzAMA+3+/5F77Qv2trOHpkBMk7Zc9FCgsUSJomQl7Ze/R6M9WtMf0xkFHxuHT/Es8gcs2UbMx3l+KMc5ynvFrWmF4YZokfxyTAZsmoXMPfJRrMlh+Q3zU4uX+JHqFb2sHwsN8Pwg6G/6zO2unPgidw2dWcUzcmfQGKkn5NIY2iPlgde7xvUeZ2VHeIx9QWdphZV6SLjbTKlt4DrhmXVjn09jInPmz0fcGBvjO/b9bq/wtxwvzBE/wwOjo9XqqivqZDmYukLNsS+hNp9rxs4aYPSt6CL9m/pI6MN61uzsuBlZzsFal909Ob8zeZ5P7lLELvdDM/sB2YluH+V7OuffYM37a95xzXOq7ukV3unw7mXxbH7/7W2v/73wjdq/cF45+8Tni8/d2Ls+F3zecbvJ01e5A8e+0zvkeP78CzAAEy77WnibdiYAAAAASUVORK5CYII=);}
+.contain{background-position:center bottom; background-size:contain; background-repeat:no-repeat;}
+#dlForm{background-image:url(../img/dl.png); background-position:right top; background-repeat:no-repeat;margin:10px 16% 0 0; width:295px; height:248px; position:relative;z-index:2; }
+#txtContent{ width:45%; margin-left:12%; height:100%; overflow:hidden;}
+#txtContent div{line-height:30px; font-size:16px; text-indent:2em; cursor:default;}
+#desc{ height:70px; color:#C9D3DF; text-align:center; position:absolute; bottom:30px; width:100%; z-index:1;font-size: 12px;}
+#desc table{ margin:0 auto; width:1040px; margin-left:5%;}
+#desc table td{ padding:5px; text-align:left;}
+#desc table td.W40px{ width:40px;}
+#desc table td.W620px{ min-width:560px;}
+#desc table td.W240px{ min-width:200px;}
+#desc table td.W200px{ min-width:160px;}
+#desc .trTitle{ border-right:1px solid #C9D3DF;border-left:none; text-align:right; width:40px;}
+
+#txtUser,#txtPassword{ position:relative; left:77px; width:175px;outline:none; border:none;}
+#txtUser{ top:71px;}
+#txtPassword{ top:91px;}
+#btnLine{position:relative; top:115px; text-align:center;}
+
+@media (max-width: 1092px) {
+  #dlForm { margin:10px 10% 0 0;}
+  #txtContent{ margin-left:10%;}
+  #desc table{ width:80%;}
+}
+/*地图*/
+.ImageView
+{
+    float: left;
+    width: 100%;
+    margin-right: -170px;
+    height: 100%;
+    background-color: #FFffff;
+    overflow:hidden;
+}
+.TimeView
+{
+    width: 170px;
+    height: 100%;
+    background-color: #EFEFEF;
+    float: right;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #999999;
+}
+.queryBack
+{
+    width:170px;
+    padding-left:2px;
+    display:none;
+}
+.f1
+{
+    float:left;
+    padding-left:5px;
+    cursor: default;
+    display: inherit;
+    font-weight: normal;
+    margin-bottom:0px;
+}
+.com
+{
+}
+.tl-c
+{
+    text-align:inherit;
+}
+
+@media (min-width: 1600px) {
+    #content{ background-image:url(../img/bg1.png);}
+    #dlForm { background-image:url(../img/dl1.png);width:391px; height:331px;margin:10px 16% 0 0; }
+    #txtContent{ width:45%; margin-left:10%; height:340px; overflow:hidden;}
+    #txtContent div{ font-family:微软雅黑;font-size:18px;}
+
+    #txtUser,#txtPassword{ position:relative; left:102px; width:241px; height:36px; outline:none; border:none;}
+    #txtUser{ top:92px;}
+    #txtPassword{ top:117px;}
+    #btnLine{position:relative; top:136px; text-align:center;}
+    .btn-larger{ padding:6px 20px; font-size:20px;}
+    
+    #desc{font-size: 14px;}
+    #desc table{ margin:0 auto; width:1280px; margin-left:5%;}
+    #desc table td{ padding:5px; text-align:left;}
+    #desc table td.W40px{ width:40px;}
+    #desc table td.W620px{ min-width:620px;}
+    #desc table td.W240px{ min-width:240px;}
+    #desc table td.W200px{ min-width:200px;}
+}
+
+@media (max-width: 767px) 
+{
+    #defaultBOdy{ background-image:url(../img/bg-1.png);}
+    body{ min-width:200px; overflow:auto;}
+    #title img{height:42px;}
+    .contain
+    {
+        background-position:center bottom;
+        background-attachment:fixed;
+        background-size: cover;
+    }
+    
+    #txtContent{ margin-left:10%; width:80%; margin-right:10%;}
+    #txtContent div{font-size:14px;}
+    #dlForm{ background-position:center center; background-repeat:no-repeat;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .tl-c
+    {
+        text-align:center;
+    }
+    #txtUser{ left:18px;}
+    #txtPassword{ left:18px;}
+    
+    #desc{z-index:3;font-size: 12px;}
+    #desc table{ margin:0 auto; width:80%; }
+    #desc table td{ padding:5px; text-align:left;}
+    #desc table tr td.W40px{ width:40px; min-width:0;}
+    #desc table td.W620px{ width:100%; min-width:0;}
+    #desc table td.W240px{ width:100%; min-width:0;}
+    #desc table td.W200px{ width:100%; min-width:0;}
+    #desc table td.trTitle{ border-left:1px solid #C9D3DF; border-right:none; text-align:left; width:100%;}
+}

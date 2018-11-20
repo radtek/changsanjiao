@@ -1,0 +1,199 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+.mapTitle
+{
+    width: 100%;
+    top: 0;
+    height: 40px;
+    color: #7e8181;
+    font-family: "宋体";
+    font-size: 14.5px;
+    line-height: 40px;
+    background-color: #f0f8f6;
+    margin-top: 5px;
+    z-index: 999;
+    font-weight: bold;
+}
+.titlePoint
+{
+    width: 20px;
+    height: 30px;
+    height: 100%;
+    background: url(../AQI/img/y.png) no-repeat center;
+    float: left;
+}
+.contenttitle
+{
+    font-size: 12px;
+}
+.topTable
+{
+}
+.bottomTable
+{
+}
+.tabs_middle, .tabs_middle1_left_new_pro, .contenttitle2, .contenttitle
+{
+    height: 100%;
+}
+.contenttitle_Top
+{   
+    text-align:center;
+    
+    background-color: rgb(66,175,133);
+    color:White;
+    line-height:120px;
+    font-size:20px;
+    
+}
+.contenttitle_Bottom
+{
+    
+    background-color: #ebebeb;
+    overflow:auto;
+}
+.ct_left
+{
+    background-color:#ebebeb;
+    
+    
+}
+.ct_right
+{
+    background-color:#ebebeb;
+    margin-left:10px;
+    margin-right:10px;
+   
+    
+}
+.ct_border
+{
+    background-color:#ebebeb;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    height:680px;
+}
+.contenttitle_Right
+{
+    height: 100%;
+    background-color: White;
+    overflow: auto;
+}
+.span_worklog
+{
+    color:Black;
+    
+    font-size: 13px;
+}
+.secondTitle
+{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.formalText
+{
+    margin-left: 35px;
+    font-size: 12px;
+}
+.name
+{
+    color: rgb(60,100,90);
+}
+.tips
+{
+    color: Red;
+    font-size: 12px;
+    margin-left:35px;
+    margin-right:35px;
+}
+.contact_top
+{
+    line-height: 25px;
+}
+.contact_mid
+{
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    font-size:12px;
+}
+.contact_mid_rec
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    line-height:25px;
+    font-size:12px;
+}
+.contact_table
+{
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+    margin-bottom:20px;
+    background-color:white;
+    text-align:center;
+    font-size:15px;
+    
+    }
+     
+         
+.firstline
+{
+  background-color:rgb(66,175,133);
+  color:White;  
+  
+}
+.greenText
+{
+    color:rgb(16,140,129);
+    font-size:12px;
+    font-weight:bold;
+    }
+.table_title
+{
+    color:White;
+   font-size:15px;
+   font-weight:bold;
+   
+    }
+ .td_left,.td_right
+ {
+     vertical-align:top;
+     text-align:left;
+     }
+#Logcontent ul li
+{
+    height: 80px;
+    border: 0px;
+    width: 99%;
+    font-size: 14px;
+    margin-top: 7px;
+    background-color:white;
+    margin-left:5px;
+}
+
+
+#Logcontent ul li p
+{
+    margin-left: 10px;
+  
+    margin-right: 0px;
+    
+    line-height: 2;
+    padding: 0px;
+    text-indent: 0em;
+    color: rgb(66,175,133);
+    
+    width: 95%;
+}

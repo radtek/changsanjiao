@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    html,body{
+        margin: 0;
+        padding: 0;
+        background: #021028;
+    }
+    .pageWrapper{
+        width: 5760px;
+        height: 1080px;
+        overflow: hidden;
+        transform-origin: left top;
+        transform: scale(0.333333,1);
+    }
+    
+    .partII{
+        width: 1800px;
+        height: 480px;
+        margin: 575px 60px;
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position:absolute;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partII .imgTitleII{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+    
+     .partIII{
+        width: 840px;
+        height: 1025px;
+        margin: 30px 60px;
+        
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position:relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partIII .imgTitleIII{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+     .partIIII{
+        width: 840px;
+        height: 1025px;
+        margin: 30px 60px;
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partIIII .imgTitleIIII{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+    .partLIU{
+        width: 840px;
+        height: 1025px;
+        margin: 30px 60px;
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partLIU .imgTitleLIU{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+    .part{
+        width: 840px;
+        height: 480px;
+        margin: 30px 60px;
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+       .partX{
+        width: 840px;
+        height: 480px;
+        margin: 30px 60px;
+        float: left;
+        box-sizing: border-box;
+        border: 0px solid black;
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 0px rgba(228, 217, 217, 1);
+    }
+    .part .imgTitle{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+    .partW{
+        width: 840px;
+        height: 1025px;
+        margin: -510px 60px;
+
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position:relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partW .imgTitleW{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+     .partL{
+        width: 840px;
+        height: 480px;
+        margin: -1000px 60px;
+
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid black;
+        position:relative;
+        overflow: hidden;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(228, 217, 217, 1);
+    }
+    .partL .imgTitleL{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 52px;
+        height: 52px;
+        background: rgba(2,16,40,0.8);
+        color: white;
+        box-sizing: border-box;
+        padding: 0 32px;
+    }
+    .backBtn{
+       display: block;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: #8E5F00;
+    color: white;
+    font-size: 32px;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    text-decoration: none!important;
+    }
+    .btnGroup {
+				    position: absolute;
+    top: 10px;
+    right: 120px;
+    font-size: 60px;
+    z-index: 550;
+			}
+			
+			.prev {
+				margin-right: 16px;
+				transform: rotate(-90deg);
+				display: inline-block;
+				color: #8e5f00;
+				-webkit-user-select: none;
+				cursor: pointer;
+			}
+			
+			.next {
+				margin-right: 20px;
+				transform: rotate(90deg);
+				display: inline-block;
+				color: #8e5f00;
+				-webkit-user-select: none;
+				cursor: pointer;
+			}
+			
+			.noTouch {
+				color: grey;
+			}
+			.part1{background: url(../img/7/1.png?v=1) no-repeat center 52px/100% 424px;}
+			.part2{background: url(../img/7/2.png?v=1) no-repeat center 52px/100% 424px;}
+			.part3{background: url(../img/7/3.gif?v=1) no-repeat center 52px/100% 95%;}
+			.part4{background: url(../img/7/6.gif?v=1) no-repeat center 52px/100% 95%;}
+			.part5{background: url(../img/7/5.gif) no-repeat center 52px/100% 424px;}
+			.part6{background: url(../img/7/6.gif) no-repeat center 52px/100% 100%;}
+			.part7{background: url(../img/7/7.jpg) no-repeat center 52px/100% 424px;}
+			.part8{background: url(../img/7/8.jpg) no-repeat center 52px/100% 100%;}
+			.part11{background: url(../img/7/11.jpg) no-repeat center 52px/100% 424px;}
+			.part12{background: url(../img/7/12.jpg) no-repeat center 52px/100% 424px;}
+    </style>
+</head>
+<body>
+    <div class="pageWrapper">
+    	<div class="btnGroup">
+			<div class="prev">▲</div>
+			<div class="next">▲</div>
+		</div>
+        <a class="backBtn" href="./page3.html">&times;</a>
+        <div class="part part1">
+            <div class="imgTitle">
+                Satellite&Surface Monitoring
+            </div>
+        </div>
+        <div class="part part2">
+            <div class="imgTitle">
+                Aerosol&Wind Monitoring in PBL
+            </div>
+        </div>
+        <div class="partIII part3">
+            <div class="imgTitleIII">
+                72-hr PM2.5 Forecast (6 km)
+            </div>
+        </div>
+        <div class="partIIII part4">
+            <div class="imgTitleIIII">
+                3 to 10-day PM2.5 Forecast (27 km)
+            </div>
+            
+        </div>
+          <div class="part">
+            <div class="imgTitle">
+               48-hr AQI Forecast (every 8-hr)
+            </div>
+               <iframe   id="Iframe1" width="100%"  height="89%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"  src="http://10.228.177.99/V2/XH/AQI48En.aspx"></iframe>
+        </div>
+            
+      
+         <div class="partX" >
+            <div class="imgTitle" style=" display:none;">
+                
+            </div>
+               
+        </div>
+    <div class="part" >
+            <div class="imgTitle" >
+              10-day AQI Forecast
+            </div>
+              <iframe   id="img9" width="100%"  height="95%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"  src="http://10.228.177.99/V2/XH/cityForeChartEn.aspx"></iframe>
+        </div>
+        <div class="partII">
+            <div class="imgTitleII">
+              PM2.5 Vertical Monitoring
+            </div>
+            <div style="width: 100%; height: 440px; -webkit-overflow-scrolling: touch;
+                position: absolute; left: 0; top: 55px; bottom: 0; right: 0; overflow: hidden;">
+                <iframe src="http://10.228.177.99/V2/Citys/TimePMEn.aspx" height="100%" width="100%"  frameborder="no"  marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+            </div>
+
+        </div>
+        <div class="partW">
+            <div class="imgTitleW">
+                 Health Risk Forecast
+            </div>
+              <iframe   id="Iframe2" width="100%"  height="100%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"  src="http://10.228.177.99/V2/DaPin/WeChatEn.aspx"></iframe>
+        </div>
+    <!--    <div class="part part9">
+            <div class="imgTitle">
+                未来48小时AQI分时段预报-逐8小时
+            </div>
+             <iframe   id="Iframe1" width="100%"  height="100%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"  src="http://10.228.177.99/V2/XH/AQI48En.aspx"></iframe>
+        </div>-->
+   <!--     <div class="partSHI">
+            <div class="imgTitleSHI">
+                未来10天空气质量滚动预报-逐日
+            </div>
+             <iframe   id="img9" width="100%"  height="100%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"  src="http://10.228.177.99/V2/XH/cityForeChartEn.aspx"></iframe>
+        </div>-->
+ <!--       <div class="part part11">
+            <div class="imgTitle">
+                气象生活指数预报
+            </div>
+        </div>-->
+    <!--    <div class="part part12">
+            <div class="imgTitle">
+                健康风险预报
+            </div>
+        </div>-->
+    </div>
+    <script src="../jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".prev").on("click", function () {
+                if (!$(this).hasClass("noTouch")) {
+                    window.location = "./page6.html"
+                }
+            });
+            $(".next").on("click", function () {
+                if (!$(this).hasClass("noTouch")) {
+                    window.location = "./page8.html"
+                }
+            });
+            $(window).on("keydown", function (evt) {
+                console.log(evt);
+                if (evt && evt.keyCode && (evt.keyCode == 37 || evt.keyCode == 38)) {//zuo
+                    window.location = "./page6.html";
+                } else if (evt && evt.keyCode && (evt.keyCode == 39 || evt.keyCode == 40)) {//you
+                    window.location = "./page8.html";
+                }
+
+            });
+        });
+    </script>
+</body>
+</html>

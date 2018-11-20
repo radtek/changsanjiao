@@ -1,0 +1,80 @@
+﻿body 
+{
+    	height:100%; overflow:auto; margin:0px; padding:0px;
+	min-width:1000px;
+}
+
+td,th
+{
+    text-align:center;
+    width:11%;
+    height:30px;
+    font-size:14px;
+    
+    
+    
+
+}
+.wordContent
+{
+    height:700px;
+    width:100%;
+}
+.radWarnType
+{
+    width:200px;
+    float:left;
+}
+.radWarnLevel
+{
+    width:300px;
+    float:left;
+}
+.warnTable
+{
+    width:1100px;
+    /*height:130px;*/
+}
+.reportArea
+{
+    width:1070px;
+    height:70px;
+}
+.submit
+{
+    text-align:center;
+}
+.submitbutton {
+    border: 1px solid #8aaadb;
+    background-color:Gray;
+    font: 12px/18px "宋体";
+    padding: 3px 25px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px 4px 4px 4px;
+}
+.reportContent
+{
+    width:80%;
+}
+.reportTitle
+{
+    width:90px;
+}
+#reportText
+{
+    width:980px;
+    height:70px;
+}
+.titleContent
+{
+    border-bottom:1px solid Black;
+}
+.wordContent
+{
+    width:1070px;
+}
+.submitbutton:hover
+{
+    cursor:pointer;
+}

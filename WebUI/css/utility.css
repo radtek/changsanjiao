@@ -1,0 +1,19 @@
+﻿
+body {
+    font-family:微软雅黑;
+    background-color:#fff;
+    overflow:hidden;
+}
+.fl{ float: left}
+.fl,.fr {display:inline;}
+.fr{ float:right;}
+.h25{ height:25px;}
+.width_2{ width:20%;}
+.width_5{ width:50%;}
+.width_8{ width:80%;}
+.width_2.fl,.width_8.fl{height:100%;}
+.ml_5{ margin-left:5%;}
+.ml_10{ margin-left:10%;}
+.ml10{ margin-left:10px;}
+
+.mr5{ margin-right:5px;}

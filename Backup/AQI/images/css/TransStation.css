@@ -1,0 +1,250 @@
+﻿*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+.selectNewDate
+{
+	height: 18px;
+	width: 110px;
+	float: left;
+	padding-right: 40px;
+}
+.title
+{
+	width: 1046px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+	font-size:18px;
+	line-height:32px;
+	font-family:"微软雅黑","宋体",Verdana;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:3px;
+	
+}
+.dateTime
+{
+	width: 1190px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	font-size:12px;
+	line-height:25px;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align:right;
+}
+.tableT
+{
+	font-size:12px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align: center;
+	height:25px;
+	width:70px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	line-height: 24px;
+	padding: 2px;
+	white-space:nowrap;
+}
+.tableTLeft
+{
+	font-size: 12px;
+	white-space: nowrap;
+	font-family: "微软雅黑" , "宋休" ,Verdana;
+	text-align:center;
+	height: 25px;
+	width: 120px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	line-height: 24px;
+	padding: 2px 2px 2px 0px;
+	white-space: nowrap;
+}
+
+.tableTLeftNew
+{
+	font-size: 12px;
+	font-weight:bold;
+	white-space: nowrap;
+	font-family: "微软雅黑" , "宋休" ,Verdana;
+	text-align:center;
+	height: 25px;
+	width: 120px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	line-height: 24px;
+	padding: 2px 2px 2px 0px;
+	white-space: nowrap;
+}
+.tableTLeftBott
+{
+	font-size:12px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align:center;
+	height:80px;
+	width:120px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	line-height: 24px;
+	padding: 2px 2px 2px 0px;
+	white-space:nowrap;
+}
+.tableTRightBott
+{
+	font-size:12px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align:left;
+	height:80px;
+	width:70px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	line-height: 24px;
+	padding: 2px;
+	white-space:nowrap;
+}
+.tableTRight
+{
+	font-size:12px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align: center;
+	height:25px;
+	width:70px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	line-height: 24px;
+	padding: 2px;
+	white-space:nowrap;
+}
+.contentNone
+{
+	width: 1190px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+
+}
+.tableTitleName
+{
+	font-size:14px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	
+	height:25px;
+	width:70px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	line-height: 24px;
+	padding: 2px;
+	white-space:nowrap;	
+}
+
+.tableTitleNameRight
+{
+	font-size:14px;
+	white-space: nowrap;
+	font-family: "微软雅黑","宋休",Verdana;
+	text-align: center;
+	height:25px;
+	width:70px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	line-height: 24px;
+	padding: 2px;
+	white-space:nowrap;
+}
+.tableku{
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+.line
+{
+	width: 1190px;
+	padding: 5px;
+	overflow: hidden;
+	border-bottom: 1px solid #999999;
+	font-size: 1px;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.lastRow
+{
+	
+	height: 55px;
+	font-size: 12px;
+	color: #000000;
+	white-space: nowrap;
+	font-family: "微软雅黑" , "宋休" ,Verdana;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	text-align:right;
+	
+}
+
+.lastRowNew
+{
+	height: 20px;
+	font-size: 12px;
+	color: #000000;
+	white-space: nowrap;
+	font-family: "微软雅黑" , "宋休" ,Verdana;
+	text-align:left;
+	
+}
+.div
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 3px;
+    display:inline;
+    white-space: nowrap;
+}
+#tool_btn{
+ padding-top:5px;
+}

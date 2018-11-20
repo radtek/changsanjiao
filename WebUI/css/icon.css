@@ -1,0 +1,308 @@
+﻿body {
+}
+body { background-color:transparent;}
+html,body{ height:100%;}
+.selectDateFormStyle
+{
+    height: 22px;
+    line-height: 20px;
+    width: 105px;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    background-image: url(../images/time.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-indent:3px;
+     cursor:pointer;
+}
+.topselect {
+    font-family: 微软雅黑;
+    font-size: 12px;
+    width: 100%;
+    padding-left:8px;
+}
+.MaxHeight
+{
+    max-height:100px;
+    max-height: 100px;
+	height: 100% !important;
+	height: 100px;
+	_height: auto;
+	overflow: auto;
+}
+.tableWidth
+{
+    width:100%;
+   
+}
+
+.timeLable
+{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    line-height: 22px;
+    clear:both;
+}
+.dispalyFloat
+{
+     float:left;
+}
+.selectForm
+{
+    margin-left:12px;
+    cursor:pointer;
+}
+.marginCls
+{
+    margin-bottom:35px;
+}
+.topic
+{
+    border: 1px solid #999999;
+    width: 155px;
+    clear: both;
+    background-color: #FFFFFF;
+   margin-top:10px;
+}
+.topicLable
+{
+    background-color:#D1D5D1;
+    height:22px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left:3px;
+}
+.topicCheck
+{
+    padding-top:5px;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left:3px;
+    width:100%;
+    cursor:pointer;
+}
+.timePic
+{
+    background-color: #FFFFFF;
+    overflow:auto ;
+   width:170px;
+   margin-top:15px;
+}
+#timeTable
+{
+
+}
+.timePic table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.timePic table tr {
+    border-bottom: 1px solid #d6d6d6;
+    cursor: pointer;
+}
+.trClick {
+    color: #FFFFFF;
+    background-color: #00A0EA;
+}
+.tdClick {
+    background-color: #00A0EA;
+}
+.tdHide {
+    width: 0px;
+    display: none;
+}
+.tdhover {
+    background-color: #f6f9f8;
+}
+.trHover
+{
+   color: #00A0EA;
+}
+.trOut
+{
+   color: #333;
+}
+.topicCheckEnter
+{
+    padding-top: 5px;
+    height: 22px;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 3px;
+    background-color: #EFEFEF;
+    width: 155px;
+    cursor:pointer;
+}
+.topicCheckOver
+{
+    padding-top: 5px;
+    height: 22px;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 3px;
+    background-color: #9BBB7C;
+    width: 155px;
+        cursor:pointer;
+}
+.timePic table td {
+    padding: 6px 2px;
+    text-align: center;
+    font-size: 13px;
+}
+.queryBut
+{
+    height:25px;
+    background-image:url(../images/cx-n.png);
+    background-repeat:no-repeat;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-position:center;
+}
+.queryClas
+{
+    width:100%;
+    text-align:center;
+}
+.topicCheck label
+{
+    cursor: default;
+    display: inherit;
+    font-weight: normal;
+    margin-bottom:0px;
+}
+
+.speedButton
+{
+     float:left;
+     margin-left:2px;
+}
+.speedClas
+{
+    float:left; margin-left:1px; 
+}
+.SpeennormalSlow
+{
+    width:36px;
+    height:22px;
+     background-image:url(../images/slow.png);
+    background-repeat:no-repeat;
+    float:left;
+    cursor:pointer;
+}
+.Speennormal_D
+{
+    width:51px;
+    height:22px;
+    background-image:url(../images/normal.png);
+    background-repeat:no-repeat;
+    float:left;
+    margin-left:1px;
+    margin-right:1px;
+        cursor:pointer;
+}
+.SpeennormalStop_D
+{
+    width:51px;
+    height:22px;
+     background-image:url(../images/stop.png);
+    background-repeat:no-repeat;
+    float:left;
+    margin-left:1px;
+    margin-right:1px;
+        cursor:pointer;
+}
+.SpeennormalStop_V
+{
+    width:51px;
+    height:22px;
+     background-image:url(../images/stop_v.png);
+    background-repeat:no-repeat;
+    float:left;
+        margin-left:1px;
+    margin-right:1px;
+        cursor:pointer;
+}
+.SpeennormalQuick
+{
+    width:33px;
+    height:22px;
+     background-image:url(../images/quick.png);
+    background-repeat:no-repeat;
+    float:left;
+        cursor:pointer;
+}
+.SpeennormalSlowOver
+{
+    width:36px;
+    height:22px;
+     background-image:url(../images/slow_v.png);
+    background-repeat:no-repeat;
+    float:left;
+        cursor:pointer;
+}
+.Speennormal_V
+{
+    width:51px;
+    height:22px;
+     background-image:url(../images/normal_v.png);
+    background-repeat:no-repeat;
+    float:left;
+        margin-left:1px;
+    margin-right:1px;
+        cursor:pointer;
+}
+.SpeennormalQuickOver
+{
+    width:33px;
+    height:22px;
+     background-image:url(../images/quick_v.png);
+    background-repeat:no-repeat;
+    float:left;
+        cursor:pointer;
+}
+.menuItem
+{
+    background-color:#EBEBE6;
+    font-family:"微软雅黑";
+    text-align:left;
+    font-size:12px;
+    border-width:1px;
+    border-color:White;
+    border-style:solid;
+    height:25px;
+    line-height:25px;
+    width:90px; 
+    padding-left:5px;
+       
+}
+.menuItemSelected
+{
+    background-color:#EAA700;
+}
+.menuItemUnSelected
+{
+    background-color:#EBEBE6;   
+}
+.menuItem:hover
+{
+    cursor:pointer;
+    background-color:Green;
+}
+.subMenu ul li:hover
+{
+    cursor:pointer;
+    background-color:Green;
+}
+.submenu_over
+{
+    cursor:pointer;
+    background-color:Green;
+}
+.subMenu ul{ margin:0; height:100%; list-style:none; margin-left:-20px;}
+.subMenu ul li{ height:100%; line-height:30px; cursor:pointer;}

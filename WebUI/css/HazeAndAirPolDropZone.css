@@ -1,0 +1,214 @@
+﻿
+body 
+{
+    font-size:14px;
+     min-width:1230px;
+     height:100%;
+     width:100%;
+     background-color: #ebebeb;
+}
+
+.all_Left
+{
+background-color: #FFF;
+/*border: 2px solid #CCC;*/
+
+float: left;
+margin-left:10px;
+margin-top: 10px;
+}
+.all_Right
+{
+background-color: #FFF;
+
+
+float: right;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:16%;
+}
+.titleContent table
+{
+    width:960px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+
+.two
+{
+    text-align:center;
+    /*border: 1px solid #CCC;*/
+}
+
+.table2
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table2 th,.table2 td
+{
+    padding:5px 0px;
+    border-bottom: 1px solid #CCC;
+}
+
+.trimg img
+{
+    /*width:80%;*/
+}
+
+
+
+.button:hover
+{
+    color:#FFF;
+    background:#CCC;
+    padding: 0px 15px;
+}
+
+.buttonup
+{
+    background-image: url('images/up.png');
+    margin-top: -32px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.buttondown
+{
+    background-image: url('images/down.png');
+    margin-top: -32px;
+    position: absolute;
+    width: 38px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.submit
+{
+    padding: 5px;
+    text-align:center;
+}
+.displayImg
+{
+   height: 500px;
+margin-top: 20px;
+}
+.top
+{
+    height:5%;
+}
+.imgContent
+{
+    height:95%;
+    background-color:#ebebeb;  
+}
+.imgContent:after
+{
+     content:'.';
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both; 
+    }
+.totalContent
+{
+    width:100%;
+    height:100%;
+}
+.mapTitle
+{
+width: 100%;
+/*position: absolute;*/
+top: 0;
+height: 32px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14.5px;
+line-height: 32px;
+background-color: #f0f8f6;
+
+
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.titlePoint span
+{
+    float:left;
+}
+.titleText
+{
+    float:left;
+}
+.button
+{
+    border: 1px solid #b0b0b0;
+background: url(../images/aqi/btn_bg.jpg) repeat-x;
+font: 12px/20px "宋体";
+padding: 0 15px;
+margin-left: 5px;
+margin-top: 3px;
+color: black;
+height: 20px;
+line-height: 20px;
+width: 50px;
+text-align: center;
+float: left;
+}
+
+.button:hover
+{
+    background-color:#57b325;
+    color:White;
+     cursor:pointer;
+}
+.btns
+{
+    width: 400px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}

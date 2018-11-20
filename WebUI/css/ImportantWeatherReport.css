@@ -1,0 +1,774 @@
+﻿body 
+{
+    font-size:14px;
+     min-width:1230px;
+      background-color: #ebebeb;
+}
+
+.all
+{
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    padding: 5px;
+    width:100%;
+    float: left; 
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:right;
+    width:110px;
+}
+.attrValue
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:250px;
+}
+.titleContent table
+{
+    width:1110px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+td,th
+{
+    text-align:center;
+    width:20%;
+    height:30px;
+    font-size:14px;
+}
+.table1
+{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    table-layout: fixed;
+}
+
+.table1 th,.table1 td
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.table1 th
+{
+    text-align:right;
+}
+
+.table1 td
+{
+    text-align:left;
+}
+
+.inputset
+{
+    width:100px;
+}
+
+.button
+{
+    color:#00F;
+    padding: 0px 15px;
+}
+
+.button:hover
+{
+    color:#FFF;
+    background:#CCC;
+    padding: 0px 15px;
+}
+
+.submit
+{
+    padding: 5px;
+    text-align:center;
+}
+.wordContent
+{
+    width: 950px;
+    height:1300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+background-color: #FFF;
+}
+.rightContent
+{
+  padding: 15px 15px 0 0;
+   height:800px;
+   overflow-y:auto;
+    margin-left: auto;
+    /* margin-right: auto; */
+    width: 20%;
+}
+.total
+{
+    width:100%;
+    height:100%;
+    overflow-y:hidden;
+}
+.ct_left
+{
+    float: left;
+    height: 28px;
+    width: 190px;
+    line-height: 28px;
+    text-align: left;
+    
+}
+
+.ct_right
+{
+    float: right;
+    height: 28px;
+    width: 40px;
+    background-color:Green;
+    background:url(../css/images/up.png) no-repeat center;
+    
+}
+.rightTable
+{
+    width:100%;
+}
+.contentTitle
+{
+    height:28px;
+    width: 100%;
+    background-color: #48d1cc;
+}
+.rightTable
+{
+    width:200px;
+}
+.rightTable td
+{
+    background-color:#e6e6fa;
+}
+.hide
+{
+    display:none;
+}
+.display
+{
+    display:block;
+}
+.imgArea
+{
+    height:332px;
+    width:233px;
+    margin:10px;
+    border:1px solid Gray;
+}
+.upScroll
+{
+    height:30px;
+    background:url(../css/images/up-v.png) no-repeat center;
+  
+}
+.downScroll
+{
+     height:30px;
+    background:url(../css/images/down-v.png) no-repeat center;
+}
+.upScroll:hover
+{
+    height:30px;
+    background:url(../css/images/up-d.png) no-repeat center;
+  
+}
+.downScroll:hover
+{
+     height:30px;
+    background:url(../css/images/down-d.png) no-repeat center;
+}
+.img
+{
+    height:272px;
+
+    text-align: center;
+
+}
+.scrollImg
+{
+     width: 280px; 
+margin-top: 10px;
+height: 390px;
+}
+.right2bg {
+    border: 1px solid #CCC;
+    background-color: #F3F9FC;
+    font: 12px/26px "宋体";
+    text-align: left;
+    color: #666;
+    padding: 5px;
+}
+.queryTime
+{
+    width:100px;
+}
+.queryBtn
+{
+    margin-right:2px;
+}
+
+.copy
+{
+    text-align:right;
+}
+.listImg
+{
+    width:233px;
+}
+.right_1
+{
+    border:1px solid Gray;
+}
+.imgLi
+{
+    text-align:center;
+}
+.ct_right:hover,.upScroll:hover
+{
+    cursor:pointer;
+}
+.queryBtn:hover,.querybutton:hover
+{
+    cursor:pointer;
+    color:Blue;
+}
+.content
+{
+    text-align:center;
+}
+.docTitle
+{
+height: 80px;
+text-align: center;
+font-size: 53px;
+font-family: "黑体";
+padding-top: 90px;
+color: red;
+margin-top: 80px;
+}
+.issue
+{
+    text-align: center;
+    font-family: "仿宋";
+    font-size: 30px;
+    color: red;
+}
+.contentText
+{
+    text-align: center;
+    width:100%;
+}
+.contentText_Bottom
+{
+width: 120px;
+height: 30px;
+line-height: 30px;
+
+font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+float: left;
+}
+.docDate
+{
+font-size: 22px;
+font-family: "仿宋";
+
+float: left;
+
+}
+.ora
+{
+   font-size: 22px;
+font-family: "仿宋";
+
+float: right;
+
+}
+
+.contentTable
+{
+    margin-left: auto;
+margin-right: auto;
+width: 720px;
+height: 245px;
+margin-top: 20px;
+}
+.contentTextBox
+{
+width: 750px;
+height: 400px;
+font-size: 20px;
+font-family: "仿宋";
+border: 0px;
+margin-top: 20px;
+line-height: 1.5;
+}
+.contentTextBox_Rich
+{
+width: 750px;
+height: 265px;
+font-size: 20px;
+font-family: "仿宋";
+border: 0px;
+margin-top: 20px;
+line-height: 1.5;
+}
+.contentTextBox_Bottom
+{
+width: 500px;
+height: 30px;
+font-size: 20px;
+font-family: "仿宋";
+border: 0px;
+line-height: 1.5;
+float: left;
+margin-left: 10px;
+}
+.firstTitle
+{
+font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+float: left;
+margin-top: 20px;
+margin-left: 120px;
+}
+.editor
+{
+    float:left;
+}
+.reporter
+{
+    float:right;
+}
+.imgTitle
+{
+    text-align: left;
+padding-top: 90px;
+margin-left: 60px;
+font-family: "宋体";
+font-size: 20px;
+font-weight: bold;
+}
+.imgDocArea
+{
+width: 590px;
+margin-left: auto;
+margin-right: auto;
+height: 450px;
+margin-top: 30px;
+}
+.btnArea
+{
+    height: 40px;
+position: fixed;
+width: 100%;
+bottom: 0px;
+background-color: white;
+    opacity:0.60;
+}
+.btns
+{
+    width: 310px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px; 
+
+}
+.button_Bottom
+{
+    border: 1px solid #b0b0b0;
+background: url(../images/aqi/btn_bg.jpg) repeat-x;
+font: 12px/20px "宋体";
+padding: 0 15px;
+margin-left: 5px;
+margin-top: 3px;
+color: black;
+height: 25px;
+line-height: 25px;
+width: 40px;
+text-align: center;
+float: left;
+}
+.topBtns
+{
+    margin-top: 5px;
+}
+.hidtoryBtn
+{
+    width: 90px;
+height: 30px;
+line-height: 30px;
+color: white;
+background-color: #1695AF;
+border-radius: 10px;
+margin-left: 30px;
+}
+.wordBtn
+{
+    width: 80px;
+height: 30px;
+background-color: white;
+float: left;
+margin-right: 20px;
+line-height: 30px;
+}
+.historyTd
+{
+    width: 10%;
+}
+.typeTd
+{
+}
+.timeTd
+{
+}
+.btnTd
+{
+}
+.hidtoryBtn:hover,.wordBtn:hover
+{
+    cursor:pointer;
+}
+.hidtoryBtn:hover
+{
+    background-color:#5f9ea0;
+}
+.wordBtn:hover
+{
+    background-color:#006400;
+    color:White;
+}
+.titleAndOra
+{
+    height: 30px;
+border-bottom: 4px solid red;
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+color: red;
+}
+.bottomText
+{
+    width: 750px;
+height: 50px;
+border-bottom: 3px solid black;
+margin-left: auto;
+margin-right: auto;
+}
+.secondPage
+{
+    margin-top:20px;
+        width: 950px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+background-color: #FFF;
+height: 1300px;
+}
+.bottomEditor
+{
+    height: 50px;
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+} 
+.bottomEditor input
+{
+    font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+border: 0px;
+}
+.firstImg
+{
+    margin-left: 40px;
+}
+.recImg
+{
+    width:50%;
+    height:400px;
+    float: left;
+    text-align: center;
+
+}
+    .selImgContent
+    {
+            width:50%;
+    height:400px;
+    float: left;
+    text-align: center;
+    }
+    .sourceImg
+    {
+        height: 350px;
+border: 1px solid black;
+margin-top: 20px;
+width: 290px;
+    }
+.selBtn
+{
+    width: 50%;
+height: 500px;
+float: right;
+
+}
+.selLocalBtn
+{
+    width:200px;
+    height:20px;
+    background-color:#f5f5dc;
+    margin-top: 10px;
+}
+.selLocalBtn:hover
+{
+    cursor:pointer;
+    background-color:#d3d3d3;
+
+}
+
+.replaceBtn:hover
+{
+    cursor:pointer;
+}
+.selDisImg
+{
+border: 1px solid black;
+margin-top: 20px;
+height: 300px;width: 240px;
+}
+.selImgArea
+{
+    width:100%;
+    height:300px;
+    text-align: center;
+    margin-top: 60px;
+}
+.contentMainTitle
+{
+    text-align: center;
+font-family: "宋体";
+width: 730px;
+font-size: 40px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+.subTitle
+{
+    text-align: center;
+font-family: "黑体";
+font-size: 25px;
+color: red;
+}
+.anno
+{
+border: 0px;
+font-family: "仿宋";
+font-size: 20px;
+width: 700px;
+height: 30px;
+}
+.annoDiv
+{
+    width: 100%;
+text-align: center;
+}
+.titleBottomLine
+{
+   background-color:Yellow; 
+}
+.cityCell
+{
+    width:90px;
+    font-family:"宋体";
+    font-size:20px;
+    font-weight:bold;
+}
+.contentTable input
+{
+    border:0px;
+        font-family: "仿宋";
+font-size: 14px;
+}
+.cityCell td
+{
+    font-family:"宋体";
+    font-size:20px;
+    font-weight:bold;
+    background-color:#E5B8B7;
+}
+.cityTd
+{
+     background-color:#E5B8B7;
+}
+.wordContent input{
+border: 0px;
+text-align: center;
+}
+.tableTitle
+{
+font-size: 20px;
+font-family: "仿宋";
+
+width: 100%;
+text-align: center;
+padding-top: 50px;
+}
+.lastPage
+{
+        width: 950px;
+    height:1500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+background-color: #FFF;
+margin-bottom:20px;
+}
+.lastPage .imgDocArea
+{
+    
+}
+.ora input
+{
+    color:Red;
+    font-size: 22px;
+font-family: "仿宋";
+width: 120px;
+}
+.imgDiv
+{
+    float: left;
+border: 1px solid gray;
+margin-left: 5px;
+text-align: center;
+position:relative;
+margin-top: 30px;
+}
+.selImg
+{
+position: absolute;
+width: 34px;
+height: 31px;
+background:url(../AQI/img/Add_Image.png) no-repeat center;
+right: 10px;
+top: 10px;
+border-radius: 5px;
+}
+.selImg:hover
+{
+    background-color:Gray;
+    cursor:pointer;
+}
+#PO_TodayDay
+{
+    width: 500px;
+height: 90px;
+border: 0px;
+font-family: "宋体";
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+.issue input
+{
+    width: 120px;
+    color: red;
+}
+.docDate input
+{
+    color:Red;
+}
+#PO_reportTo
+{
+    height:90px;
+    border-bottom: 1px solid black;
+}
+#PO_SendOras
+{
+    height:150px;
+    border-bottom: 1px solid black;
+}
+#PO_ImgAnno3
+{
+    height:90px;
+}
+.button_Bottom:hover
+{
+    cursor:pointer;
+}
+.topFixed
+{
+    overflow-y: hidden;
+position: fixed;
+background-color: #ebebeb;
+height: 80px;
+width:100%;
+z-index:333;
+}
+.fileSelect
+{
+    width:100%;
+}
+.upFile
+{
+    margin-left: auto;
+margin-right: auto;
+width: 200px;
+margin-top: 20px;
+}
+
+.upBtn
+{
+width: 70px;
+height: 35px;
+background-color: green;
+border-radius: 10px;
+text-align: center;
+line-height: 35px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+border: 0;
+font-size: 14px;
+}
+.upBtn:hover
+{
+    cursor:pointer;
+    background-color:Gray;
+    color:white
+}

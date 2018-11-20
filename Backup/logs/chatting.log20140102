@@ -1,0 +1,21 @@
+
+2014-01-02 10:15:30,447 - PublicData:{市环保局发送失败,原因是System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.101.59.20:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 PushAQIOC.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 F:\SEMCShares使用中\MASlib\PushAQIOC.cs:行号 347
+   在 MMShareBLL.DAL.ComForecast.SHBJ(String forecastDate, String userName, Int32 count, String content, String ForecastStyle) 位置 F:\SEMCShares使用中\BLL\DAL\ComForecast.cs:行号 2322，实时发布系统发送成功，微博发送成功}
+2014-01-02 10:17:35,854 - PublicData:{市环保局发送失败,原因是System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.101.59.20:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 PushAQIOC.importAQIForecast(String foreContent, String splitCharacter, String password) 位置 F:\SEMCShares使用中\MASlib\PushAQIOC.cs:行号 347
+   在 MMShareBLL.DAL.ComForecast.SHBJ(String forecastDate, String userName, Int32 count, String content, String ForecastStyle) 位置 F:\SEMCShares使用中\BLL\DAL\ComForecast.cs:行号 2322，实时发布系统发送成功，微博发送成功}

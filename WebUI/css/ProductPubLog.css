@@ -1,0 +1,432 @@
+﻿body,form
+{
+        margin:0;
+    padding:0;
+     min-width:1230px;
+         background-color: #ebebeb;         
+}
+form
+{
+        width: 90%;
+height: 600px;
+overflow-x: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top:20px;
+}
+.logTable
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+    margin-top:5px;
+    overflow:auto;
+}
+.red_Row
+{
+    background-color:Red;
+}
+.my-row-over
+{
+    /*background-color:Blue;*/
+}
+.my-row-selected
+{
+    background-color:Gray;
+}
+.tableTop
+{
+    width:100%;
+    background-color:#f8f8f8;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:40px;
+    width:100%;     
+   
+}
+.attrName
+{
+    font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:right;
+}
+
+.attrValue
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+}
+
+.attrValue_date
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:28px;
+}
+.attrValue_date_right
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:50px;
+}
+.attrValue_reporter
+{
+        color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:70px;
+}
+.s_k3 {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    width:90px;
+    height:22px;
+    cursor: auto;
+    padding: 0px;
+    border: 1px inset;
+    margin-left: 10px;
+}
+.space
+{
+    width:6%;
+ }
+.shortline
+{
+    text-align:center;
+ }   
+.titleContent table
+{
+    width:960px;
+    height:100%;
+    font-family: "微软雅黑";
+    font-size:14.5px;
+}
+.s_k1_left
+{
+    width:70px;
+    height:20px;/*通知时间，新增height*/
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.s_k1_right
+{
+    width:70px;
+    height:20px;/*通知时间，新增height*/
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.button
+{
+    border: 1px solid #b0b0b0;
+   /* background: url(../images/aqi/btn_bg.jpg) repeat-x;*/
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+   float:left;
+    margin-left:5px;
+    margin-top: 3px;
+    color:Black;
+    height: 22px;/*查询按钮，原20px*/
+    width:25px;
+line-height: 20px;
+}
+
+.button:hover
+{
+    background-color:#57b325;
+    color:White;
+    cursor:pointer;
+}
+.tablaHeader
+{
+    background-color:#43B486;
+     height:30px;
+     color:White;
+     line-height:30px;
+     text-align:center;
+ border:1px solid White;
+}
+.tablaContent
+{
+    background-color:#ECECEC;
+    height:40px;
+    line-height:30px;
+    text-align:center;
+    border-bottom:1px solid White;
+    /*border-right:1px solid White;*/
+
+}
+.hide
+{
+    display:none;
+}
+.tableOutLine
+{
+    background-color:White;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    
+}
+.mapTitle
+{
+width: 100%;
+
+height: 30px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14.5px;
+line-height: 30px;
+background-color: #f0f8f6;
+
+
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.successIcon
+{
+    background: url(../AQI/img/icon.png) no-repeat center;
+    width:20px;
+    height:19px;
+    margin-left: auto;
+margin-right: auto;
+}
+.failIcon
+{
+    background: url(../AQI/img/fail.png) no-repeat center;
+    width:20px;
+    height:19px;
+    margin-left: auto;
+margin-right: auto;
+}
+.dateSelect,.proNameSelect,.proNameSelect
+{
+    text-align:center;
+}
+.dateDiv
+{
+width: 99px;
+margin-left: auto;
+margin-right: auto;
+height: 22px;/*20px*/
+
+background-color: white;
+line-height: 20px;
+border: 1px solid gray;
+margin-top: 3px;
+}
+.proNameText,.pubMethodText,.pubConText
+{
+width: 68px;
+height: 24px;
+text-align: left;
+float: left;
+color: #686868;
+}
+.firstPolText:hover
+{
+    color: #198a5a;
+    cursor:pointer;
+}
+.selIcon
+{
+margin-top: 7px;
+width: 20px;
+height: 10px;
+background: url(../AQI/img/arrow-n.png) no-repeat;
+float: right;
+margin-right: 0px;
+}
+.firstPolUl li div
+{
+    height:24px;
+    width:100%;
+    color:#727272;
+    text-align:left;
+        line-height:24px;
+}
+
+.firstPolUl li div:hover
+{
+    background-color:#daf5e9;
+    cursor:pointer;
+}
+.display
+{
+    display:block;
+}
+.firstPolUl
+{
+
+    position:absolute;
+    /*padding-left:20px;*/
+    /*height:200px;*/
+    z-index:3;
+    border:1px solid #c8c8c8;
+    overflow-y:auto;
+    height:168px;
+    background-color:White;
+    margin-left: 78px;
+}
+.firstPolUl li
+{
+    text-align:left;
+}
+.proNameSelect .dateDiv,.proNameSelect .firstPolUl
+{
+    width: 200px;
+    text-align:left;
+    margin-left: 10px;
+}
+
+.proNameText
+{
+    width:150px;
+}
+/*.tdName,.proNameSelect { width: 230px;}*/
+.tdPubMethod,.pubMethodSelect
+{
+    width: 120px;
+}
+.pubConSelect,.tdPubCon
+{
+    width: 120px;
+}
+.pubMethodSelect .firstPolUl {
+width: 90px;
+height: 100px;
+text-align: left;
+margin-left: 14px;
+
+}
+.pubConSelect .firstPolUl {
+width: 230px;
+text-align: left;
+
+}
+.pubMethodSelect .dateDiv
+{
+    width:90px;
+}
+.pubConSelect .dateDiv
+{
+    width:90px;
+}
+.pubConSelect .firstPolUl {
+width: 90px;
+height: 75px;
+text-align: left;
+margin-left: 14px;
+
+}
+.previewText
+{
+    width:100%;
+    height:300px;
+}
+.previewImg
+{
+    width:500px;
+}
+.search
+{
+    position: fixed;
+height: 40px;
+top: 0px;
+width: 100%;
+z-index: 333;
+}
+.editBtn
+{
+    color:Blue;
+}
+.editBtn:hover
+{
+    color:#00bfff;
+    cursor:pointer;
+}
+.titleTD
+{
+    
+}
+.editBtnArea
+{
+    margin-top:5px;
+    margin-left:20px;
+}
+.noticeEditBtn
+{
+        width: 60px;
+    height: 30px;
+    float: left;
+    background-color: #ebebeb;
+    margin-right: 3px;
+    line-height: 30px;
+    text-align: center;
+    border-radius:5px;
+}
+.noticeEditBtn:hover
+{
+    cursor:pointer;
+    color:White;
+    background-color:#57b325;
+}
+#idProductLog
+{
+    margin-top:5px;
+}
+
+.EditDateDiv
+{
+        width: 200px;
+    text-align:left;
+    margin-left: 10px;
+        margin-right: auto;
+    height: 22px;/*20px*/
+    background-color: white;
+    line-height: 20px;
+    border: 1px solid gray;
+    margin-top: 3px;
+}
+.noticeTypeText
+{
+    width:90px;
+        height: 22px;
+    text-align: left;
+    float: left;
+    color: #686868;
+    border: 0px solid gray;
+}
+.editTableAttrName
+{
+    width:100px;
+    height:50px;
+    line-height:50px;
+}
+.timeInput
+{
+        width: 30px;
+}
+

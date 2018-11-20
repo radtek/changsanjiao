@@ -1,0 +1,79 @@
+﻿/* CSS Document */
+*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+input::-ms-clear { display: none; }
+.total
+{
+    width:100%;
+    height:100%;
+    background-color:#ebebeb;
+}
+.topFixed
+{
+  overflow-y: hidden;
+  position: fixed;
+  background-color: #ebebeb;
+  height: 40px;
+  width:100%;
+  z-index:333;
+}
+.wordContent
+{
+    width: 950px;
+    height:1300px;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFF;
+}
+.docTitle
+{
+height: 40px;
+text-align: center;
+font-size: 40px;
+font-family: "楷体";
+font-weight: bolder;
+padding-top: 140px;
+color: red;
+}
+.firstTitle
+{
+font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+float: left;
+margin-top: 20px;
+margin-bottom:20px;
+margin-left: 120px;
+width:100%;
+}
+.secondTitle
+{
+font-size: 20px;
+font-family: "仿宋";
+font-weight: bold;
+float: left;
+margin-bottom:20px;
+margin-left: 120px;
+width:100%;
+}
+.contentTextBox
+{
+width: 750px;
+
+font-size: 18px;
+font-family: "仿宋";
+border: 0px;
+line-height: 1.5;
+margin-left: auto;
+margin-right: auto;
+overflow-y:hidden;
+}

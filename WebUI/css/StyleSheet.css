@@ -1,0 +1,17 @@
+﻿body {
+}
+/*表的样式*/
+.Student
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url(images/listtopbg1.gif);
+	color: #1a1a6b;
+	cursor: hand;
+}
+.listtop-td {
+	BORDER-RIGHT: #1d3e5f 1px solid; BORDER-TOP: #1d3e5f 1px solid;
+}
+.listtd {
+	BORDER-RIGHT: #badbff 1px solid; FONT-SIZE: 12px; COLOR: #1a1a6b; BORDER-BOTTOM: #badbff 1px solid;
+}

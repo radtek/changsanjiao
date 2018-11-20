@@ -1,0 +1,124 @@
+﻿
+.listStytel
+{
+	height: 22px;
+	width: 120px;
+	background-color: #f2f2f2;
+	border: 1px solid #d6d6d6;
+	margin-top: 6px;
+}
+.publicSty
+{
+	padding: 20px 4px 4px 4px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #d7d7d7;
+	height: 20px;
+	margin-bottom: 0px;
+	color: #000000;
+	font-size: small;
+	width:1046px;
+}
+#queryTable
+{
+	padding-top: 5px;
+}
+.Logtablerow
+{
+	line-height: 26px;
+	height: 26px;
+	width: 8%;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+}
+.tableEditorNew
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #C9C9C9;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.tableEditorRightNew
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	font-weight: bold;
+	word-break:break-all;
+	Word-wrap:break-Word; 
+}
+.tableRowEditorNew
+{
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #C9C9C9;
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	word-break:break-all;
+	Word-wrap:break-Word; 
+}
+.tableRowEditorRightNew
+{
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px;
+	white-space: nowrap;
+	word-break:break-all;
+	Word-wrap:break-Word; 
+}
+.webScan
+{
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 400px;
+	overflow:hidden;
+}
+.tableSign
+{
+	line-height: 24px;
+	height: 24px;
+	padding-right: 5px;
+	text-align: right;
+	font-size: 13px;
+	padding-top: 2px;
+}
+.lableStyleNew
+{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 24px;
+	height: 24px;
+	font-size: 14px;
+	font-family: 微软雅黑, 宋体;
+}
+

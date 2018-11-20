@@ -1,0 +1,778 @@
+﻿body 
+{
+    height:500px; 
+    margin:0;
+    padding:0;
+     min-width:1230px;
+     background-color: #ebebeb;
+}
+.map
+{    
+
+    float: left;
+width: 47%;
+height: 760px;
+/*margin-left: 30px;*/
+margin-right: 20px;
+margin-top: 20px;
+border: white 5px solid;
+position:relative;
+}
+td,th
+{
+    text-align:center;
+    width:20%;
+    height:30px;
+    font-size:14px;
+}
+select
+{
+    width:95%;
+}
+tr th
+{
+    text-align:center;
+}
+input
+{
+    text-align:center;
+    border:0px;
+}
+.aqiLevelInput
+{
+    background-color:#eff2f1;
+}
+.content
+{
+width: 47%;
+height: 880;
+float: right;
+margin-right: 20px;
+margin-top: 20px;
+}
+.tableContent table
+{
+    height:100%;
+    width:670px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tableTop
+{
+width: 100%;
+height: 47px;
+margin-top: 0;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height: 100%;
+width: 100%;
+    border-bottom:1px solid Gray;
+    background-color: #f8f8f8;
+}
+.attrName
+{
+    text-align:right;
+    width:16%;
+}
+.attrValue
+{
+    color: #bc8363;
+font-family: "微软雅黑";
+font-size: 14.5px;
+    text-align:left;
+    width:16%;
+}
+.titleContent table
+{
+    width:100%;
+    height:100%;
+}
+.tableContent
+{
+    width:100%;
+}
+.textContent
+{
+    height:200px;
+    width:100%;
+    border: 0px;
+}
+.hazeLevel
+{
+    border-radius:5px;
+    width:100px;
+}
+
+.aqiAreaTable tr
+{
+    height:31px;
+    /*border-bottom: 1px #CCC dotted;
+    border-right: 1px #CCC dotted;
+    background-color: #e4eaf5;*/
+}
+.c_RegionName {
+    background-color: #41b083;
+    color:White;
+}
+.firstPollutionSel
+{
+    width:100px;
+    border-radius: 5px;
+    color:#18895b
+}
+
+.button
+{
+    border: 1px solid #b0b0b0;
+   /* background: url(../images/aqi/btn_bg.jpg) repeat-x;*/
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+   float:right;
+    margin-left:5px;
+    margin-top: 10px;
+    color:Black;
+    height: 30px;
+line-height: 30px;
+}
+.editBox
+{
+    width:100%;
+    height:40px;
+    border:1px solid Gray;
+}
+.editBox2
+{
+    width: 100%;
+    height: 60px;
+    border: 1px solid Gray;
+    margin-top: 10px;
+}
+.editBtns
+{
+    width: 90%;
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+.editBtns2
+{
+    width: 90%;
+height: 50px;
+margin-left: auto;
+margin-right: auto;    
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.partTitle
+{
+    color:#7e8181;
+    font-family:"宋体";
+    font-size:14.5px;
+}
+input:hover
+{
+    cursor:pointer;
+}
+.editLabel
+{
+    width: 100%;
+    height: 32px;
+    background-color: #f0f8f6;
+    line-height: 32px;
+    /*margin-top: -9px;
+    margin-left: 10px;
+    position:absolute;*/
+    color:#7e8181;
+}
+.editLabel2
+{
+    width: 170px;
+    height: 20px;
+    background-color: Blue;
+    margin-top: -29px;
+    margin-left: 10px;
+    position:absolute;
+    color:White;
+}
+.textContent textarea
+{
+    width:99%;
+    height:100%;
+}
+.submitArea
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.totalContent
+{
+margin-left: auto;
+margin-right: auto;
+height: 800px;
+background-color: #ebebeb;
+width: 1500px;
+}
+.btnArea
+{
+    height:30px;
+}
+.btns
+{
+    width: 210px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.foreBtn
+{
+    width: 30%;
+    height: 20px;
+    background-color: Gray;
+    float: left;
+    border-radius: 10%;
+    line-height: 20px;
+    color: White;
+    margin-left: 5px;
+    text-align: center; 
+}
+.aqiLevelTd
+{
+    background-color: #eff2f1;
+}
+.aqiItemTd
+{
+    background-color:#eff2f1;
+}
+.aqiValueTd,.aqiValue
+{
+        background-color: #eff2f1;    
+        height: 31px;
+}
+.hazeTd
+{
+    background-color:#eff2f1;
+}
+.foreBtn:hover,.button:hover
+{
+    cursor:pointer;
+}
+.button:hover
+{
+    background-color:#57b325;
+    color:White;
+}
+.backgroundColor_orange {
+    background-color: Orange;
+}
+.textPart,.tablePart
+{
+    background-color:White;
+}
+.textPart
+{
+ margin-top:20px;   
+}
+.outLine
+{
+    width:100%;
+    height:800px;
+    background-color:#ebebeb
+}
+.districtArea
+{
+width: 762px;
+height: 691px;
+    background: url("../AQI/img/map-line.png") no-repeat;
+    position: relative;
+}
+.display
+{
+    display:block;
+}
+.hide
+{
+    display:none;
+}
+.firstPolUl,.hazeLevelUl
+{
+    width:99px;
+    position:absolute;
+    /*padding-left:20px;*/
+    /*height:200px;*/
+    z-index:3;
+    border:1px solid #c8c8c8;
+    overflow-y:auto;
+    height:168px;
+    background-color:White;
+    margin-left: 15px;
+}
+.firstPolUl li,.hazeLevelUl li
+{
+    text-align:left;
+}
+.dateDiv,.hazeDiv
+{
+   width:99px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 24px;
+   border-radius: 5px;
+   background-color: white;
+   line-height: 24px;
+}
+.dateSelect,.hazeLevelSelect
+{
+    text-align:center;
+}
+
+.selIcon
+{
+margin-top: 10px;
+width: 20px;
+height: 10px;
+background: url(../AQI/img/arrow-n.png) no-repeat;
+float: right;
+margin-right: 2px;
+}
+.selIcon:hover
+{
+    background: url(../AQI/img/arrow-d.png) no-repeat;
+    cursor:pointer;
+}
+.hazeLevelText,.firstPolText
+{
+width: 68px;
+height: 24px;
+text-align: right;
+float: left;
+}
+
+.firstPolUl li div,.hazeLevelUl li div
+{
+    height:24px;
+    width:100%;
+    color:#727272;
+    text-align:center;
+        line-height:24px;
+}
+
+.firstPolUl li div:hover,.hazeLevelUl li div:hover
+{
+    background-color:#daf5e9;
+    cursor:pointer;
+}
+
+/*上海各行政区颜色图片*/
+.BaoShanArea
+{    
+    width: 102px;
+    height: 128px;
+top: 220px;
+left: 334px;
+position: absolute;
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+}
+.BaoShanArea_1
+{    
+background: url(../AQI/img/baoshan-1.png) no-repeat;
+}
+.BaoShanArea_2
+{    
+background: url(../AQI/img/baoshan-2.png) no-repeat;
+}
+.BaoShanArea_3
+{    
+background: url(../AQI/img/baoshan-3.png) no-repeat;
+}
+.BaoShanArea_4
+{    
+background: url(../AQI/img/baoshan-4.png) no-repeat;
+}
+.BaoShanArea_5
+{    
+background: url(../AQI/img/baoshan-5.png) no-repeat;
+}
+.BaoShanArea_6
+{    
+background: url(../AQI/img/baoshan-6.png) no-repeat;
+}
+
+.ChongMing
+{
+    
+    width: 353px;
+    height: 298px;
+top: 35px;
+left: 276px;
+position: absolute;
+background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMing_1
+{
+    background: url(../AQI/img/chongming-1.png) no-repeat;
+}
+.ChongMing_2
+{
+    background: url(../AQI/img/chongming-2.png) no-repeat;
+}
+.ChongMing_3
+{
+    background: url(../AQI/img/chongming-3.png) no-repeat;
+}
+.ChongMing_4
+{
+    background: url(../AQI/img/chongming-4.png) no-repeat;
+}
+.ChongMing_5
+{
+    background: url(../AQI/img/chongming-5.png) no-repeat;
+}
+.ChongMing_6
+{
+    background: url(../AQI/img/chongming-6.png) no-repeat;
+}
+
+
+.FengXian
+{
+        width: 192px;
+    height: 123px;
+left: 358px;
+top: 478px;
+position: absolute;
+background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXian_1
+{
+    background: url(../AQI/img/fengxian-1.png) no-repeat;
+}
+.FengXian_2
+{
+    background: url(../AQI/img/fengxian-2.png) no-repeat;
+}
+.FengXian_3
+{
+    background: url(../AQI/img/fengxian-3.png) no-repeat;
+}
+.FengXian_4
+{
+    background: url(../AQI/img/fengxian-4.png) no-repeat;
+}
+.FengXian_5
+{
+    background: url(../AQI/img/fengxian-5.png) no-repeat;
+}
+.FengXian_6
+{
+    background: url(../AQI/img/fengxian-6.png) no-repeat;
+}
+
+.JiaDing
+{
+    width: 122px;
+    height: 142px;
+left: 248px;
+top: 227px;
+position: absolute;
+background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDing_1
+{
+    background: url(../AQI/img/jiading-1.png) no-repeat;
+}
+.JiaDing_2
+{
+    background: url(../AQI/img/jiading-2.png) no-repeat;
+}
+.JiaDing_3
+{
+    background: url(../AQI/img/jiading-3.png) no-repeat;
+}
+.JiaDing_4
+{
+    background: url(../AQI/img/jiading-4.png) no-repeat;
+}
+.JiaDing_5
+{
+    background: url(../AQI/img/jiading-5.png) no-repeat;
+}
+.JiaDing_6
+{
+    background: url(../AQI/img/jiading-6.png) no-repeat;
+}
+
+.JinShan
+{
+        width: 212px;
+    height: 141px;
+left: 197px;
+top: 511px;
+position: absolute;
+background: url(../AQI/img/jinshan-1.png) no-repeat;
+}
+.JinShan_1
+{
+   background: url(../AQI/img/jinshan-1.png) no-repeat; 
+}
+.JinShan_2
+{
+   background: url(../AQI/img/jinshan-2.png) no-repeat; 
+}
+.JinShan_3
+{
+   background: url(../AQI/img/jinshan-3.png) no-repeat; 
+}
+.JinShan_4
+{
+   background: url(../AQI/img/jinshan-4.png) no-repeat; 
+}
+.JinShan_5
+{
+   background: url(../AQI/img/jinshan-5.png) no-repeat; 
+}
+.JinShan_6
+{
+   background: url(../AQI/img/jinshan-6.png) no-repeat; 
+}
+.MinHang
+{
+      width: 150px;
+    height: 148px;
+left: 308px;
+top: 352px;
+position: absolute;
+background: url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHang_1
+{
+    background: url(../AQI/img/minhang-1.png) no-repeat;
+}
+.MinHang_2
+{
+    background: url(../AQI/img/minhang-2.png) no-repeat;
+}
+.MinHang_3
+{
+    background: url(../AQI/img/minhang-3.png) no-repeat;
+}
+.MinHang_4
+{
+    background: url(../AQI/img/minhang-4.png) no-repeat;
+}
+.MinHang_5
+{
+    background: url(../AQI/img/minhang-5.png) no-repeat;
+}
+.MinHang_6
+{
+    background: url(../AQI/img/minhang-6.png) no-repeat;
+}
+.PuDong
+{
+     width: 248px;
+    height: 285px;
+left: 404px;
+top: 283px;
+position: absolute;
+background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDong_1
+{
+    background: url(../AQI/img/pudong-1.png) no-repeat;
+}
+.PuDong_2
+{
+    background: url(../AQI/img/pudong-2.png) no-repeat;
+}
+.PuDong_3
+{
+    background: url(../AQI/img/pudong-3.png) no-repeat;
+}
+.PuDong_4
+{
+    background: url(../AQI/img/pudong-4.png) no-repeat;
+}
+.PuDong_5
+{
+    background: url(../AQI/img/pudong-5.png) no-repeat;
+}
+.PuDong_6
+{
+    background: url(../AQI/img/pudong-6.png) no-repeat;
+}
+.QingPu
+{
+     width: 209px;
+    height: 184px;
+left: 138px;
+top: 334px;
+position: absolute;
+background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPu_1
+{
+    background: url(../AQI/img/qingpu-1.png) no-repeat;
+}
+.QingPu_2
+{
+    background: url(../AQI/img/qingpu-2.png) no-repeat;
+}
+.QingPu_3
+{
+    background: url(../AQI/img/qingpu-3.png) no-repeat;
+}
+.QingPu_4
+{
+    background: url(../AQI/img/qingpu-4.png) no-repeat;
+}
+.QingPu_5
+{
+    background: url(../AQI/img/qingpu-5.png) no-repeat;
+}
+.QingPu_6
+{
+    background: url(../AQI/img/qingpu-6.png) no-repeat;
+}
+.SongJiang
+{
+     width: 156px;
+    height: 140px;
+top: 402px;
+left: 212px;
+position: absolute;
+background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiang_1
+{
+    background: url(../AQI/img/songjiang-1.png) no-repeat;
+}
+.SongJiang_2
+{
+    background: url(../AQI/img/songjiang-2.png) no-repeat;
+}
+.SongJiang_3
+{
+    background: url(../AQI/img/songjiang-3.png) no-repeat;
+}
+.SongJiang_4
+{
+    background: url(../AQI/img/songjiang-4.png) no-repeat;
+}
+.SongJiang_5
+{
+    background: url(../AQI/img/songjiang-5.png) no-repeat;
+}
+.SongJiang_6
+{
+    background: url(../AQI/img/songjiang-6.png) no-repeat;
+}
+.XuHui
+{
+     width: 110px;
+    height: 129px;
+left: 346px;
+top: 305px;
+position: absolute;
+background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHui_1
+{
+    background: url(../AQI/img/xuhui-1.png) no-repeat;
+}
+.XuHui_2
+{
+    background: url(../AQI/img/xuhui-2.png) no-repeat;
+}
+.XuHui_3
+{
+    background: url(../AQI/img/xuhui-3.png) no-repeat;
+}
+.XuHui_4
+{
+    background: url(../AQI/img/xuhui-4.png) no-repeat;
+}
+.XuHui_5
+{
+    background: url(../AQI/img/xuhui-5.png) no-repeat;
+}
+.XuHui_6
+{
+    background: url(../AQI/img/xuhui-6.png) no-repeat;
+}
+.mapTitle
+{
+width: 100%;
+position: absolute;
+top: 0;
+height: 32px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14.5px;
+line-height: 32px;
+background-color: #f0f8f6;
+
+}
+.levelColor_1
+{
+width: 5px;
+height: 31px;
+background-color: #00E400;
+float: right;
+}
+.levelColor_2
+{
+width: 5px;
+height: 31px;
+background-color: #FFFF00;
+float: right;
+}
+.levelColor_3
+{
+width: 5px;
+height: 31px;
+background-color: #FFA500;
+float: right;
+}
+.levelColor_4
+{
+width: 5px;
+height: 31px;
+background-color: #FF0000;
+float: right;
+}
+.levelColor_5
+{
+width: 5px;
+height: 31px;
+background-color: #800080;
+float: right;
+}
+.levelColor_6
+{
+width: 5px;
+height: 31px;
+background-color: #730022;
+float: right;
+}
+.aqiInput
+{
+width: 90%;
+height: 31px;
+float: left;
+line-height: 31px;
+}

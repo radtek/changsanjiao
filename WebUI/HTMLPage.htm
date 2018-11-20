@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+     
+  <link rel="stylesheet" href="vendor/screen.css" media="screen" />
+  <link rel="stylesheet" href="vendor/jquery.treetable.css" />
+  <link rel="stylesheet" href="vendor/jquery.treetable.theme.default.css" />
+  <script type="text/javascript" src="vendor/jquery.js"></script>
+  <script type="text/javascript" src="vendor/jquery-ui.js"></script>
+  <script type="text/javascript" src="vendor/jquery.treetable.js"></script>
+
+</head>
+
+<body>
+   
+<table id="example-basic">
+        <caption>Basic jQuery treetable Example</caption>
+        <thead>
+          <tr>
+            <th>Tree column</th>
+            <th>Additional data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-tt-id="1">
+            <td>Node 1: Click on the icon in front of me to expand this branch.</td>
+            <td>I live in the second column.</td>
+          </tr>
+          <tr data-tt-id="1.1" data-tt-parent-id="1">
+            <td>Node 1.1: Look, I am a table row <em>and</em> I am part of a tree!</td>
+            <td>Interesting.</td>
+          </tr>
+          <tr data-tt-id="1.1.1" data-tt-parent-id="1.1">
+            <td>Node 1.1.1: I am part of the tree too!</td>
+            <td>That's it!</td>
+          </tr>
+          <tr data-tt-id="2">
+            <td>Node 2: I am another root node, but without children</td>
+            <td>Hurray!</td>
+          </tr>
+        </tbody>
+      </table>
+        <script>
+            $("#example-basic").treetable({ expandable: true });
+    </script>
+       
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+警告: 请勿修改此文件，它将用于 Web 发布过程。
+
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2f7e02ff-417d-4616-954c-816377c5362d}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/WebUI</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AQIQuery\AQIQuery.csproj">
+      <Project>{D5BDC204-471B-412D-907F-E34A20AFC0AF}</Project>
+      <Name>AQIQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\MMShareBLL.csproj">
+      <Project>{EFBE1B53-1892-413E-8F7F-F2AB2BD38E9D}</Project>
+      <Name>MMShareBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChinaAQI\AQIExtention\AQIExtention.csproj">
+      <Project>{C624FC75-6FD7-4CDE-BD57-ADC077D658C3}</Project>
+      <Name>AQIExtention</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChinaAQI\ChinaAQI\ChinaAQI.csproj">
+      <Project>{3D8D8311-803F-4377-B7C9-B91BACD0D99E}</Project>
+      <Name>ChinaAQI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CometHandler\CometHandler.csproj">
+      <Project>{2509A3C8-BF82-4BDD-B44A-B18397B0A799}</Project>
+      <Name>CometHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0EC98648-67F8-4F5F-A49D-FA5BEF88BC64}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtHandler\ExtHandler.csproj">
+      <Project>{E1A20AD4-7A49-4E63-9692-E5068C604B83}</Project>
+      <Name>ExtHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadearthEntity\ReadearthEntity.csproj">
+      <Project>{6D5B1422-8A49-45C9-B66F-D1B002C8C335}</Project>
+      <Name>ReadearthEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WeiBo\WeiBo.csproj">
+      <Project>{ED125AE2-0486-4853-9234-909C03F2CC38}</Project>
+      <Name>WeiBo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

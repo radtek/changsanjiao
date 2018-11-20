@@ -1,0 +1,105 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+}
+td,th
+{
+    text-align:center;
+    width:11%;
+    height:30px;
+    font-size:14px;
+    
+}
+.titleContent table
+{
+    width:100%;
+    height:100%;
+}
+.tableTop
+{
+    width:100%;
+    height:154px;
+   
+}
+.titleTop
+{
+    height:40%;
+    width:100%;
+    background-color:Green;
+}
+.titleContent
+{
+    height:30px;
+    width:100%;     
+    border-bottom:1px solid Gray;
+    margin-top:5px;
+}
+.attrName
+{
+    text-align:right;
+    width:11%;
+}
+.attrValue
+{
+    text-align:left;
+    width:11%;
+}
+.submit
+{
+    text-align:center;
+}
+.submitbutton {
+    border: 1px solid #8aaadb;
+    background-color:Gray;
+    font: 12px/18px "宋体";
+    padding: 3px 25px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px 4px 4px 4px;
+}
+.btnContent
+{
+    width:30%;
+}
+.valueContent
+{
+    width:75%;
+    
+}
+.displayTable
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.valueContent table
+{
+    
+}
+.button
+{
+    border: 1px solid #8AAADB;
+    background: transparent url("images/button.png") repeat-x scroll 0% 0%;
+    font: 12px/20px "宋体";
+    padding: 0px 15px;
+    margin-left: 10px;
+}
+.valueArea
+{
+    text-align:center;
+}
+.tdName
+{
+       width: 30%;
+    text-align: right;
+}
+.tdValue
+{
+       width: 20%;
+    text-align: left;
+}
+.submitbutton:hover
+{
+    cursor:pointer;
+}

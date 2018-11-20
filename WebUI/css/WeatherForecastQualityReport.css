@@ -1,0 +1,896 @@
+﻿body
+{
+    font-size: 14px;
+    min-width: 1230px;
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    list-style-type:inherit;
+ }
+.all
+{
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
+.tableTop
+{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.titleTop
+{
+    height: 40%;
+    width: 100%;
+    background-color: Green;
+}
+.titleContent
+{
+    height: 30px;
+    width: 100%;
+}
+.attrName
+{
+    font-family: "微软雅黑";
+    font-size: 14.5px;
+    text-align: right;
+    width: 110px;
+}
+.attrValue
+{
+    color: #bc8363;
+    font-family: "微软雅黑";
+    font-size: 14.5px;
+    text-align: left;
+    width: 250px;
+}
+.titleContent table
+{
+    width: 1110px;
+    height: 100%;
+    font-family: "微软雅黑";
+    font-size: 14.5px;
+}
+td, th
+{
+    text-align: center;
+    /*width: 20%;*/
+    height: 30px;
+    font-size: 14px;
+}
+.table1
+{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    table-layout: fixed;
+}
+
+.table1 th, .table1 td
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.table1 th
+{
+    text-align: right;
+}
+
+.table1 td
+{
+    text-align: left;
+}
+
+.inputset
+{
+    width: 100px;
+}
+
+.button
+{
+    color: #00F;
+    padding: 0px 15px;
+}
+
+.button:hover
+{
+    color: #FFF;
+    background: #CCC;
+    padding: 0px 15px;
+}
+
+.submit
+{
+    padding: 5px;
+    text-align: center;
+}
+.wordContent
+{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #FFF;
+}
+.rightContent
+{
+    padding: 15px 15px 0 0;
+    height: 800px;
+    overflow-y: auto;
+    margin-left: auto; /* margin-right: auto; */
+    width: 20%;
+}
+.total
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+.ct_left
+{
+    float: left;
+    height: 28px;
+    width: 190px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.ct_right
+{
+    float: right;
+    height: 28px;
+    width: 40px;
+    background-color: Green;
+    background: url(../css/images/up.png) no-repeat center;
+}
+.rightTable
+{
+    width: 100%;
+}
+.contentTitle
+{
+    height: 28px;
+    width: 100%;
+    background-color: #48d1cc;
+}
+.rightTable
+{
+    width: 200px;
+}
+.rightTable td
+{
+    background-color: #e6e6fa;
+}
+.hide
+{
+    display: none;
+}
+.display
+{
+    display: block;
+}
+.imgArea
+{
+    height: 332px;
+    width: 233px;
+    margin: 10px;
+    border: 1px solid Gray;
+}
+.upScroll
+{
+    height: 30px;
+    background: url(../css/images/up-v.png) no-repeat center;
+}
+.downScroll
+{
+    height: 30px;
+    background: url(../css/images/down-v.png) no-repeat center;
+}
+.upScroll:hover
+{
+    height: 30px;
+    background: url(../css/images/up-d.png) no-repeat center;
+}
+.downScroll:hover
+{
+    height: 30px;
+    background: url(../css/images/down-d.png) no-repeat center;
+}
+.img
+{
+    height: 272px;
+    text-align: center;
+}
+.scrollImg
+{
+    width: 280px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.right2bg
+{
+    border: 1px solid #CCC;
+    background-color: #F3F9FC;
+    font: 12px/26px "宋体";
+    text-align: left;
+    color: #666;
+    padding: 5px;
+}
+.queryTime
+{
+    width: 100px;
+}
+.queryBtn
+{
+    margin-right: 2px;
+}
+
+.copy
+{
+    text-align: right;
+}
+.listImg
+{
+    width: 233px;
+}
+.right_1
+{
+    border: 1px solid Gray;
+}
+.imgLi
+{
+    text-align: center;
+}
+.ct_right:hover, .upScroll:hover
+{
+    cursor: pointer;
+}
+.queryBtn:hover, .querybutton:hover
+{
+    cursor: pointer;
+    color: Blue;
+}
+.content
+{
+    text-align: center;
+}
+.docTitle
+{
+    height: 80px;
+    text-align: center;
+    font-size: 43px;
+    padding-top: 90px;
+    margin-top: 80px;
+}
+.docTitleText
+{
+    height: 80px;
+    text-align: center;
+    font-size: 43px;
+
+
+    padding: 0px;
+    margin: 0px;
+}
+.issue
+{
+    text-align: center;
+    font-family: "仿宋";
+    font-size: 30px;
+}
+.stableText
+{
+    text-align: left;
+    margin: 20px;
+}
+.contentText
+{
+    text-align: center;
+    width: 100%;
+}
+.contentText_Bottom
+{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "仿宋";
+    font-weight: bold;
+    float: left;
+}
+.docDate
+{
+    font-size: 22px;
+    font-family: "仿宋";
+    float: left;
+}
+.ora
+{
+    font-size: 22px;
+    font-family: "仿宋";
+    float: right;
+}
+
+.contentTable
+{
+    border: none;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+.dataTable
+{
+    border: none;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.dataTable th,.dataTable td
+{
+    border: solid#000 1px;
+    font-size: 20px;
+    width:auto;
+}
+.dataTable4
+{
+    border: none;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.dataTable4 th,.dataTable4 td
+{
+    border: solid#000 1px;
+    font-size: 20px;
+        width:10%;
+}
+.dataTable1
+{
+    border: none;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.dataTable1 th,.dataTable1 td
+{
+    border: solid#000 1px;
+    font-size: 20px;
+    width:10%;
+}
+.blueRow
+{
+    background-color:#B9D3EE;
+    }
+.pinkRow
+{
+    background-color:#FFE4E1;
+    }
+.grayRow
+{
+    background-color:#E0EEE0;
+    }
+.purpleRow
+{
+    background-color:#EEE0E5;
+    }
+ .dataImg
+ {
+     margin:20px;
+     padding:10px;
+     }   
+.contentTextBox_Data
+{
+    border:0;
+    text-align:center;
+   font-size: 20px; 
+   width:80px;
+   background-color:transparent;
+    }
+tbody
+{
+    margin: 0;
+}
+.contentTextBox
+{
+    text-align: left;
+    width: 750px;
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+.contentDescription
+{
+    text-align: left;
+    
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    
+    line-height: 1.5;
+    margin-left: 80px;
+    margin-right: 80px;
+    }
+    ul,ol
+    {
+    text-align: left;
+    
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    .secondUl
+    {
+    text-align: left;
+    
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-right: 10px;
+    }
+    .contentFormula,.contentImg
+    {
+        text-align:center;
+        padding:20px 0px 10px 0px;
+        font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    }
+.secondTitle
+{
+    text-align: left;
+    width: 750px;
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.contentTextBox_Rich
+{
+    width: 750px;
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    margin-top: 20px;
+    line-height: 1.5;
+    }
+.contentTextBox_Bottom
+{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    line-height: 1.5;
+    float: left;
+    margin-left: 10px;
+}
+.firstTitle
+{
+    text-align: left;
+    font-size: 20px;
+    font-family: "仿宋";
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.tableTitle
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: "仿宋";
+    border: 0px;
+    line-height: 1.5;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.editor
+{
+    float: left;
+}
+.reporter
+{
+    float: right;
+}
+.imgTitle
+{
+    text-align: left;
+    padding-top: 90px;
+    margin-left: 60px;
+    font-family: "宋体";
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgDocArea
+{
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    margin-top: 30px;
+}
+.btnArea
+{
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: white;
+    opacity: 0.60;
+}
+.btns
+{
+    width: 310px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.button_Bottom
+{
+    border: 1px solid #b0b0b0;
+    background: url(../images/aqi/btn_bg.jpg) repeat-x;
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    width: 40px;
+    text-align: center;
+    float: left;
+}
+.button_Bottom:hover
+{
+    cursor: pointer;
+}
+.topBtns
+{
+    margin-top: 5px;
+}
+.hidtoryBtn
+{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #1695AF;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.wordBtn
+{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+}
+.historyTd
+{
+    width: 10%;
+}
+.typeTd
+{
+}
+.timeTd
+{
+    width:80px;
+}
+.btnTd
+{
+}
+.hidtoryBtn:hover, .wordBtn:hover
+{
+    cursor: pointer;
+}
+.hidtoryBtn:hover
+{
+    background-color: #5f9ea0;
+}
+.wordBtn:hover
+{
+    background-color: #006400;
+    color: White;
+}
+.titleAndOra
+{
+    height: 30px;
+    border-bottom: 4px solid red;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.bottomText
+{
+    width: 750px;
+    height: 50px;
+    border-bottom: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondPage
+{
+    margin-top: 20px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #FFF;
+    height: 750px;
+}
+.bottomEditor
+{
+    height: 50px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "仿宋";
+    font-weight: bold;
+}
+.bottomEditor input
+{
+    font-size: 20px;
+    font-family: "仿宋";
+    font-weight: bold;
+    border: 0px;
+}
+.firstImg
+{
+    margin-left: 40px;
+}
+.recImg
+{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+.selBtn
+{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+.selLocalBtn
+{
+    width: 200px;
+    height: 20px;
+    background-color: #f5f5dc;
+    margin-top: 10px;
+}
+.selLocalBtn:hover
+{
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+.replaceBtn
+{
+    width: 70px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.replaceBtn:hover
+{
+    cursor: pointer;
+}
+.selDisImg
+{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 300px;
+    width: 240px;
+}
+.selImgArea
+{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 60px;
+}
+.contentTable input
+{
+    border: 0px;
+}
+.imgDiv
+{
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin-top: 5px;
+}
+.selImg
+{
+    position: absolute;
+    width: 34px;
+    height: 31px;
+    background: url(../AQI/img/Add_Image.png) no-repeat center;
+    right: 10px;
+    top: 10px;
+    border-radius: 5px;
+}
+.selImg:hover
+{
+    background-color: Gray;
+    cursor: pointer;
+}
+.titleTd, .titleTd input
+{
+    background-color: #FFFF99;
+}
+.contentTable td, th, .contentTable input
+{
+    font-size: 20px;
+}
+.topFixed
+{
+    overflow-y: hidden;
+    position: fixed;
+    background-color: #ebebeb;
+    height: 80px;
+    width: 100%;
+    z-index: 333;
+}
+.issue input
+{
+    font-size: 28px;
+    font-family: "仿宋";
+    width: 60px;
+}
+.wordContent input, .secondPage input
+{
+    border: 0px;
+    text-align: center;
+}
+#recImg
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+}
+.sourceImg
+{
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 290px;
+}
+.selImgContent
+{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+.fileUpload
+{
+}
+.fileSelect
+{
+    width: 100%;
+}
+.upFile
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.upBtn
+{
+    width: 70px;
+    height: 35px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 0;
+    font-size: 14px;
+}
+.upBtn:hover
+{
+    cursor: pointer;
+    background-color: Gray;
+    color: white;
+}
+.button_BottomInput
+{
+        border: 1px solid #b0b0b0;
+    background: url(../images/aqi/btn_bg.jpg) repeat-x;
+    font: 12px/20px "宋体";
+    margin-left: 5px;
+    margin-top: 3px;
+    color: black;
+    height: 27px;
+    line-height: 25px;
+    width: 70px;
+    text-align: center;
+    float: left;
+}
+.button_BottomInput:hover
+{
+    cursor:pointer;
+}
+.inputYear
+{
+    height: 80px;
+    font-size: 43px;
+    padding: 0px;
+    margin: 0px;
+    width: 120px;
+}
+.inputMonth
+{
+    height: 80px;
+    font-size: 43px;
+    padding: 0px;
+    margin: 0px;
+    width: 60px;
+}
+.selectDateFormStyle
+{
+	height: 20px;
+	width: 120px;
+	background-color: white;
+	border: 1px solid #d6d6d6;
+	background-image: url(image/datePicker.gif) ;
+	background-position: right center;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	float:left;
+	cursor:pointer;
+}
+.button
+{
+    border: 1px solid #b0b0b0;
+   /* background: url(../images/aqi/btn_bg.jpg) repeat-x;*/
+    font: 12px/20px "宋体";
+    padding: 0 15px;
+   float:left;
+    margin-left:5px;
+    margin-top: 3px;
+    color:Black;
+    height: 20px;
+line-height: 20px;
+}

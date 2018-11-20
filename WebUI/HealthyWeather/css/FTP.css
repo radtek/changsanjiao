@@ -1,0 +1,62 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+}
+th {
+    text-align: center;
+}
+.dataTables_wrapper {
+    position: absolute;
+    clear: both;
+    zoom: 1;
+    width: 84%;
+}
+
+#createFTP {
+    position:absolute; right:3%; top:6px;}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: right;
+    margin-left: 22%;
+}
+#myModal .modal-body span{
+   
+}
+
+input:-webkit-autofill { 
+    -webkit-box-shadow: 0 0 0px 1000px white inset; 
+    border: 1px solid #CCC!important; 
+} 
+.form-group .jl{
+    padding-left:7px;
+}
+.jlII{
+    margin-left:-53px;
+    padding-left:7px;
+}
+.zj
+{
+    margin-left:6%;
+}
+.zjII
+{
+    margin-left:0%;
+}
+.color
+{
+    color:Red;
+}
+/*王斌  2017.5.16*/
+.region {
+    padding-right:0;
+    width:19%;
+}
+.regionCre {
+   margin-left:39px;
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetCrows">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="authCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrowsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrowsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCrowsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrows" />
+  </wsdl:message>
+  <wsdl:message name="GetCrowsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrowsHttpGetIn">
+    <wsdl:part name="authCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCrowsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetCrowsHttpPostIn">
+    <wsdl:part name="authCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCrowsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="PublishSoap">
+    <wsdl:operation name="GetCrows">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取健康气象服务数据接口！</wsdl:documentation>
+      <wsdl:input message="tns:GetCrowsSoapIn" />
+      <wsdl:output message="tns:GetCrowsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PublishHttpGet">
+    <wsdl:operation name="GetCrows">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取健康气象服务数据接口！</wsdl:documentation>
+      <wsdl:input message="tns:GetCrowsHttpGetIn" />
+      <wsdl:output message="tns:GetCrowsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PublishHttpPost">
+    <wsdl:operation name="GetCrows">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取健康气象服务数据接口！</wsdl:documentation>
+      <wsdl:input message="tns:GetCrowsHttpPostIn" />
+      <wsdl:output message="tns:GetCrowsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PublishSoap" type="tns:PublishSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCrows">
+      <soap:operation soapAction="http://tempuri.org/GetCrows" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PublishSoap12" type="tns:PublishSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCrows">
+      <soap12:operation soapAction="http://tempuri.org/GetCrows" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PublishHttpGet" type="tns:PublishHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetCrows">
+      <http:operation location="/GetCrows" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PublishHttpPost" type="tns:PublishHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetCrows">
+      <http:operation location="/GetCrows" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Publish">
+    <wsdl:port name="PublishSoap" binding="tns:PublishSoap">
+      <soap:address location="http://222.66.83.21:808/ScreenDisplay/HealthWeather2/webservice/Publish.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PublishSoap12" binding="tns:PublishSoap12">
+      <soap12:address location="http://222.66.83.21:808/ScreenDisplay/HealthWeather2/webservice/Publish.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PublishHttpGet" binding="tns:PublishHttpGet">
+      <http:address location="http://222.66.83.21:808/ScreenDisplay/HealthWeather2/webservice/Publish.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PublishHttpPost" binding="tns:PublishHttpPost">
+      <http:address location="http://222.66.83.21:808/ScreenDisplay/HealthWeather2/webservice/Publish.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

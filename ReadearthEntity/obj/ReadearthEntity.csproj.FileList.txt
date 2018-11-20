@@ -1,0 +1,14 @@
+bin\Debug\ReadearthEntity.dll
+bin\Debug\ReadearthEntity.pdb
+bin\Debug\DBUtility.dll
+bin\Debug\DBUtility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ReadearthEntity.dll
+obj\Debug\ReadearthEntity.pdb
+bin\Release\ReadearthEntity.dll
+bin\Release\ReadearthEntity.pdb
+bin\Release\DBUtility.dll
+bin\Release\DBUtility.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ReadearthEntity.dll
+obj\Release\ReadearthEntity.pdb

@@ -1,0 +1,32 @@
+﻿table[Attributes Style] {
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-spacing: 0px;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.tabletitle {
+    background-color: rgb(10,92,148);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #C9C9C9;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #C9C9C9;
+    line-height: 24px;
+    height: 24px;
+    width: 9%;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+    white-space: nowrap;
+    color:White;
+}

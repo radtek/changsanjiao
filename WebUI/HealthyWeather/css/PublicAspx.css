@@ -1,0 +1,563 @@
+﻿/* CSS Document */
+*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0; cursor:pointer; }
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+.panel
+{  
+    height:100%;
+}
+a{ color:#333333; text-decoration:none;	}
+a:hover{ color:#333333; text-decoration:underline;}
+#contentNone{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+#selectHour
+{
+    height: 27px; 
+}
+#selectperiod
+{
+    height: 27px;
+}
+#contentImg
+{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+.contentNone
+{
+    width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	overflow: hidden;
+}
+.contentNone1
+{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	overflow: hidden;
+	/*闫海涛添加*/
+	text-align:center;
+}
+.leftButton
+{
+    width: 37px;
+    height: 30px;
+    /*background-image: url(images/left_btnn.png);*/
+    background-image: url(images/imageViewer/a-1-n.png);
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top:2px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+ border-width:0;
+	cursor: pointer;
+}
+
+.leftButton:hover
+{
+    width: 37px;
+    height: 30px;
+    /*background-image: url(images/left_btnn.png);*/
+    background-image: url(images/imageViewer/a-1-v.png);
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top:2px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width:0;
+}
+
+.rightButton
+{
+    width:37px;
+    height:30px;
+    margin-left:5px;
+    margin-top:2px;
+    background-image:url(images/imageViewer/a-2-n.png); 
+    background-repeat: no-repeat; 
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width:0;
+}
+
+.rightButton:hover
+{
+    width:37px;
+    height:30px;
+    margin-left:5px;
+    margin-top:2px;
+    background-image:url(images/imageViewer/a-2-v.png); 
+    background-repeat: no-repeat; 
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width:0;
+}
+
+.formstyle{
+	border: 0;
+	background-color:transparent;
+	height: 28px;
+	width: 110px;
+	text-indent: 5px;
+	cursor:pointer;
+}
+.date{
+	background-image: url(images/date_form.png);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 138px;
+	float: left;
+	margin-top: 4px;
+	margin-right:5px; 
+}
+
+.dateSelect
+{
+    margin-top:4px;
+    float:left;
+    width:160px;
+    height:30px;
+}
+
+.dateSelect .cur-select
+{
+width: 160px;
+height: 25px;
+float:left;
+line-height: 25px;
+background: #eeeeee url(images/arrow.png) no-repeat 125px center;
+text-indent: 10px;
+cursor:pointer;
+} 
+
+
+.dateSelect select
+{
+    /*position:absolute;*/
+    width: 160px;
+    height: 25px;
+    font: 14px/20px 微软雅黑;
+    color: #000000;
+    /*margin-left:-150px;*/
+    margin-top:0px;
+} 
+.button
+{ 
+    float:left;
+}
+.buttonPatton
+{
+    width:368px;
+    margin-left:auto;
+    margin-right:auto; 
+    position:absolute;
+    /*bottom:0px;  */
+    bottom:30px;
+    margin-left:-184px;
+    left:50%;
+    padding-top:10px;
+    /*background-image: url(images/timeline_bg.png);
+    background-repeat:no-repeat;*/
+    background-color:#9a9a9a;
+    height:40px;
+    text-align:center;
+     filter:alpha(opacity=90);  
+      -moz-opacity:0.90;  
+      -khtml-opacity: 0.90;
+      opacity: 0.90;  
+    /*闫海涛修改*/
+}
+
+.buttonPattonWide
+{
+    width:408px;
+    margin-left:auto;
+    margin-right:auto; 
+    position:absolute;
+    /*bottom:0px;  */
+    bottom:30px;
+    margin-left:-184px;
+    left:50%;
+    padding-top:10px;
+    /*background-image: url(images/timeline_bg.png);
+    background-repeat:no-repeat;*/
+    background-color:#9a9a9a;
+    height:40px;
+    text-align:center;
+     filter:alpha(opacity=90);  
+      -moz-opacity:0.90;  
+      -khtml-opacity: 0.90;
+      opacity: 0.90;  
+    /*闫海涛修改*/
+}
+
+.buttonPattonWideII
+{
+    width:310px;
+    margin-left:auto;
+    margin-right:auto; 
+    position:absolute;
+    /*bottom:0px;  */
+    bottom:30px;
+    margin-left:-184px;
+    left:50%;
+    padding-top:10px;
+    /*background-image: url(images/timeline_bg.png);
+    background-repeat:no-repeat;*/
+    background-color:#9a9a9a;
+    height:40px;
+    text-align:center;
+     filter:alpha(opacity=90);  
+      -moz-opacity:0.90;  
+      -khtml-opacity: 0.90;
+      opacity: 0.90;  
+    /*闫海涛修改*/
+}
+
+#showImg
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.hourBut
+{
+    /*background-image: url(images/time_form.png);*/
+	background-repeat: no-repeat;
+	height: 24px;
+	float: left;
+	margin-top: 4px;
+}
+.addBut
+{
+    width:22px;
+    height:12px;
+    filter:alpha(opacity=0);  /* ie 有效*/
+	-moz-opacity:0; /* Firefox  有效*/
+	opacity: 0; /* 通用，其他浏览器  有效*/
+}
+.hourText
+{
+    height:20px;
+    width:25px; 
+    text-align:center;
+    vertical-align:middle;
+    font-size:15px;
+}
+.OnlyOne
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    height:100%;
+    width:100%;
+    
+}
+.hidden
+{
+    display:none;
+}
+
+.bg{display:none;position:fixed;width:100%;height:100%;background:#000;z-index:2;top:0;left:0;opacity:0.5;}
+.show{position:fixed;top:0;z-index:3;cursor:pointer;width:80%;height:100%;left:10%;}
+
+/*.show1{position:fixed;top:0;z-index:3;cursor:pointer;
+       width:94%;
+       height:100%; padding-left:16px;}*/
+       
+       .show1
+       {
+           position:fixed;
+           top:0;
+           z-index:3;
+        
+           height:100%;
+           width:70%;
+           padding-left:16px;
+           }
+       
+.foucs{
+	line-height: 32px;
+	background-image: url(images/tab_foucs.png);
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 144px;
+	color: #fff;
+	cursor:pointer;
+	text-align:center;
+}
+.foucs1{
+	line-height: 32px;
+	background-image: url(images/tab_foucs1.png);
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 96px;
+	color: #fff;
+	cursor:pointer;
+	text-align:center;
+}
+.line{
+	line-height: 32px;
+	border: 1px solid #cccccc;
+	height: 32px;
+	cursor:pointer;
+	text-align:center;
+}
+a{color:#444; text-decoration:none;cursor:pointer;}
+a:hover{color:#444; text-decoration:none;cursor:pointer;}
+.tab{
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.tab2{
+	margin-right: auto;
+	overflow: hidden;
+}
+.tab2  li{
+	float: left;
+	margin-right: 6px;
+	width: 96px;
+	text-align: center;
+	height: 41px;
+}
+.tab2 li a{color:#444; text-decoration:none;cursor:pointer; display: block;}
+.tab2 li a:hover{color:#444; text-decoration:underline;cursor:pointer; display: block;}
+.tab1{
+	width: 542px;
+	margin-right: auto;
+	overflow: hidden;
+}
+.tab1  li{
+	float: left;
+	margin-right: 6px;
+	width: 144px;
+	text-align: center;
+	height: 41px;
+}
+.tab1 li a{color:#444; text-decoration:none;cursor:pointer; display: block;}
+.tab1 li a:hover{color:#444; text-decoration:underline;cursor:pointer; display: block;}
+.tab  li{
+	float: left;
+	margin-right: 6px;
+	width: 144px;
+	text-align: center;
+	height: 41px;
+}
+
+.tab li a{color:#444; text-decoration:none;cursor:pointer; display: block;}
+.tab li a:hover{color:#444; text-decoration:underline;cursor:pointer; display: block;}
+.nav{position:absolute; z-index:100;top: 10px;left:10px}
+.nav div{position: absolute;width:20px;height:20px;cursor:pointer;background-repeat: no-repeat;}
+.up{background:url(images/imageViewer/up.gif);left: 21px;}
+.right{background:url(images/imageViewer/right.gif);left: 42px; top: 21px;}
+.down{background:url(images/imageViewer/down.gif);top:42px;left: 21px;}
+.left{background:url(images/imageViewer/left.gif);top:21px;left: 0;}
+.zoom{background:url(images/imageViewer/zoom.gif);top:21px;left: 21px;}
+.in{background:url(images/imageViewer/zoom_in.gif);top:63px;left: 21px;}
+.zoomf{background:url(images/imageViewer/zoomf.gif);top:84px;left: 21px;}
+
+#mapPic
+{
+     width:100%;
+     height:670px;
+     /*height:100%;*/
+	 overflow:visible;
+}
+.listBox
+{
+    border-bottom: #a3bad9 1px solid;
+    border-left: #a3bad9 1px solid;
+    border-top: #a3bad9 1px solid;
+    border-right: #a3bad9 1px solid;
+    background-color: #f4f2ee;
+    border-color: #CCCCCC;
+}
+.listBox-selected
+{
+	background-color: lightskyblue;
+}
+#text
+{
+    padding:10px;
+}
+.title
+{
+  color: red;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.author
+{
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+.writing 
+{ padding: 0;
+  margin: 0;
+  font: 14px/20px "Microsoft YaHei", helvetica, verdana, tahoma, sans-serif;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+p
+{
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.closeBtn
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:32px;
+    height:32px;
+    background:url(images/imageViewer/x-n.png) no-repeat center;
+    z-index:3;  
+}
+
+.closeBtn:hover
+{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:32px;
+    height:32px;
+    background:url(images/imageViewer/x-v.png) no-repeat center;
+    z-index:3;  
+}
+
+.buttonDiv
+{
+    width:85%;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.buttonPatton div
+{
+    opacity: 1;
+}
+
+.dateUl
+{
+    width:158px;
+    position:absolute;
+    /*padding-left:20px;*/
+    /*height:200px;*/
+    z-index:3;
+    border-bottom:1px solid Blue;
+    border-left:1px solid Blue;
+    border-right:1px solid Blue;
+    display:none;
+    overflow-y:auto;
+    height:300px
+    
+}
+.dateUl li:hover
+{
+    background-color:#1E90FF;
+    cursor:pointer;
+    
+   
+}
+
+.dateUl li
+{
+    line-height:23px;
+    text-align:left;
+    height:25px;
+    background-color:White;
+}
+.dateDiv
+{
+    line-height:26px;
+    text-align:left;
+    border:1px solid Gray;
+    height:25px;
+}
+.dateDiv:hover
+{
+    cursor:pointer;
+}
+.hide
+{
+    display:none;
+}
+.display
+{
+    display:block;
+}
+.liSelect
+{
+    background-color:Blue;
+}
+.liUnSelect
+{
+    background-color:White;
+}
+
+.selIcon
+{
+    margin-top:5px;
+    width:20px;
+    height:20px;
+    float:right;
+    background:url(images/imageViewer/a-3_12.png) no-repeat center;
+}
+#dateTxt
+{
+    line-height:26px;
+    text-align:left;
+    float:left;
+    height:25px;
+    width:120px;
+}
+#replaceImg
+{
+    position: absolute;
+top: 70px;
+right: 300px;
+background-color: #d3d3d3;
+height: 30px;
+line-height: 30px;
+width: 80px;
+text-align: center;
+}
+#replaceImg:hover
+{
+    cursor:pointer;
+background-color: gray;
+}

@@ -1,0 +1,183 @@
+﻿body 
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+}
+.WIframe
+{
+	display: block;
+	padding: 5px 20px 5px 20px;
+
+}
+.personImg
+{
+	 float:left;
+	 width:42px;
+	 padding-top:10px;
+	 
+}
+.imageDetail
+{
+  margin-left:55px;
+  padding-top:10px;
+}
+.ImageFolder
+{
+	text-align:center;
+	margin:0 auto;
+	background-color: #f5f9fc;
+}
+.Folder
+{
+	margin:0 auto;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.spltLine
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+}
+.personInformation
+{
+	padding-top:5px;
+}
+.commentText
+{
+	font-family: 黑体;
+	font-size: 15px;
+	line-height: 25px;
+	padding-top: 5px;
+}
+.commentName
+{
+	font-family: 微软雅黑;
+	font-size: 15px;
+	line-height: 25px;
+	padding-top: 5px;
+	text-align:center;
+	font-weight:bold;
+	
+}
+.OtherText
+{
+	font-family: 微软雅黑;
+	font-size: 13px;
+	line-height: 20px;
+	padding-bottom:10px;
+}
+.ImgValue
+{
+	float:right;
+	padding-right:100px;
+	background-color: #f5f9fc;
+}
+.imgText
+{
+	padding-right: 50px;
+	float: left;
+	font-size: 14px;
+	line-height:16px;
+	font-weight:bold;
+}
+.imgTimetext
+{
+	padding-right:20px;
+	float:right;
+	font-size: 14px;
+	line-height:16px;
+	font-weight:bold;
+}
+.expandText
+{
+	width:15px;
+	height:15px;
+	border:0px;
+	background-image: url(../gd_n.png);
+    margin-left:5px;
+}
+.hiddenexpandText
+{
+	width:15px;
+	height:15px;
+	border:0px;
+	background-image: url(../sq_n.png);
+    margin-left:5px;
+}
+.commentExpandValue
+{
+	float:left;
+}
+.expandText_d
+{
+	background-image: url(../gd_d.png);
+}
+.expandText_h
+{
+	background-image: url(../gd_v.png);
+}
+.hiddenexpandText_d
+{
+	background-image: url(../sq_d.png);
+}
+.hiddenexpandText_h
+{
+	background-image: url(../sq_v.png);
+}
+.backToTop
+{
+	border: 1px solid #078015;
+	width: 22px;
+	height: 85px;
+	line-height: 12px;
+	padding: 5px 0;
+	background-color: #f2f2f2;
+	color: #808080;
+	position: fixed;
+	_position: absolute;
+	bottom: 100px;
+	left: 50%;
+	margin-left: 498px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.backToTop a
+{
+	text-decoration: none;
+	line-height: 12px;
+	color: #72c5f5;
+}
+.imgIcom
+{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background-image: url(../icon.png);
+	margin-top:10px;
+	margin-bottom:5px;
+	background-repeat:no-repeat;
+}
+.imgIcomOver
+{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background-image: url(../icon_vis.png);
+	margin-top:10px;
+	margin-bottom:5px;
+	background-repeat:no-repeat;
+}
+.font
+{
+	color: #72c5f5;
+}
+.SpanCls
+{
+	height:85px;
+    display:block;
+}

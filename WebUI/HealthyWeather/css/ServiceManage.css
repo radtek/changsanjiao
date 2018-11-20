@@ -1,0 +1,44 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+}
+th {
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_filter {
+    margin-right: 40%;
+}
+.dataTables_wrapper .dataTables_length {
+    margin-left: 5%;
+}
+.create {
+    position:absolute;
+    right:6%;
+    top:5px;
+}
+.table {
+    width:98%;
+    margin:0 auto;
+}
+.form-group {
+    margin-left:20px;
+}
+.w {
+    width:60%;
+}
+.r {
+    text-align:right;
+    line-height:34px;
+}
+.l-p {
+    padding-left:30px;
+}
+
+.bootstrap-select.form-control:not([class*=col-]) {
+    width: 60% !important; 
+}

@@ -1,0 +1,11 @@
+﻿body {
+}
+ .frame
+{
+    position: absolute;
+    left:60%;
+    top:100px;
+    width:350px;
+    height:350px;
+    border:1px solid red;       
+}

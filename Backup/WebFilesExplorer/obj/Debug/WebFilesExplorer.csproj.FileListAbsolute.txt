@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\WebFilesExplorer\WebFilesExplorer\bin\WebFilesExplorer.pdb
+C:\Documents and Settings\Administrator\桌面\WebFilesExplorer\WebFilesExplorer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\WebFilesExplorer\WebFilesExplorer\obj\Debug\WebFilesExplorer.dll
+C:\Documents and Settings\Administrator\桌面\WebFilesExplorer\WebFilesExplorer\obj\Debug\WebFilesExplorer.pdb
+C:\Documents and Settings\Administrator\桌面\WebFilesExplorer\WebFilesExplorer\bin\WebFilesExplorer.dll

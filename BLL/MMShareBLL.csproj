@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EFBE1B53-1892-413E-8F7F-F2AB2BD38E9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMShareBLL</RootNamespace>
+    <AssemblyName>MMShareBLL</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\WebUI\Bin\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Pdf">
+      <HintPath>D:\Software\Aspose.Total_for_.NET_DLL_2013-09-10\net2.0\Aspose.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\WebUI\Bin\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\VS Projects\HighchartsStudy\HighchartsStudy\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Littlestarquan.BOSP.DataAccessLibrary">
+      <HintPath>..\WebUI\Bin\Littlestarquan.BOSP.DataAccessLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUI\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUI\Bin\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.3.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUI\Bin\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="sharpPDF">
+      <HintPath>..\..\..\..\20160331\sharpPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg">
+      <HintPath>..\..\..\..\20160331\Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.FtpClient, Version=1.0.5821.41114, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\System.Net.FtpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility.GradeGuide, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Utility.GradeGuide.dll</HintPath>
+    </Reference>
+    <Reference Include="WebExcelExporter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUI\Bin\WebExcelExporter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\AllCityForecast.cs" />
+    <Compile Include="BLL\Area.cs" />
+    <Compile Include="BLL\CityPeriodDailyDataManage.cs" />
+    <Compile Include="BLL\CityPeriodDailyForecastManager.cs" />
+    <Compile Include="BLL\CitywideDataManager.cs" />
+    <Compile Include="BLL\CountyGroupManager.cs" />
+    <Compile Include="BLL\CountyReportDataQuery.cs" />
+    <Compile Include="BLL\DailyDataManager.cs" />
+    <Compile Include="BLL\DataCalculate.cs" />
+    <Compile Include="BLL\DictionaryManager.cs" />
+    <Compile Include="BLL\FactorGroupManage.cs" />
+    <Compile Include="BLL\GroupDataQuery.cs" />
+    <Compile Include="BLL\OperationTypeManager.cs" />
+    <Compile Include="BLL\ParameterAdapter.cs" />
+    <Compile Include="BLL\ParameterManager.cs" />
+    <Compile Include="BLL\PolluteLevelManager.cs" />
+    <Compile Include="BLL\SiteDataManager.cs" />
+    <Compile Include="BLL\SiteGroupManager.cs" />
+    <Compile Include="BLL\SystemVariable.cs" />
+    <Compile Include="DAL\AirData.cs" />
+    <Compile Include="DAL\AQIForecast.cs" />
+    <Compile Include="DAL\AQIPeriodCell.cs" />
+    <Compile Include="DAL\AQIPeriod_48.cs" />
+    <Compile Include="DAL\AsposeUtility.cs" />
+    <Compile Include="DAL\Authority.cs" />
+    <Compile Include="DAL\AuthoritySys.cs" />
+    <Compile Include="DAL\CacheManager.cs" />
+    <Compile Include="DAL\ChangjiangEconomy.cs" />
+    <Compile Include="DAL\CityPeriodDailyDataAccess.cs" />
+    <Compile Include="DAL\CityPeriodDailyForecastAccess.cs" />
+    <Compile Include="DAL\ComForecastII.cs" />
+    <Compile Include="DAL\ComForecast.cs" />
+    <Compile Include="DAL\AQIForecastJX.cs" />
+    <Compile Include="DAL\CountyData.cs" />
+    <Compile Include="DAL\CountyGroupDataAccess.cs" />
+    <Compile Include="DAL\CreateIMG.cs" />
+    <Compile Include="DAL\CreateIMGIII.cs" />
+    <Compile Include="DAL\DailyDataAccess.cs" />
+    <Compile Include="DAL\DictionaryData.cs" />
+    <Compile Include="DAL\EvalutionCaculate.cs" />
+    <Compile Include="DAL\EvalutionCaculateJX.cs" />
+    <Compile Include="DAL\EvalutionReport.cs" />
+    <Compile Include="DAL\Example.cs" />
+    <Compile Include="DAL\ExportChart.cs" />
+    <Compile Include="DAL\Exporter.cs" />
+    <Compile Include="DAL\ExporterNew.cs" />
+    <Compile Include="DAL\FactorDataManager.cs" />
+    <Compile Include="DAL\FactorGroupAccess.cs" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="DAL\Forecast.-权限版cs" />
+    <Compile Include="DAL\FileUpload.cs" />
+    <Compile Include="DAL\Forecast.cs" />
+    <Compile Include="DAL\ForecastExt.cs" />
+    <Compile Include="DAL\ForecastJX.cs" />
+    <Compile Include="DAL\FreeQuery.cs" />
+    <Compile Include="DAL\Ftp.cs" />
+    <Compile Include="DAL\DailyAQIForecast.cs" />
+    <Compile Include="DAL\ForecastEvalation.cs" />
+    <Compile Include="DAL\FTPNew.cs" />
+    <Compile Include="DAL\FTPOP.cs" />
+    <Compile Include="DAL\FTP_Manage.cs" />
+    <Compile Include="DAL\GetNum.cs" />
+    <Compile Include="DAL\HashComparerByValue.cs" />
+    <Compile Include="DAL\DayForecast.cs" />
+    <Compile Include="DAL\DictionaryManager.cs" />
+    <Compile Include="DAL\HealthyWeatherGW.cs" />
+    <Compile Include="DAL\HealWS.cs" />
+    <Compile Include="DAL\HttpClientHelper.cs" />
+    <Compile Include="DAL\IndexRelease.cs" />
+    <Compile Include="DAL\JiangXiPartOnSH.cs" />
+    <Compile Include="DAL\JsonDeserial.cs" />
+    <Compile Include="DAL\LiveIndex.cs" />
+    <Compile Include="DAL\Logger.cs" />
+    <Compile Include="DAL\ManageSystem.cs" />
+    <Compile Include="DAL\MasterForecast.cs" />
+    <Compile Include="DAL\MonitoringDataDal.cs" />
+    <Compile Include="DAL\NewEvalutionCaculate.cs" />
+    <Compile Include="DAL\OperationTypeDal.cs" />
+    <Compile Include="DAL\OrgManage.cs" />
+    <Compile Include="DAL\ParaDatas.cs" />
+    <Compile Include="DAL\PolluteLevelData.cs" />
+    <Compile Include="DAL\Pub.cs" />
+    <Compile Include="DAL\PublicLog.cs" />
+    <Compile Include="DAL\ScoreData.cs" />
+    <Compile Include="DAL\ServiceManage.cs" />
+    <Compile Include="DAL\SiteData.cs" />
+    <Compile Include="DAL\SiteDataManager.cs" />
+    <Compile Include="DAL\SiteExtendedManager.cs" />
+    <Compile Include="DAL\SiteGroupDataAccess.cs" />
+    <Compile Include="DAL\SysetmConfig.cs" />
+    <Compile Include="DAL\TreeMenu.cs" />
+    <Compile Include="DAL\TreeNode.cs" />
+    <Compile Include="DAL\Types.cs" />
+    <Compile Include="DAL\UpateInteg.cs" />
+    <Compile Include="DAL\UserManager\Log.cs" />
+    <Compile Include="DAL\UserManager\LogInfo.cs" />
+    <Compile Include="DAL\UserManager\UserManager.cs" />
+    <Compile Include="DAL\Utility.cs" />
+    <Compile Include="DAL\WaringMsg.cs" />
+    <Compile Include="DAL\WebAQI\BasicStation.cs" />
+    <Compile Include="DAL\WebAQI\DataStation.cs" />
+    <Compile Include="DAL\WebAQI\Encryptor.cs" />
+    <Compile Include="DAL\WebAQI\ForecastData.cs" />
+    <Compile Include="DAL\WebAQI\Iphone.cs" />
+    <Compile Include="DAL\WebAQI\Station.cs" />
+    <Compile Include="DAL\WebAQI\Version.cs" />
+    <Compile Include="DAL\WebServiceHelper.cs" />
+    <Compile Include="DAL\WeekReport.cs" />
+    <Compile Include="DAL\DailyDataForecast.cs" />
+    <Compile Include="DAL\CommissionSMS.cs" />
+    <Compile Include="DAL\Scheduing.cs" />
+    <Compile Include="DAL\ChangjiangData.cs" />
+    <Compile Include="DAL\WordHelper.cs" />
+    <Compile Include="DAL\TimePollutansForecast.cs" />
+    <Compile Include="DAL\HealthyWeather.cs" />
+    <Compile Include="DAL\CitysForecast.cs" />
+    <Compile Include="DAL\ForecastV2.cs" />
+    <Compile Include="DAL\AllCityForecastII.cs" />
+    <Compile Include="DAL\副本 老的没有大改之前HealthyWeather.cs" />
+    <Compile Include="DataSetForcast.cs">
+      <DependentUpon>DataSetForcast.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetForcast.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetForcast.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Model\AQIDictionary.cs" />
+    <Compile Include="DAL\Model\CityPeriodDailyForecast.cs" />
+    <Compile Include="DAL\Model\CityPeriodData.cs" />
+    <Compile Include="DAL\Model\CitywideData.cs" />
+    <Compile Include="DAL\Model\CountyGroup.cs" />
+    <Compile Include="DAL\Model\CountyReportData.cs" />
+    <Compile Include="DAL\Model\DataCollectionBase.cs" />
+    <Compile Include="DAL\Model\DataParameter.cs" />
+    <Compile Include="DAL\Model\DataRange.cs" />
+    <Compile Include="DAL\Model\DictionaryValueItem.cs" />
+    <Compile Include="DAL\Model\DownContext.cs" />
+    <Compile Include="DAL\Model\DownTask.cs" />
+    <Compile Include="DAL\Model\Enums.cs" />
+    <Compile Include="DAL\Model\FactorGroupItem.cs" />
+    <Compile Include="DAL\Model\FactorsGroup.cs" />
+    <Compile Include="DAL\Model\ForecastSiteData.cs" />
+    <Compile Include="DAL\Model\GroupData.cs" />
+    <Compile Include="DAL\Model\IGroup.cs" />
+    <Compile Include="DAL\Model\MonitoringData.cs" />
+    <Compile Include="DAL\Model\MonitoringDataCollection.cs" />
+    <Compile Include="DAL\Model\OperationType.cs" />
+    <Compile Include="DAL\Model\PeriodData.cs" />
+    <Compile Include="DAL\Model\PeriodOfTime.cs" />
+    <Compile Include="DAL\Model\PolluteLevel.cs" />
+    <Compile Include="DAL\Model\SiteData.cs" />
+    <Compile Include="DAL\Model\SiteGroup.cs" />
+    <Compile Include="DAL\Model\County.cs" />
+    <Compile Include="DAL\Model\PropertyJsOV.cs" />
+    <Compile Include="DAL\Model\Site.cs" />
+    <Compile Include="DAL\Model\StatisticParamWeatherData.cs" />
+    <Compile Include="DAL\Model\Unit.cs" />
+    <Compile Include="DAL\Model\Weather.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AQIQuery\AQIQuery.csproj">
+      <Project>{D5BDC204-471B-412D-907F-E34A20AFC0AF}</Project>
+      <Name>AQIQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChinaAQI\AQIExtention\AQIExtention.csproj">
+      <Project>{C624FC75-6FD7-4CDE-BD57-ADC077D658C3}</Project>
+      <Name>AQIExtention</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChinaAQI\ChinaAQI\ChinaAQI.csproj">
+      <Project>{3D8D8311-803F-4377-B7C9-B91BACD0D99E}</Project>
+      <Name>ChinaAQI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0EC98648-67F8-4F5F-A49D-FA5BEF88BC64}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MASlib\MASlib.csproj">
+      <Project>{BA92BAC5-F7AC-4736-AE7A-5849812D2EC3}</Project>
+      <Name>MASlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadearthEntity\ReadearthEntity.csproj">
+      <Project>{6D5B1422-8A49-45C9-B66F-D1B002C8C335}</Project>
+      <Name>ReadearthEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WeiBo\WeiBo.csproj">
+      <Project>{ED125AE2-0486-4853-9234-909C03F2CC38}</Project>
+      <Name>WeiBo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSetForcast.xsc">
+      <DependentUpon>DataSetForcast.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetForcast.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetForcast.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetForcast.xss">
+      <DependentUpon>DataSetForcast.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

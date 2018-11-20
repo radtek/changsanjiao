@@ -1,0 +1,103 @@
+﻿body { 
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	color: #333333;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top:5px;
+}
+.control-label{padding-right:0;}
+.need{ color:#FF0000; line-height:35px;}
+.center{ text-align:center;}
+.gap{ margin:5px;}
+#floatDiv{ position:absolute; right:20px; top:-1px;margin-top:2px;}
+#btnAddUser strong { font-size: 16px; font-weight: 900;}
+#tblUsers_filter,#logTbl_filter,#tblHandle_filter{ float:left;}
+#groupList{ margin-top:5px;}
+#btnBack{ position:relative; top:-36px;text-align:center; width:20%; margin:0 auto;}
+
+#mdlSend .modal-footer label{margin:5px;float:left;line-height:30px;}
+#spanLastTime{ margin-right:5px;}
+.tab-pane table{ width:100%;}
+.tab-pane table td{ border:1px solid #efefef; padding:3px;}
+.tab-pane table h1{ font-size:18px;}
+
+#tblUsers_wrapper table.dataTable thead th, table.dataTable thead td{ padding:5px 10px; line-height:20px;}
+#tblUsers_wrapper table.dataTable tbody th, #tblUsers_wrapper table.dataTable tbody td{ padding:5px 2px;line-height:20px;}
+
+/* 王斌  2017.4.11 */
+.import strong
+{
+    font-size: 16px; 
+    font-weight: 900;
+}
+.import
+{
+    margin-left:20px;
+}
+
+/* 王斌  2017.6.9*/
+.inVisibility {
+    display:none;
+}
+.le {
+    position:relative;
+}
+.update {
+    position:absolute;
+    top:150px;
+    left:-10px;
+    cursor:pointer;
+}
+#sendTypeTab li span {
+    position:absolute;
+    top:10px;
+    right:5px;
+    width:25px;
+    height:25px;
+    background-image:url(../images/message.png);
+    background-size:25px;
+    background-repeat:no-repeat;
+    background-position:right center;
+    cursor:pointer;
+}
+
+.send-Tab
+{
+    position:absolute;
+    margin-left:-9px;
+    top: 400px;
+    padding:0;
+}
+.send-td
+{
+    width:25%;
+    text-align:center;
+    border:1px solid #ccc;
+}
+.time-tab
+{
+    float:right;
+}
+.morning,.afternoon
+{
+    float:left;
+}
+.morning
+{
+    margin-right:10px;
+}
+.afternoon
+{
+    margin-right:0;
+}
+.morning:hover, .afternoon:hover
+{
+    color:#f79595;
+    cursor:pointer;
+}
+.selected
+{
+    color:#3047f6;
+}

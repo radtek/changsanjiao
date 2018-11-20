@@ -1,0 +1,57 @@
+﻿body {
+    padding:0;
+    margin:0;
+}
+.top {
+    width:80%;
+    margin:0 auto;
+    margin-top:25px;
+}
+.f {
+    float:left;
+}
+.radioUnChecked{
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	height: 24px;
+	width: 60px;
+	margin-top: 6px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+    color:black;
+}
+.radioChecked{
+	background-color: #1f982d;
+	border: 1px solid #078015;
+	height: 24px;
+	width: 60px;
+	margin-top: 6px;
+	text-align: center;
+	display: block;
+	line-height: 24px;
+	float: left;
+	
+}
+.radioChecked a{ color:white; text-decoration:none;	display: block;}
+.radioUnChecked a{ color:black; text-decoration:none;	display: block;}
+.radioUnChecked a:hover
+{
+	color: #179025;
+	text-decoration: none;
+	display: block;
+	background-color: #ccff99;
+}
+.checkLable{
+	/*line-height: 36px;*/
+    
+	float: left;
+	line-height: 63px;
+	width: 70px;
+}
+.ele {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}

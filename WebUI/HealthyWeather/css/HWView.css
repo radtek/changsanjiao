@@ -1,0 +1,123 @@
+﻿body 
+{
+    float:left
+}
+
+.littletitle
+{
+    background-color: #1458d7;
+    padding-bottom: 1px;
+    padding-top:1px;
+    padding-left: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 1px rgba(0,0,0,0.3);   
+    behavior: url(PIE.htc); 
+    position:relative;
+    z-index:999;
+}
+
+.casetable
+{
+    margin-top:3px;
+    border:1px solid #000;
+}
+.uptable
+{
+    position:relative;
+    
+    border-radius:10px; /*圆角设置属性*/
+    overflow:hidden; 
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+    behavior: url(PIE.htc); 
+    border-collapse: collapse;  
+    position:relative;
+    z-index:0;
+    
+}
+
+.uptable td
+{
+    margin-top:3px;
+    padding:10px;
+    border-right:1px solid #C1C3C2;
+    border-left:1px solid #C1C3C2;
+}
+.uptable tr
+{
+    border-top:1px solid #C1C3C2
+}
+
+.radius
+{
+    padding:5px;
+    margin-top:-10px;
+    border-radius:15px;
+    border:1px solid #C1C3C2;
+    background-color:#F0F5FB;
+    position:relative;
+    z-index:1;
+    behavior: url(PIE.htc); 
+}
+
+.space
+{
+    height:5px;    
+}
+table
+{
+    border-radius:10px; /*圆角设置属性*/
+    overflow:hidden; 
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+    behavior: url(PIE.htc); 
+    
+}
+.uptable th,td{ 
+                border:0px; 
+            } 
+           .uptable tr td:first-child{ 
+                border-left:0; 
+            } 
+           .uptable tr td:last-child { 
+                border-right:0; 
+            } 
+           .uptable tr:first-child td,tr:first-child th{ 
+                border-top:0px; 
+            } 
+           .uptable tr:last-child td{ 
+                border-bottom:0px; 
+            } 
+            
+.uptd 
+{
+    font-size:14px; 
+    width:40%;
+    font-family:微软雅黑;
+    vertical-align: top;
+}
+
+.zstd
+{
+    font-size:14px;
+    font-family:微软雅黑;
+    width:5%;
+    color:black;
+}
+
+.zsinfo
+{
+    font-size:14px;
+    font-family:微软雅黑;
+    width:10%;
+    text-align:left
+}
+
+.headtext{margin:10px 0 10px 0;color:white;font-size: 16px;font-weight: bold;}
+.imgtd{font-size:16px; font-family:微软雅黑; width:20%; text-align:center;}
+
+

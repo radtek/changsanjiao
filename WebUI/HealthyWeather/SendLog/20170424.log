@@ -1,0 +1,8 @@
+﻿2017-04-24 05:02:20 发送邮件至xueh@readearth.com失败，原因如下：   at EmailHelper.InitConfig()
+   at EmailHelper.sendmail(String subject, String body, String to, Boolean Ishtml)
+2017-04-24 05:02:20 发送邮件至：xueh@readearth.com	邮件内容为：测试	邮件标题为：测试
+2017-04-24 05:08:33 发送邮件至：xueh@readearth.com	邮件内容为：测试	邮件标题为：测试
+2017-04-24 05:08:48 发送邮件至：xueh@readearth.com	邮件内容为：测试	邮件标题为：测试
+2017-04-24 05:09:12 发送邮件至：xueh@readearth.com	邮件内容为：测试	邮件标题为：测试
+2017-04-24 05:11:41 发送短信至：15601685878	短信内容为：测试
+2017-04-24 05:19:17 发送短信至：15601685878	短信内容为：fewfew

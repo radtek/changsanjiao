@@ -1,0 +1,165 @@
+﻿/* CSS Document */
+*{ margin:0; padding:0}
+ul{ list-style:none}
+img{ border:0; cursor:pointer;}
+body
+{
+	font-family:"微软雅黑","宋休",Verdana;
+	font-size: 13px;
+	line-height: 15px;
+	color: #333333;
+	height: 100%;
+	margin:0;
+}
+html{ margin:0; height:100%; }
+a{ color:#333333; text-decoration:none;	}
+a:hover{ color:#333333; text-decoration:underline;}
+#contentNone{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+.listBox
+{
+    border-bottom: #a3bad9 1px solid;
+    border-left: #a3bad9 1px solid;
+    border-top: #a3bad9 1px solid;
+    border-right: #a3bad9 1px solid;
+    background-color: #f4f2ee;
+    border-color: #CCCCCC;
+}
+.listBox-selected
+{
+	background-color: lightskyblue;
+}
+.contentNone
+{
+    width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	height:90%;
+}
+.ImgContent
+{
+    float:left;
+    width:80%;
+}
+.ListContent
+{
+    float: left;
+    width: 206px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #CCCCCC;
+}
+.dateSelect .cur-select
+{
+width: 206px;
+height: 25px;
+float:left;
+line-height: 25px;
+background-image:url(../../css/images/select_form.png);
+background-repeat:no-repeat;
+text-indent: 10px;
+cursor:pointer;
+} 
+.hourSelect .hour-select
+{
+width: 51px;
+height: 24px;
+float:left;
+line-height: 25px;
+background-image:url(../../css/images/time_select.png);
+background-repeat:no-repeat;
+text-indent: 10px;
+cursor:pointer;
+} 
+.hourSelect select
+{
+    position:absolute;
+    width: 51px;
+    height: 24px;
+    opacity: 0;
+    filter: alpha(opacity: 0;);
+    font: 14px/20px 微软雅黑;
+    color: #000000;
+    margin-left:-51px;
+    cursor:pointer;
+} 
+.dateSelect select
+{
+    position:absolute;
+    width: 206px;
+    height: 25px;
+    opacity: 0;
+    filter: alpha(opacity: 0;);
+    font: 14px/20px 微软雅黑;
+    color: #000000;
+    margin-left:-206px;
+    cursor:pointer;
+} 
+.label
+{
+    color: #000000;
+    font-size: 15px;
+    line-height: 25px;
+    display:block;
+    font-family: 微软雅黑;
+}
+.formstyle{
+	border: 0;
+	background-color:transparent;
+	height: 28px;
+	width: 110px;
+	text-indent: 5px;
+	cursor:pointer;
+	float:left;
+}
+.date{
+	background-image: url(../../css/images/date_form.png);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 206px;
+	float: left;
+	margin-top: 4px;
+	margin-right:5px; 
+}
+.buttonDiv
+{
+    width:206px;
+    height:30px;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+}
+.addBut
+{
+    width:50px;
+    height:30px;
+}
+.deleteImg
+{
+    background-image: url(../../css/images/close-n.PNG);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:30;
+}
+.deleteImgOver
+{
+    background-image: url(../../css/images/close-v.PNG);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 25px;
+	position:absolute;
+	cursor:pointer;
+	z-index:30;
+}

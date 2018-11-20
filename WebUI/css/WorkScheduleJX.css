@@ -1,0 +1,185 @@
+﻿body 
+{
+    background-color: #ebebeb;
+}
+@charset "utf-8";
+*{ margin:0px; padding:0px;}
+body { font-family:"宋体"; font-size:12px; background-color:#ebebeb;}
+html { 
+        scrollbar-face-color: #DDDDDD;
+        scrollbar-shadow-color: #D2E5F4;
+        scrollbar-highlight-color: #FFFFFF;
+        scrollbar-3dlight-color: #FFFFFF;
+        scrollbar-darkshadow-color: #FFFFFF;
+        scrollbar-track-color: #EEEEEE; 
+        scrollbar-arrow-color:#999999 }
+
+ul{ list-style:none;}
+.table{ margin:15px; background-color:#FFF; border:#bfcde1 solid 1px; height:530px; width:100%;}
+/*.tabs{ background-image:url(../images/tabs.jpg); background-repeat:repeat-x;border-left:1px #CCC solid; border-right:1px #CCC solid;  height:27px;font:bold 12px/28px "宋体"; color:#000; width:100%;}
+.tabs ul{margin:0 auto;list-style-type:none;}
+.tabs ul .li1 { border-left:1px solid #CCC; }
+.tabs ul li { height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; float:left; display:block;font:12px/27px  "宋体"; color:#333; font-weight:bold}
+.tabs ul li:hover { height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; border-bottom:1px #FFF solid;float:left; display:block; background-color:#fff;font:12px/27x  "宋体"; cursor:pointer;color:#333;  font-weight:bold}
+.tabs ul .limouseon { height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; border-bottom:1px #FFF solid;float:left; display:block; background-color:#fff;font:12px/27px  "宋体"; cursor:pointer;color:#3366cc; font-weight:bold }*/
+
+.tabs{ background-image:url(../NewImages/tabs.jpg); background-repeat:repeat-x;  height:27px;font:bold 12px/28px "宋体"; color:#000; width:100%;}
+.tabs ul{margin:0 auto;list-style-type:none;}
+.tabs ul .li1 { border-left:1px solid #CCC; }
+.tabs ul li { height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; float:left; display:block;font:12px/27px  "宋体"; font-weight:bold}
+
+.tabs ul .limouseon { height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; border-bottom:1px #FFF solid;float:left; display:block; background-color:#fff;font:14px/27px  "宋体"; cursor:pointer;color:white; font-weight:bold;background-image:url(../NewImages/mousefocus.png); background-repeat:repeat-x}
+
+
+.charttop{ background-color:#F5F5F5;border:1px solid #CCC; border-bottom:0px; text-align:center; padding:5px;font:12px/27px "宋体" ; font-weight:bold; color:#36C; }
+.tabs2{ background-color:#F5F5F5;border:1px solid #CCC; border-top:0px; height:25px;text-align:center;position: relative;  }
+.tabs2 ul{list-style-type:none; width: 580px; display:block ;position: relative; margin: 0 auto;}
+.tabs2 ul li { height:24px; margin:0 1px;padding:0 20px;list-style-type:none; border:1px solid #CCC; border-bottom:0px; float:left; display:block;font:12px/24px  "宋体"; color:#333;}
+.tabs2 ul li:hover { height:24px; margin:0 1px;padding:0 20px;list-style-type:none;  border:1px solid #CCC; border-bottom:1px solid #FFF; float:left; display:block; background-color:#fff;font:12px/24px  "宋体"; cursor:pointer;color:#06F; }
+.tabs2 ul .lion { height:24px; margin:0 1px;padding:0 20px;list-style-type:none; border-right:1px solid #CCC;float:left; display:block; background-color:#fff;font:12px/24px  "宋体"; cursor:pointer;color:#06F; border-bottom:1px solid #FFF}
+.tabs_middle{ width:100%; margin:20px 140px;}
+.tabs_middle_left{width:508px; float:left; margin:0 10px;}
+.contenttitle{}
+.contenttitle2{ background-color:#FFF;}
+.ct_left{ float:left; height:28px; width:5px; background-image:url(../images/ct_left.png)}
+.ct_icon{ float:left;width:30px; text-align:center; padding-top:3px}
+.ct_mid{color:#FFF; background-image:url(../images/ct_mid.png); background-repeat:repeat-x;margin:0 5px;height:28px; text-align:left; font:bold 12px/28px "宋体"}
+.ct_mid img{ margin-top:0px}
+.ct_right{ float:right; height:28px; margin-top:-28px;width:5px; background-image:url(../images/ct_right.png)}
+.tables{ margin:10px;}
+.tables tr{ height:24px; line-height:24px;}
+.tables tr th{ background-color:#e0ebf8; text-align:left; padding-left:10px;}
+.zy{ padding-left:10px;}
+.fenye{ height:24px; text-align:center; line-height:24px;}
+.fenye a{ padding-left:10px;}
+.default_table
+{
+    width: 100%;
+    color: #4c7493;
+    text-align: center;
+    border-collapse: collapse;
+    font: 12px/30px "宋体";
+    border: 1px #CCC solid;
+    table-layout: fixed;
+}
+ .default_table td
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+    }
+
+    .default_table th
+    {
+        border-bottom: 1px #CCC dotted;
+        border-right: 1px #CCC dotted;
+    }
+.box
+{
+    min-height: 30px;
+    border: 1px solid #CCC;
+}
+
+    .box .label
+    {
+        width: 150px;
+        height: 26px;
+        color: #fff;
+        background-image: url(../images/aqi/tab-yellow.png);
+        margin-top: -9px;
+        margin-left: 5px;
+        font: bold 12px/28px "宋体";
+        position: absolute;
+    }
+
+        .box .label span
+        {
+            margin-left: 15px;
+        }
+
+    .box .oper
+    {
+        width: 40px;
+        height: 26px;
+        color: #fff;
+        margin-top: -9px;
+        position: absolute;
+        right: 60px;
+        cursor: pointer;
+        background-image: url(../images/aqi/down.png);
+    }
+
+        .box .oper.show
+        {
+            background-image: url(../images/aqi/up.png);
+        }
+        .mapTitle
+{
+width: 100%;
+
+top: 0;
+height: 40px;
+color: #7e8181;
+font-family: "宋体";
+font-size: 14.5px;
+line-height: 40px;
+background-color: White;
+font-weight: bold;
+z-index: 999;
+}
+.titlePoint
+{
+   width: 20px;
+height: 30px;
+height: 100%;
+background: url(../AQI/img/y.png) no-repeat center;
+float: left;     
+}
+.contenttitle
+{
+    font-size:12px;
+}
+.subLi
+{
+    height:27px; margin:0;padding:0 27px;list-style-type:none; border-right:1px solid #CCC; border-bottom:1px #FFF solid;float:left; display:block; background-color:#42b385;font:14px/27px  "宋体"; cursor:pointer;color:white; font-weight:bold;background-image:url(../NewImages/mousefocus.png); background-repeat:repeat-x
+}
+.subLi:hover
+{
+    background-color:Gray;
+}
+.subLi_Sel
+{
+background-color: Gray;
+}
+.tabletitleDateOut {
+    background-color: #42B385;
+    line-height: 36px;
+    height: 36px;
+    width: 5%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.tablerow4Out {
+    background-color: #DFDFDF;
+    line-height: 34px;
+    height: 34px;
+    width: 6%;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+}
+ td {
+    border: 0.5px solid White;
+}
+.tablerowOut {
+    line-height: 34px;
+    height: 34px;
+    width: 7%;
+    padding: 2px;
+    background-color: #F2F2F2;
+    padding-left: 5px;
+}
+.tabs_middle1_left
+{
+    background-color:White;
+}
