@@ -170,3 +170,8 @@ D:\wangbin\SEMCShares\ChinaAQI\ChinaAQI\bin\Debug\ChinaAQI.pdb
 D:\wangbin\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.dll
 D:\wangbin\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.pdb
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\ChinaAQI\bin\Debug\ChinaAQI.dll
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\ChinaAQI\bin\Debug\ChinaAQI.pdb
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.dll
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\ChinaAQI\obj\Debug\ChinaAQI.pdb

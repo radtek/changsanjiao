@@ -148,3 +148,9 @@ D:\wangbin\SEMCShares\WeiBo\bin\Debug\log4net.dll
 D:\wangbin\SEMCShares\WeiBo\obj\Debug\WeiBo.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\WeiBo\obj\Debug\WeiBo.dll
 D:\wangbin\SEMCShares\WeiBo\obj\Debug\WeiBo.pdb
+D:\zhz\changsanjiao\SEMCShares\WeiBo\bin\Debug\WeiBo.dll
+D:\zhz\changsanjiao\SEMCShares\WeiBo\bin\Debug\WeiBo.pdb
+D:\zhz\changsanjiao\SEMCShares\WeiBo\bin\Debug\log4net.dll
+D:\zhz\changsanjiao\SEMCShares\WeiBo\obj\Debug\WeiBo.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\WeiBo\obj\Debug\WeiBo.dll
+D:\zhz\changsanjiao\SEMCShares\WeiBo\obj\Debug\WeiBo.pdb

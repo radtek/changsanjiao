@@ -154,3 +154,13 @@ D:\wangbin\SEMCShares\AQIQueryAPI\bin\Debug\DBUtility.pdb
 D:\wangbin\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.dll
 D:\wangbin\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.pdb
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\AQIQueryAPI.dll
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\AQIQueryAPI.pdb
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\AQIQuery.dll
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\DBUtility.dll
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\MySql.Data.dll
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\AQIQuery.pdb
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\bin\Debug\DBUtility.pdb
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.dll
+D:\zhz\changsanjiao\SEMCShares\AQIQueryAPI\obj\Debug\AQIQueryAPI.pdb

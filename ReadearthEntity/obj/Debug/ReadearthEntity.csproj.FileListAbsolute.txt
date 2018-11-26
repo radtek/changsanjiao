@@ -315,3 +315,11 @@ D:\wangbin\SEMCShares\ReadearthEntity\bin\Debug\DBUtility.pdb
 D:\wangbin\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.dll
 D:\wangbin\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.pdb
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\bin\Debug\ReadearthEntity.dll
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\bin\Debug\ReadearthEntity.pdb
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\bin\Debug\DBUtility.dll
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\bin\Debug\MySql.Data.dll
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\bin\Debug\DBUtility.pdb
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.dll
+D:\zhz\changsanjiao\SEMCShares\ReadearthEntity\obj\Debug\ReadearthEntity.pdb

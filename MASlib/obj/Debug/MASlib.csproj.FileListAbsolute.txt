@@ -272,3 +272,9 @@ D:\wangbin\SEMCShares\MASlib\bin\Debug\MASlib.pdb
 D:\wangbin\SEMCShares\MASlib\obj\Debug\MASlib.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\MASlib\obj\Debug\MASlib.dll
 D:\wangbin\SEMCShares\MASlib\obj\Debug\MASlib.pdb
+D:\zhz\changsanjiao\SEMCShares\MASlib\bin\Debug\libmySQL.dll
+D:\zhz\changsanjiao\SEMCShares\MASlib\bin\Debug\MASlib.dll
+D:\zhz\changsanjiao\SEMCShares\MASlib\bin\Debug\MASlib.pdb
+D:\zhz\changsanjiao\SEMCShares\MASlib\obj\Debug\MASlib.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\MASlib\obj\Debug\MASlib.dll
+D:\zhz\changsanjiao\SEMCShares\MASlib\obj\Debug\MASlib.pdb

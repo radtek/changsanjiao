@@ -158,3 +158,8 @@ D:\wangbin\SEMCShares\CometHandler\bin\Release\CometHandler.pdb
 D:\wangbin\SEMCShares\CometHandler\obj\Release\CometHandler.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\CometHandler\obj\Release\CometHandler.dll
 D:\wangbin\SEMCShares\CometHandler\obj\Release\CometHandler.pdb
+D:\zhz\changsanjiao\SEMCShares\CometHandler\bin\Release\CometHandler.dll
+D:\zhz\changsanjiao\SEMCShares\CometHandler\bin\Release\CometHandler.pdb
+D:\zhz\changsanjiao\SEMCShares\CometHandler\obj\Release\CometHandler.csprojResolveAssemblyReference.cache
+D:\zhz\changsanjiao\SEMCShares\CometHandler\obj\Release\CometHandler.dll
+D:\zhz\changsanjiao\SEMCShares\CometHandler\obj\Release\CometHandler.pdb
