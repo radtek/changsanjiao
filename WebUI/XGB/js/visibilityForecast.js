@@ -218,9 +218,6 @@ function creatRainChart(feature, containerPoint, weatherType) {
         siteCode = feature.properties.Code.replace(/(^\s*)|(\s*$)/g, "");
         var siteName = feature.properties.name;
         $("#panelTitle").html(siteName + "(" + siteCode + ")");
-        //var typeName = "";
-        //$("#typeName").html(typeName);
-        ////获取当前点击点的ID，预报信息表中的数据生成折线图
         getChartData(siteCode);
         break;
 
