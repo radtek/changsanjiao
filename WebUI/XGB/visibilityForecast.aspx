@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <script src="../EvaluateHtml/JS/jquery-1.9.1.js"></script>
-    <link href="css/visibilityForecast.css?V=20180805" rel="stylesheet" />
+    <link href="css/visibilityForecast.css?V=20180806" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="../EvaluateHtml/css/bootstrap-select.min.css" rel="stylesheet" />
     <link href="../DatePicker/skin/WdatePicker.css" rel="stylesheet" />
@@ -37,7 +37,7 @@
 
     <script src="js/jquery.mloading.js"></script>
 
-    <script src="js/visibilityForecast.js?V=20180805"></script>
+    <script src="js/visibilityForecast.js?V=20180806"></script>
 
 </head>
 <body>

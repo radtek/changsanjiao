@@ -712,13 +712,13 @@ function getVisValueData(StationID) {
             color: 'green'
           }
         ]
-        if (drawChart) {
-          drawChart.addSeries(seriesArr);
-        } else {
-          timeMMDDArr = timeMMDDArray
+                  timeMMDDArr = timeMMDDArray
           xAxisVal = xAxisValue1
           createChart(seriesArr, xAxisVal, timeMMDDArr)
-        }
+          // drawChart.addSeries(seriesArr);
+       
+
+        
       },
       error: function (e) {
         console.log(e);
@@ -733,7 +733,7 @@ function getVisValueData(StationID) {
       contentType: "application/json",
       dataType: 'json',
       async: true,
-      data: "{ startTime:'" + startTime + "',endTime:'" + lstTime + "',codeId:'" + StationID + "',hours:'" + hours + "' }",
+      data: "{ startTime:'" + startTime + "',endTime:'" + endTime + "',codeId:'" + StationID + "',hours:'" + hours + "' }",
       success: function (responseData) {
         var data = responseData.d.rows; //利用服务器数据
         if (data != null) {
@@ -763,13 +763,7 @@ function getVisValueData(StationID) {
           //data:[2,-10,5,10,20,-20],//测试数据
           color: 'pink'
         }
-        if (drawChart) {
-          drawChart.addSeries(seriesArr);
-        } else {
-          timeMMDDArr = timeMMDDArray
-          xAxisVal = xAxisValue1
-          createChart(seriesArr, xAxisVal, timeMMDDArr)
-        }
+        drawChart.addSeries(seriesArr);
       },
       error: function (e) {
         console.log(e);
@@ -784,7 +778,7 @@ function getVisValueData(StationID) {
       dataType: 'json',
       async: true,
 
-      data: "{ startTime:'" + startTime + "',endTime:'" + lstTime + "',codeId:'" + StationID + "',hours:'" + hours + "' }",
+      data: "{ startTime:'" + startTime + "',endTime:'" + endTime + "',codeId:'" + StationID + "',hours:'" + hours + "' }",
       success: function (responseData) {
         var data = responseData.d.rows; //利用服务器数据
         if (data != null) {
@@ -813,13 +807,7 @@ function getVisValueData(StationID) {
           //data:[2,-10,5,10,20,-20],//测试数据
           color: 'blue'
         }
-        if (drawChart) {
-          drawChart.addSeries(seriesArr);
-        } else {
-          timeMMDDArr = timeMMDDArray
-          xAxisVal = xAxisValue1
-          createChart(seriesArr, xAxisVal, timeMMDDArr)
-        }
+        drawChart.addSeries(seriesArr);
       },
       error: function (e) {
         console.log(e);

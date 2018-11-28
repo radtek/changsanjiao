@@ -354,7 +354,7 @@ public partial class XGB_visibilityForecast : System.Web.UI.Page
     [WebMethod]
     public static DataTable GetLastForecastTimeVisValue()
     {
-        string SQL = "select DISTINCT forecastdate from ((SELECT * FROM CJ_predicted_data_vis_value) UNION ALL (SELECT * FROM predicted_data_vis_value )) a  order by forecastdate desc LIMIT 0,1";
+        string SQL = "select DISTINCT forecastdate from ((SELECT forecastdate FROM CJ_predicted_data_vis_value) UNION ALL (SELECT forecastdate FROM predicted_data_vis_value )) a  order by forecastdate desc LIMIT 0,1";
         DataTable dt = m_Database.GetDataTableMySQL(SQL);
         return dt;
     }
@@ -362,7 +362,7 @@ public partial class XGB_visibilityForecast : System.Web.UI.Page
     [WebMethod]
     public static DataTable GetLastLstTimeVisValue()
     {
-        string SQL = "select DISTINCT lst from ((SELECT * FROM CJ_predicted_data_vis_value) UNION ALL (SELECT * FROM predicted_data_vis_value )) a  order by lst desc LIMIT 0,1";
+        string SQL = "select DISTINCT lst from ((SELECT lst FROM CJ_predicted_data_vis_value) UNION ALL (SELECT lst FROM predicted_data_vis_value )) a  order by lst desc LIMIT 0,1";
         DataTable dt = m_Database.GetDataTableMySQL(SQL);
         return dt;
     }
