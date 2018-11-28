@@ -10,15 +10,15 @@ using System.Web.UI.WebControls;
 
 public partial class XGB_visibilityForecast : System.Web.UI.Page
 {
-    public static Database s_Database;//站点数据库
+    public static Database s_Database;
     public static Database m_Database;
     public static Database m_Database2;
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        s_Database = new Database("siteInfo");//Initial Catalog=site_information; 站点数据库
-        m_Database = new Database("EleFore");//Initial Catalog=data_predicted;预报数据库
-        m_Database2 = new Database("EleFore2");//EleFore2  王斌   Initial Catalog=real_data;实况数据库
+        s_Database = new Database("siteInfo");
+        m_Database = new Database("EleFore");
+        m_Database2 = new Database("EleFore2");//EleFore2  王斌
     }
 
     [WebMethod]
@@ -57,9 +57,7 @@ public partial class XGB_visibilityForecast : System.Web.UI.Page
         
         //string SQL = "select * from predicted_data_vis where forecastdate='2018-07-31 06:00:00' and siteID='58361' and lst BETWEEN '2018-07-31 06:00:00' and '2018-07-31 09:00:00'  order by lst asc";
         //string SQL = "select * from (select * from predicted_data_vis where forecastdate='" + startTime + "' and siteID='" + codeId + "' and lst BETWEEN '" + startTime + "' and '" + endTime + "'  order by lst asc) where lst BETWEEN '" + startTime + "' and '" + period + "'";
-        //能见度的等级表 联合长三角和上海两地的能见度等级表数据  forecastdate,lst,siteId,vis_scale_predicted
-        string SQL = "SELECT * FROM (SELECT *,(FLOOR(TIMESTAMPDIFF(HOUR,forecastdate,lst)/24)*24)+24 AS 'period' FROM  ((SELECT forecastdate,lst,siteId,vis_scale_predicted FROM CJ_predicted_data_vis) UNION ALL (SELECT forecastdate,lst,siteId,vis_scale_predicted FROM predicted_data_vis )) x  WHERE  siteId='" + codeId + "' AND lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
-        
+        string SQL = "SELECT * FROM (SELECT *,(FLOOR(TIMESTAMPDIFF(HOUR,forecastdate,lst)/24)*24)+24 AS 'period' FROM predicted_data_vis WHERE  siteId='" + codeId + "' AND lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
         DataTable dt = m_Database.GetDataTableMySQL(SQL);
         return dt;
     }
@@ -75,27 +73,11 @@ public partial class XGB_visibilityForecast : System.Web.UI.Page
     [WebMethod]
     public static DataTable GetVisValueData(string startTime, string endTime, string codeId, string hours)
     {
-        //联合长三角的数据和上海两地的能见度值得表数据  forecastdate,lst,vis_scale_predicted
-        //string SQL = "SELECT * FROM (SELECT *,(FLOOR(TIMESTAMPDIFF(HOUR,forecastdate,lst)/24)*24)+24 AS 'period' FROM ((SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM CJ_predicted_data_vis_value) UNION (SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM predicted_data_vis_value )) x WHERE  siteId='" + codeId + "' AND lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
-        //联合长三角的数据和上海两地的能见度值得表数据  同时加上lgb的union表
-        string SQL = "SELECT * FROM (SELECT xx.forecastdate,xx.lst,xx.siteId,xx.vishigh_value_predicted,xx.vislow_value_predicted,xx.`merge`,(FLOOR(TIMESTAMPDIFF(HOUR,xx.forecastdate,xx.lst)/24)*24)+24 AS 'period' FROM ((SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM CJ_predicted_data_vis_value) UNION ALL (SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM predicted_data_vis_value )) xx   WHERE  xx.siteId='" + codeId + "' AND xx.lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
-        
+      
+        string SQL = "SELECT * FROM (SELECT *,(FLOOR(TIMESTAMPDIFF(HOUR,forecastdate,lst)/24)*24)+24 AS 'period' FROM predicted_data_vis_value WHERE  siteId='" + codeId + "' AND lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
         DataTable dt = m_Database.GetDataTableMySQL(SQL);
         return dt;
     }
-
-    [WebMethod]
-    public static DataTable GetLightgbmData(string startTime, string endTime, string codeId, string hours)
-    {
-        //联合长三角的数据和上海两地的能见度值得表数据  forecastdate,lst,vis_scale_predicted
-        //string SQL = "SELECT * FROM (SELECT *,(FLOOR(TIMESTAMPDIFF(HOUR,forecastdate,lst)/24)*24)+24 AS 'period' FROM ((SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM CJ_predicted_data_vis_value) UNION (SELECT forecastdate,lst,siteId,vishigh_value_predicted,vislow_value_predicted,`merge` FROM predicted_data_vis_value )) x WHERE  siteId='" + codeId + "' AND lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
-        //联合长三角的数据和上海两地的能见度值得表数据  同时加上lgb的union表
-        string SQL = "SELECT * FROM (SELECT xx.forecastdate,xx.lst,xx.siteId,xx.lightgbm_predicted,(FLOOR(TIMESTAMPDIFF(HOUR,xx.forecastdate,xx.lst)/24)*24)+24 AS 'period' FROM ((SELECT forecastdate,lst,siteId,lightgbm_predicted FROM CJ_predicted_data_vis_value_lgb) UNION ALL (SELECT forecastdate,lst,siteId,lightgbm_predicted FROM predicted_data_vis_value_lgb )) xx    WHERE  xx.siteId='" + codeId + "' AND xx.lst BETWEEN '" + startTime + "' AND '" + endTime + "'  ) AS a WHERE  a.period=" + hours;
-
-        DataTable dt = m_Database.GetDataTableMySQL(SQL);
-        return dt;
-    }
-
 
     /// <summary>
     /// 根据起始时间、时效，获取能见度实况值的数据
@@ -320,7 +302,7 @@ public partial class XGB_visibilityForecast : System.Web.UI.Page
         }
     }
 
-  public static int GetVisGrade(float val)
+    public static int GetVisGrade(float val)
     {
         int txt = 0;
         if (val < 500)
