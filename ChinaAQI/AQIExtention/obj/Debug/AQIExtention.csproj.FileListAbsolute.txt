@@ -162,6 +162,6 @@ D:\wangbin\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.pdb
 D:\wangbin\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\bin\Debug\AQIExtention.dll
 D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\bin\Debug\AQIExtention.pdb
-D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.dll
 D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.pdb
+D:\zhz\changsanjiao\SEMCShares\ChinaAQI\AQIExtention\obj\Debug\AQIExtention.csprojResolveAssemblyReference.cache

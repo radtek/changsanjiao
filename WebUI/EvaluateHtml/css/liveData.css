@@ -1,0 +1,24 @@
+﻿body {
+    font-family:"微软雅黑","宋休",Verdana;
+	font-size: 14.5px;
+	line-height: 25px;
+	height: 100%;
+	padding:0;
+    margin:0;
+}
+.parent-txt {
+    text-align:center;
+    border-bottom:1px solid white;
+}
+.sub-txt {
+    border-right:1px solid white;
+}
+.thead {
+    background-color:rgb(155,199,266)
+}
+table {
+    display: grid;
+}
+.thead td {
+    /*border:1px solid white;*/
+}

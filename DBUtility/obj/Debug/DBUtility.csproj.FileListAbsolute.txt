@@ -150,6 +150,6 @@ D:\wangbin\SEMCShares\DBUtility\obj\Debug\DBUtility.dll
 D:\wangbin\SEMCShares\DBUtility\obj\Debug\DBUtility.pdb
 D:\zhz\changsanjiao\SEMCShares\DBUtility\bin\Debug\DBUtility.dll
 D:\zhz\changsanjiao\SEMCShares\DBUtility\bin\Debug\DBUtility.pdb
-D:\zhz\changsanjiao\SEMCShares\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\DBUtility\obj\Debug\DBUtility.dll
 D:\zhz\changsanjiao\SEMCShares\DBUtility\obj\Debug\DBUtility.pdb
+D:\zhz\changsanjiao\SEMCShares\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

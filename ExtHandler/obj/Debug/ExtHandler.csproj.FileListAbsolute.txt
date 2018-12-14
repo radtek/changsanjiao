@@ -1241,6 +1241,7 @@ D:\wangbin\SEMCShares\ExtHandler\bin\Debug\AQIQuery.pdb
 D:\wangbin\SEMCShares\ExtHandler\obj\Debug\ExtHandler.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\ExtHandler\obj\Debug\ExtHandler.dll
 D:\wangbin\SEMCShares\ExtHandler\obj\Debug\ExtHandler.pdb
+D:\zhz\changsanjiao\SEMCShares\ExtHandler\obj\Debug\ExtHandler.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\libmySQL.dll
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\ExtHandler.dll
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\ExtHandler.pdb
@@ -1274,6 +1275,5 @@ D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\ChinaAQI.pdb
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\WeiBo.pdb
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\MASlib.pdb
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\bin\Debug\AQIQuery.pdb
-D:\zhz\changsanjiao\SEMCShares\ExtHandler\obj\Debug\ExtHandler.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\obj\Debug\ExtHandler.dll
 D:\zhz\changsanjiao\SEMCShares\ExtHandler\obj\Debug\ExtHandler.pdb

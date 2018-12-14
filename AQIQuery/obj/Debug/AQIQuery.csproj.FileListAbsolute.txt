@@ -157,6 +157,6 @@ D:\wangbin\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
 D:\zhz\changsanjiao\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll.config
 D:\zhz\changsanjiao\SEMCShares\AQIQuery\bin\Debug\AQIQuery.dll
 D:\zhz\changsanjiao\SEMCShares\AQIQuery\bin\Debug\AQIQuery.pdb
-D:\zhz\changsanjiao\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\AQIQuery\obj\Debug\AQIQuery.dll
 D:\zhz\changsanjiao\SEMCShares\AQIQuery\obj\Debug\AQIQuery.pdb
+D:\zhz\changsanjiao\SEMCShares\AQIQuery\obj\Debug\AQIQuery.csprojResolveAssemblyReference.cache

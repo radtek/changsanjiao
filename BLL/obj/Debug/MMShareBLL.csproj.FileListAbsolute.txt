@@ -94,6 +94,7 @@ D:\wangbin\SEMCShares\BLL\bin\Debug\Newtonsoft.Json.Net20.xml
 D:\wangbin\SEMCShares\BLL\obj\Debug\MMShareBLL.csprojResolveAssemblyReference.cache
 D:\wangbin\SEMCShares\BLL\obj\Debug\MMShareBLL.dll
 D:\wangbin\SEMCShares\BLL\obj\Debug\MMShareBLL.pdb
+D:\zhz\changsanjiao\SEMCShares\BLL\obj\Debug\MMShareBLL.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\libmySQL.dll
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\MMShareBLL.dll
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\MMShareBLL.pdb
@@ -123,6 +124,5 @@ D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\MASlib.pdb
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\ReadearthEntity.pdb
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\WeiBo.pdb
 D:\zhz\changsanjiao\SEMCShares\BLL\bin\Debug\Newtonsoft.Json.Net20.xml
-D:\zhz\changsanjiao\SEMCShares\BLL\obj\Debug\MMShareBLL.csprojResolveAssemblyReference.cache
 D:\zhz\changsanjiao\SEMCShares\BLL\obj\Debug\MMShareBLL.dll
 D:\zhz\changsanjiao\SEMCShares\BLL\obj\Debug\MMShareBLL.pdb

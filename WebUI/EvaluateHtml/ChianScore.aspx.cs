@@ -204,7 +204,7 @@ public partial class EvaluateHtml_ChianScore : System.Web.UI.Page
     public static string Real(string date)
     {
         date = DateTime.Parse(date).ToString("yyyy-MM");
-        string sql = "select SUBSTRING(CONVERT(varchar(20),lst, 20),0,11) as lst,aqi,itemId from T_ChinaShiValue where  SUBSTRING(CONVERT(varchar(100),lst, 20),0,8) = '" + date + "'";
+        string sql = "select SUBSTRING(CONVERT(varchar(20),lst, 20),0,11) as lst,aqi,itemId from T_ChinaShiValueII where  SUBSTRING(CONVERT(varchar(100),lst, 20),0,8) = '" + date + "'";
         string[] itemId = { "1", "2", "3", "4", "5" };
         DataTable dt = m_Database.GetDataTable(sql);
         StringBuilder sb = new StringBuilder();
