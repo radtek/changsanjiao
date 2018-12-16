@@ -175,69 +175,70 @@ namespace MMShareBLL.DAL
                 StringBuilder sb = new StringBuilder();
 
                 #region 表头
-                sb.Append("<table   width='100%' border='0' id='forecastTable' cellpadding='0' cellspacing='0'>");
+                sb.Append("<table   width='100%' border='0' id='forecastTable' cellpadding='0' cellspacing='0' word-wrap: break-word; word-break: break-all;>");
 
                 sb.Append("<tr>");
-                sb.Append("<td class='tabletitlePerson2' rowspan='3'>日期</td>");
-                sb.Append("<td class='tabletitlePerson2' rowspan='3'>工号</td>");
-                sb.Append("<td class='tabletitlePerson2' colspan='2'>霾预报</td>");
-                sb.Append("<td class='tabletitlePerson2' colspan='2'>紫外线预报</td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='3'><div class='cell'>日期</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='3'><div class='cell'>工号</div></td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='2'>霾实况</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='2'>UV实况</td>");
 
                 sb.Append("<td class='tabletitlePerson2' colspan='14'>浓度实况</td>");
-                sb.Append("<td class='tabletitlePerson2' colspan='5'>国家局</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='5'>国家局实况</td>");
                 sb.Append("<td class='tabletitlePerson2' colspan='8'>20-20实况</td>");
                 sb.Append("</tr>");
 
                 sb.Append("<tr>");
                 //sb.Append("<td class='tabletitlePersonOther'  rowspan='2'>05时预报</td>");
                 //sb.Append("<td class='tabletitlePersonOther'  rowspan='2'>17时预报</td>");
-                sb.Append("<td class='tabletitlePersonOther'  rowspan='2'>05时实况</td>");
-                sb.Append("<td class='tabletitlePersonOther1' rowspan='2'>17时实况</td>");
+                sb.Append("<td class='tabletitlePerson2'  rowspan='2'><div class='cell'>05时</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>17时</div></td>");
 
-                sb.Append("<td class='tabletitlePersonOther' rowspan='2'>紫外线实况值</td>");
-                sb.Append("<td class='tabletitlePersonOther1' rowspan='2'>紫外线实况</td>");
+                //sb.Append("<td class='tabletitlePersonOther' rowspan='2'>紫外线实况值</td>");
+                //sb.Append("<td class='tabletitlePersonOther1' rowspan='2'>紫外线实况</td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>10时</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'>16时</td>");
 
 
+                sb.Append("<td class='tabletitlePerson2' colspan='4'>夜间</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='5'>上午</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='5'>下午</td>");
 
-                sb.Append("<td class='tabletitlePersonOther1' colspan='4'>夜间</td>");
-                sb.Append("<td class='tabletitlePersonOther1' colspan='5'>上午</td>");
-                sb.Append("<td class='tabletitlePersonOther1' colspan='5'>下午</td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>O3-1h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2' rowspan='2'><div class='cell'>NO2</div></td>");
 
-                sb.Append("<td class='tabletitlePersonOther' rowspan='2'>PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' rowspan='2'>O31小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' rowspan='2'>O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' rowspan='2'>PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1' rowspan='2'>NO2</td>");
-
-                sb.Append("<td class='tabletitlePersonOther1' colspan='4'>20-20平均浓度</td>");
-                sb.Append("<td class='tabletitlePersonOther1' colspan='4'>20-20AQI</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='4'>20-20平均浓度</td>");
+                sb.Append("<td class='tabletitlePerson2' colspan='4'>20-20AQI</td>");
                 sb.Append("</tr>");
 
                 sb.Append("<tr>");
-                sb.Append("<td class='tabletitlePersonOther' >PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1' >NO2</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O31小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1' >NO2</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O31小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1' >NO2</td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>NO2</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-1h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>NO2</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-1h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>NO2</div></td>");
 
-                sb.Append("<td class='tabletitlePersonOther'>PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1'>NO2</td>");
+                sb.Append("<td class='tabletitlePerson2'><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2'><div class='cell'>NO2</div></td>");
 
-                sb.Append("<td class='tabletitlePersonOther'>PM2.5</td>");
-                sb.Append("<td class='tabletitlePersonOther' >O38小时</td>");
-                sb.Append("<td class='tabletitlePersonOther' >PM10</td>");
-                sb.Append("<td class='tabletitlePersonOther1'>NO2</td>");
+                sb.Append("<td class='tabletitlePerson2'><div class='cell'>PM2.5</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>O3-8h</div></td>");
+                sb.Append("<td class='tabletitlePerson2' ><div class='cell'>PM10</div></td>");
+                sb.Append("<td class='tabletitlePerson2'><div class='cell'>NO2</div></td>");
                 sb.Append("</tr>");
                 #endregion
                 if (Fore_24h.Rows.Count > 0)
@@ -245,12 +246,13 @@ namespace MMShareBLL.DAL
                     for (DateTime time = Convert.ToDateTime(beginTime); time < Convert.ToDateTime(endTime); time = time.AddDays(1))
                     {
                         sb.Append("<tr>");
-                        sb.Append("<td class='tableRowPerson'>" + time.ToString("MM月dd日") + "</td>");
+                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + time.ToString("MM月dd日") + "</div></td>");
                         DataRow[] ID = Fore_24h.Select("ForecastDate='" + time + "'");
                         if (ID.Length > 0)
-                            sb.Append("<td class='tableRowPerson'>" + ToUserCode(ID[0]["UserName"].ToString().Trim(' ')) + "</td>");
+                            //sb.Append("<td class='tableRowPerson'>" + ToUserCode(ID[0]["UserName"].ToString().Trim(' ')) + "</td>");
+                            sb.Append("<td class='tableRowPerson'>" + ID[0]["UserName"].ToString().Trim(' ') + "</div></td>");
                         else
-                            sb.Append("<td class='tableRowPerson'></td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                         string filter = string.Empty;
                         DataRow[] drs = null;
                         //雾霾
@@ -389,10 +391,10 @@ namespace MMShareBLL.DAL
                             else
                                 RTHaze = "无霾";
 
-                            sb.Append("<td class='tableRowPerson'>" + RTHaze + "</td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'>" + RTHaze + "</div></td>");
                         }
                         else
-                            sb.Append("<td class='tableRowPerson'></td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                         filter = "LST='" + time.AddDays(1) + "'";
                         DataRow[] dr1 = hazeLive.Select(filter);
                         if (dr1.Length > 0)
@@ -401,10 +403,10 @@ namespace MMShareBLL.DAL
                                 RTHaze = "有霾";
                             else
                                 RTHaze = "无霾";
-                            sb.Append("<td class='tableRowPerson'>" + RTHaze + "</td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'>" + RTHaze + "</div></td>");
                         }
                         else
-                            sb.Append("<td class='tableRowPerson'></td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
 
 
                         #endregion
@@ -419,15 +421,15 @@ namespace MMShareBLL.DAL
                             //紫外线实况
                             if (drs.Length > 0 && UVRT != "")
                             {
-                                sb.Append("<td class='tableRowPerson'>" + Math.Round(Convert.ToDouble(UVRT)).ToString() + "</td>");
-                                sb.Append("<td class='tableRowPerson'>" + ReturnUVGrade(Convert.ToDouble(UVRT)) + "</td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'>" + Math.Round(Convert.ToDouble(UVRT)).ToString() + "</div></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'>" + ReturnUVGrade(Convert.ToDouble(UVRT)) + "</div></td>");
                                 //sb.Append("<td class='tableRowPerson'>" + drs[0]["UVAB"] + "</td>");
                                 //sb.Append("<td class='tableRowPerson'>" + ReturnUVGrade(Convert.ToDouble(drs[0]["UVAB"])) + "</td>");
                             }
                             else
                             {
-                                sb.Append("<td class='tableRowPerson'></td>");
-                                sb.Append("<td class='tableRowPerson'></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                             ////紫外线预报
                             //drs = UVData.Select(filter, "hour desc");
@@ -446,7 +448,7 @@ namespace MMShareBLL.DAL
                         {
                             for (int iii = 0; iii < 2; iii++)
                             {
-                                sb.Append("<td class='tableRowPerson'></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                         }
                         #endregion
@@ -561,9 +563,9 @@ namespace MMShareBLL.DAL
                                     filter = "LST='" + time.AddDays(-1).ToString("yyyy-MM-dd 00:00:00") + "'and DurationID='" + duration[l] + "' and ITEMID='" + item[m] + "'";
                                     drs = itemLive.Select(filter);
                                     if (drs.Length > 0)
-                                        sb.Append("<td class='tableRowPerson'>" + drs[0]["Value"] + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + drs[0]["Value"] + "</div></td>");
                                     else
-                                        sb.Append("<td class='tableRowPerson'></td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                                 }
                             }
                         }
@@ -587,9 +589,9 @@ namespace MMShareBLL.DAL
                                     filter = "ITEMID='" + itemId[i] + "' and lst='" + lst + "'";
                                     drs = CNFore.Select(filter);
                                     if (drs.Length > 0)
-                                        sb.Append("<td class='tableRowPerson'>" + drs[0]["aqi"] + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + drs[0]["aqi"] + "</div></td>");
                                     else
-                                        sb.Append("<td class='tableRowPerson'></td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                                 }
 
                             
@@ -661,7 +663,7 @@ namespace MMShareBLL.DAL
                         {
                             for (int iii = 0; iii < 5; iii++)
                             {
-                                sb.Append("<td class='tableRowPerson'></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                         }
                         #endregion 国家局结束
@@ -682,12 +684,12 @@ namespace MMShareBLL.DAL
                                     double[] con = { Convert.ToDouble(drs[2]["Value"]), Convert.ToDouble(drs[0]["Value"]), Convert.ToDouble(drs[1]["Value"]) };
 
                                     if (item[o] != 5)
-                                        sb.Append("<td class='tableRowPerson'>" + Math.Round((con[0] * 10 + con[1] * 6 + con[2] * 8) / 24, 3) + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + Math.Round((con[0] * 10 + con[1] * 6 + con[2] * 8) / 24, 3) + "</div></td>");
                                     else
-                                        sb.Append("<td class='tableRowPerson'>" + Math.Round(con.Max()) + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + Math.Round(con.Max()) + "</div></td>");
                                 }
                                 else
-                                    sb.Append("<td class='tableRowPerson'></td>");
+                                    sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                             for (int p = 0; p < item.Length; p++)
                             {
@@ -701,19 +703,19 @@ namespace MMShareBLL.DAL
                                 {
                                     double[] con = { Convert.ToDouble(drs[2]["Value"]), Convert.ToDouble(drs[0]["Value"]), Convert.ToDouble(drs[1]["Value"]) };
                                     if (item[p] != 5)
-                                        sb.Append("<td class='tableRowPerson'>" + ReturnAQI((con[0] * 10 + con[1] * 6 + con[2] * 8) / 24, item[p]) + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + ReturnAQI((con[0] * 10 + con[1] * 6 + con[2] * 8) / 24, item[p]) + "</div></td>");
                                     else
-                                        sb.Append("<td class='tableRowPerson'>" + ReturnAQI(con.Max(), item[p]) + "</td>");
+                                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + ReturnAQI(con.Max(), item[p]) + "</div></td>");
                                 }
                                 else
-                                    sb.Append("<td class='tableRowPerson'></td>");
+                                    sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                         }
                         else
                         {
                             for (int iii = 0; iii < 8; iii++)
                             {
-                                sb.Append("<td class='tableRowPerson'></td>");
+                                sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                             }
                         }
                         #endregion
@@ -750,9 +752,9 @@ namespace MMShareBLL.DAL
                         string filter = "ForecastDate='" + time + "' and durationID=" + duration[jjj] + " and ITEMID=" + itemID[kkk];
                         DataRow[] drs = durFore.Select(filter);
                         if (drs.Length > 0)
-                            sb.Append("<td class='tableRowPerson'>" + drs[0]["Value"] + "</td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'>" + drs[0]["Value"] + "</div></td>");
                         else
-                            sb.Append("<td class='tableRowPerson'></td>");
+                            sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                     }
                 }
             }
@@ -760,7 +762,7 @@ namespace MMShareBLL.DAL
             {
                 for (int iii = 0; iii < 18; iii++)
                 {
-                    sb.Append("<td class='tableRowPerson'></td>");
+                    sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                 }
             }
         }
@@ -777,25 +779,25 @@ namespace MMShareBLL.DAL
                     filter = "ForecastDate='" + time + "' and ITEMID=" + item[j];
                     drs = Fore_48h.Select(filter);
                     if (drs != null && drs.Length > 0)
-                        sb.Append("<td class='tableRowPerson'>" + drs[0]["Value"] + "</td>");
+                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + drs[0]["Value"] + "</div></td>");
                     else
-                        sb.Append("<td class='tableRowPerson'></td>");
+                        sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                 }
                 for (int k = 0; k < 5; k++)
                 {
                     filter = "ForecastDate='" + time + "' and ITEMID=" + item[k];
                     drs = Fore_48h.Select(filter);
                     if (drs != null && drs.Length > 0)
-                        sb.Append("<td class='tableRowPerson'>" + drs[0]["AQI"] + "</td>");
+                        sb.Append("<td class='tableRowPerson'><div class='cell'>" + drs[0]["AQI"] + "</div></td>");
                     else
-                        sb.Append("<td class='tableRowPerson'></td>");
+                        sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                 }
             }
             else
             {
                 for (int iii = 0; iii < 10; iii++)
                 {
-                    sb.Append("<td class='tableRowPerson'></td>");
+                    sb.Append("<td class='tableRowPerson'><div class='cell'></div></td>");
                 }
             }
         }
